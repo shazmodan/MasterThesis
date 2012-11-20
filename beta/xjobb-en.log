@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.19)  20 NOV 2012 10:39
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.19)  20 NOV 2012 11:44
 entering extended mode
 **xjobb-en.tex
 (C:\Users\william.lundin.forss\Documents\GitHub\MasterThesis\beta\xjobb-en.tex
@@ -423,25 +423,25 @@ Package: modifications 2005/10/21
 (C:\Users\william.lundin.forss\Documents\GitHub\MasterThesis\beta\sections/fron
 tpage.tex)
 (C:\Users\william.lundin.forss\Documents\GitHub\MasterThesis\beta\xjobb-en.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 13.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 15.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 13.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -486,7 +486,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \makeMPintoPDFobject=\count136
 \everyMPtoPDFconversion=\toks25
 )))
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 19.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 17.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -494,7 +494,7 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: kth_svv_comp_science_comm.pdf Graphic file (type pdf)
 
 <use kth_svv_comp_science_comm.pdf>
-Package pdftex.def Info: kth_svv_comp_science_comm.pdf used on input line 19.
+Package pdftex.def Info: kth_svv_comp_science_comm.pdf used on input line 17.
 (pdftex.def)             Requested size: 410.53275pt x 468.75009pt.
  [1
 
@@ -545,29 +545,35 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ) [4
 
 ]
-(C:\Users\william.lundin.forss\Documents\GitHub\MasterThesis\beta\xjobb-en.toc
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 7.
-) [5
+(C:\Users\william.lundin.forss\Documents\GitHub\MasterThesis\beta\xjobb-en.toc)
+[5
 
 ] [6
 
 ]
 (C:\Users\william.lundin.forss\Documents\GitHub\MasterThesis\beta\sections/intr
-oduction.tex) [1
+oduction.tex [1
 
-] [2
-
-] [3] [4]
+])
+(C:\Users\william.lundin.forss\Documents\GitHub\MasterThesis\beta\sections/chap
+ter1.tex [2]
 Underfull \vbox (badness 3884) has occurred while \output is active []
 
- [5
+ [3
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
-[7] [8] [9
+ [4]
+[5])
+(C:\Users\william.lundin.forss\Documents\GitHub\MasterThesis\beta\sections/chap
+ter2.tex [6] [7
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+[9]) [10] [11
 
 ]
 \tf@toc=\write4
@@ -575,24 +581,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (C:\Users\william.lundin.forss\Documents\GitHub\MasterThesis\beta\xjobb-en.aux)
  ) 
 Here is how much of TeX's memory you used:
- 4363 strings out of 494045
- 59509 string characters out of 3145923
- 131863 words of memory out of 3000000
- 7598 multiletter control sequences out of 15000+200000
- 84784 words of font info for 58 fonts, out of 3000000 for 9000
+ 4359 strings out of 494045
+ 59752 string characters out of 3145923
+ 132865 words of memory out of 3000000
+ 7592 multiletter control sequences out of 15000+200000
+ 75178 words of font info for 53 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  30i,10n,24p,965b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/public/lm/lmbx9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
-ss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssdc10.pfb>
-Output written on xjobb-en.pdf (15 pages, 237072 bytes).
+MiKTeX 2.9/fonts/type1/public/lm/lmbx9.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
+ss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssdc10.pfb>
+Output written on xjobb-en.pdf (17 pages, 228683 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
+ 91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
