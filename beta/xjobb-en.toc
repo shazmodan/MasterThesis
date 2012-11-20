@@ -13,4 +13,4 @@
 \contentsline {subsection}{\numberline {2.2.1}Problem Statement}{7}
 \contentsline {subsection}{\numberline {2.2.2}The Proof}{7}
 \contentsline {chapter}{Appendices}{8}
-\contentsline {appendix}{\chapternumberline {A}RDF}{9}
+\contentsline {chapter}{\chapternumberline {A}RDF}{9}
