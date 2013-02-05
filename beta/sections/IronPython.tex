@@ -1,0 +1,58 @@
+\chapter{IronPython}
+
+\section{IronPython}
+
+\subsection{What is IronPython?}
+``IronPython is an open-source implementation of the Python programming language which is tightly integrated with the .NET Framework. IronPython can use the .NET Framework and Python libraries, and other .NET languages can use Python code just as easily.''
+
+Source: http://ironpython.net/
+
+
+\subsection{Implementation}
+While it is possible to compile an assembly with IronPython, the choice was made not to do this. The reason is that the assembly in the form of an exe file is just a wrapper for the ScriptManager residing underneath. Which makes this step completely unnecessary.
+
+This implementation uses the IronPython .NET libraries (dll's) to create a ``ScriptEngine'', thus interpreting the code at runtime.
+
+
+\subsection{IronPython vs Python}
+
+\subsubsection{The HelloWorld test}
+This test simply prints ``Hello World''. In terms of performance, Python has a strong lead on IronPython. This would suggest that IronPython has quite the overhead (refer to later section about overhead testing).
+
+Results
+Python 2.7: 0.0677239 seconds
+IronPython 2.7: 1.0527518 seconds
+
+Source: http://ironpython.codeplex.com/wikipage?title=IP27A1VsCPy27Perf&referringTitle=IronPython%20Performance
+
+\subsubsection{PyStone 1.1}
+This test is just a rewrite of the Dhrystone test for the C programming language. In short the test intends to represent general processor performance by using integer only operations. 
+Due to the fact that IronPython uses .NET Dynamic Language Runtime it can also use site caching. In short site caching basically remembers previous performed operations (i.e. a+b) which is why IronPython outperforms Python (might need reference to site caching here). 
+
+Results
+Python 2.7: 41187 PyStones/second
+IronPython 2.7: 52101.1 PyStones/second
+
+Source: http://en.wikipedia.org/wiki/Dhrystone
+Source2: Source: http://ironpython.codeplex.com/wikipage?title=IP27A1VsCPy27Perf&referringTitle=IronPython%20Performance
+
+\subsubsection{PyBench 2.0}
+This is a collection of low level benchmarks. For example it tests string concatination and comparisons between different data types. More can be read at about the specific tests at [ref same as above]
+
+Overall results: Python is 61.6\% faster than IronPython.
+
+Source: Source: http://ironpython.codeplex.com/wikipage?title=IP27A1VsCPy27Perf&referringTitle=IronPython%20Performance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
