@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  4 FEB 2013 16:03
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  15 FEB 2013 15:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -611,28 +611,28 @@ Overfull \hbox (26.73856pt too wide) in paragraph at lines 4--16
 
 ] (./sections/introduction.tex
 
-./sections/introduction.tex:13: Package inputenc Error: Keyboard character used
- is undefined
+./sections/introduction.tex:7: Package inputenc Error: Keyboard character used 
+is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ...e board. Both of these environments arenâ€
+l.7 ...te board. Both of these environments arenâ€
                                                   ™t really suitable to prog...
 
 ? 
 
-./sections/introduction.tex:13: Package inputenc Error: Keyboard character used
- is undefined
+./sections/introduction.tex:7: Package inputenc Error: Keyboard character used 
+is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... board. Both of these environments arenâ€™
+l.7 ...e board. Both of these environments arenâ€™
                                                   t really suitable to progr...
 
 ? 
@@ -641,9 +641,7 @@ l.13 ... board. Both of these environments arenâ€™
 
 ] [2
 
-]) (./sections/method.tex [3] [4
-
-]
+]) (./sections/method.tex [3] [4]
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 8.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/ts1lmr.fd
@@ -660,7 +658,9 @@ Overfull \hbox (120.41058pt too wide) in paragraph at lines 28--29
 1VsCPy27PerfreferringTitle=IronPython 
  []
 
-[5]
+[5
+
+]
 ./sections/method.tex:39: Misplaced alignment tab character &.
 l.39 ...plex.com/wikipage?title=IP27A1VsCPy27Perf&
                                                   referringTitle=IronPython%...
@@ -708,7 +708,7 @@ s/type1/public/lm/lmss10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pu
 blic/lm/lmss12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lm
 ssbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssdc10.p
 fb>
-Output written on xjobb-en.pdf (15 pages, 214227 bytes).
+Output written on xjobb-en.pdf (15 pages, 215023 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream

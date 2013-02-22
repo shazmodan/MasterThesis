@@ -1,13 +1,29 @@
 \chapter{Background}
 In this chapter the history of automatic code evaluation is explored.
 
-\section{History of automatic code evaluation}
-Evaluating code automatically is nothing new. The earliest known system was built in 1960 by Hollingsworth (referens Hollingsworth). This system was used in an introductory course in Algol programming. The results from using this student-system approach rather than the traditional student-teacher was that it cut costs considerably for the staff since the time they needed to grade the students work was reduced by as much as one third. The students themselves also spent less time, since they could submit their work immidiately when it was finished instead of waiting for a teacher. This system also made it possible to considerably increase the number of students taking the course.
+\section{What is automatic code evaluation?}
+Automatic code evaluation, or automatic grading, is a computer system that has the ability to judge code. This is usually done in the following steps:
+\begin{enumerate}
+  \item A user is given a programming task or problem.
+  \item The user attempts to solve this problem by writing code.
+  \item The user sends this code to the automatic code evaluation system.
+  \item The system compiles the code (if needed).
+  \item The resulting program is then run by the system with some test data as input.
+  \item The system verifies that the program output is correct. 
+  \item An answer is then returned to the user indicating the status of the code which he or she submitted (i.e. ``Accepted'' or ``Wrong answer'').
+\end{enumerate}
 
-(Write about BAGS here)....
+
+\section{History}
+Evaluating code automatically is nothing new. The earliest known system was built in 1960 by Hollingsworth (referens Hollingsworth). This system was used in an introductory course in Algol programming. The results from using this student-system approach rather than the traditional student-teacher was that it cut costs considerably for the staff since the time they needed to grade the students work was reduced by as much as one third. The students themselves also spent less time, since they were able to have their work graded immidiately instead of waiting for a teacher to do it. This system also made it possible to considerably increase the number of students taking the course. It did, however, have some shortcomings. For instance, a student's program could modify the grader program, making cheating possible. 
+
+An article from 2005 describes three generations of automatic graders (referens p1-douce). The first generation systems were those regarded as being built and/or used in the 1960's and 1970's. Unsurprisingly, they were using code that were close to pure machine code, some even used punched cards. In order to make them work, it was necessary to modify both compiler and operating system. 
+
+The second generation introduced script-based tools which not only involved various verification schemes but also asserted that the code was written in a certain manner (decided by the teacher). Typically these graders involved some sort of command-line GUI and languages like C and Java were used extensively.
+
+The third generation differ from the second primarily in two ways. One is that they mostly use web based GUIs. The other is that they make extensive use of plagiarism detection since it had become more common for students to share code amongst each other. Some minor problems arose among these detection systems (referens (ja det finns en sådan)???). If the programming task was too simple or if a lecturer had been excessively thorough when describing the homework, the submissions would tend to be very much alike and thus picked up by the plagiarism detection system. This made it somewhat difficult to distinguish between real plagiarism and the false positives. 
 
 
 
 
-\section{Kattis: A code grading system}
-
+\section{Todays systems}
