@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  15 FEB 2013 15:45
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  22 FEB 2013 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -603,7 +603,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ] [6
 
 ]
-Overfull \hbox (26.73856pt too wide) in paragraph at lines 4--16
+Overfull \hbox (26.73856pt too wide) in paragraph at lines 4--17
  [] 
  []
 
@@ -641,12 +641,13 @@ l.7 ...e board. Both of these environments aren’
 
 ] [2
 
-]) (./sections/method.tex [3] [4]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 8.
+] [3]
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 24.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
+))
+(./sections/method.tex [4]
 ./sections/method.tex:28: Misplaced alignment tab character &.
 l.28 ...plex.com/wikipage?title=IP27A1VsCPy27Perf&
                                                   referringTitle=IronPython%...
@@ -692,13 +693,13 @@ le=IP27A1VsCPy27PerfreferringTitle=IronPython
 
  (./xjobb-en.aux) ) 
 Here is how much of TeX's memory you used:
- 4766 strings out of 493488
- 65425 string characters out of 3141326
+ 4767 strings out of 493488
+ 65435 string characters out of 3141326
  141920 words of memory out of 3000000
- 7973 multiletter control sequences out of 15000+200000
+ 7974 multiletter control sequences out of 15000+200000
  75543 words of font info for 54 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,10n,25p,1031b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,10n,25p,1010b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec
 .enc}{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/lo
 cal/texlive/2012/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texliv
@@ -708,7 +709,7 @@ s/type1/public/lm/lmss10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pu
 blic/lm/lmss12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lm
 ssbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssdc10.p
 fb>
-Output written on xjobb-en.pdf (15 pages, 215023 bytes).
+Output written on xjobb-en.pdf (15 pages, 216787 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream
