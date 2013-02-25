@@ -9,7 +9,7 @@ Automatic code evaluation, or automatic grading, is a computer system that has t
   \item The user sends this code to the automatic code evaluation system.
   \item The system compiles the code (if needed).
   \item The resulting program is then run by the system with some test data as input.
-  \item The system verifies that the program output is correct. 
+  \item The system verifies that the program output is correct (or incorrect). 
   \item An answer is then returned to the user indicating the status of the code which he or she submitted (i.e. ``Accepted'' or ``Wrong answer'').
 \end{enumerate}
 
@@ -21,7 +21,16 @@ An article from 2005 (referens p1-douce) describes three generations of automati
 
 The second generation systems (1980-2000) introduced script-based tools. These involved various verification schemes and also asserted that the code was written in a certain way/style (decided by the teacher). Typically these graders involved command-line GUIs. Languages like C and Java were used extensively.
 
-The third generation (2000-) differ from the second generation systems primarily in two ways. One is that they mostly use web based GUIs. The other is that they made extensive use of plagiarism detection since it had become more common for students to share code amongst each other. Some minor problems arose among these detection systems (referens ISECON2006). If the programming task was too simple or if a lecturer had been excessively thorough when describing the homework, the submissions would tend to be very much alike and thus picked up by the plagiarism detection system. This made it somewhat difficult to distinguish between real plagiarism and the false positives. 
+The third generation (2000-) differ from the second generation systems primarily in two ways. One is that they mostly use web based GUIs. The other is that they often included a plagiarism detection system, since students sometimes shared code amongst each other. There were some minor issues among these detection systems (referens ISECON2006)(referens p1-douce). If the programming task was too simple or if a lecturer had been excessively thorough when describing the homework, the submissions would tend to be very much alike and thus picked up by the plagiarism detection system. This made it somewhat difficult to distinguish between real plagiarism and the false positives. 
 
 
 \section{Todays systems}
+Todays modern systems (ref Kattis)(ref p219-amelung)(ref p1-douce) (considered to be third generation systems) commonly contain the following features:
+\begin{itemize}
+	\item A web based front-end.
+	\item A language dependant back-end.
+	\item A seperate back-end for each programming language the system supports.
+	\item An SQL database used to store submissions.
+	\item Sandboxing of submitted code to maintain a solid system state. 
+\end{itemize}
+These systems mainly differ in their support for different programming languages.
