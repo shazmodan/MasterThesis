@@ -1,5 +1,4 @@
 \chapter{Background}
-In this chapter the history of automatic code evaluation is explored.
 
 \section{What is automatic code evaluation?}
 Automatic code evaluation, or automatic grading, is a computer system that has the ability to judge code. This is usually done in the following steps:
@@ -12,7 +11,7 @@ Automatic code evaluation, or automatic grading, is a computer system that has t
   \item The system verifies that the program output is correct (or incorrect). 
   \item An answer is then returned to the user indicating the status of the code which he or she submitted (i.e. ``Accepted'' or ``Wrong answer'').
 \end{enumerate}
-
+There are some variation to the process above, sometimes more verbose feedback than ``Wrong answer'' is used, often indicating exactly which test went wrong and why (referens ISECON.2006). This is usually done in order for university students to learn more about debugging their code.
 
 \section{History}
 Evaluating code automatically is nothing new. The earliest known system was built in 1960 by Hollingsworth (referens Hollingsworth). This system was used in an introductory course in Algol programming. The results from using this student-system approach rather than the traditional student-teacher was that it cut costs considerably for the staff since the time they needed to grade the students work was reduced by as much as one third. The students themselves also spent less time, since they were able to have their work graded immidiately instead of waiting for a teacher to do it. This system also made it possible to considerably increase the number of students taking the course. It did, however, have some shortcomings. For instance, a student's program could modify the grader program, making cheating possible. 
@@ -25,10 +24,10 @@ The third generation (2000-) differ from the second generation systems primarily
 
 
 \section{Todays systems}
-Todays modern systems (ref Kattis)(ref p219-amelung)(ref p1-douce) (considered to be third generation systems) commonly contain the following features:
+Todays modern systems (ref Kattis)(ref p219-amelung)(ref p1-douce)(ISECON.2006) (considered to be third generation systems) commonly contain the following features:
 \begin{itemize}
 	\item A web based front-end.
-	\item A language dependant back-end.
+	\item A language specific back-end.
 	\item A seperate back-end for each programming language the system supports.
 	\item An SQL database used to store submissions.
 	\item Sandboxing of submitted code to maintain a solid system state. 
