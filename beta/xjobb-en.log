@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  26 FEB 2013 16:42
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 FEB 2013 11:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -697,7 +697,7 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: chapters/media/overview.png Graphic file (type png)
 
 <use chapters/media/overview.png>
-Package pdftex.def Info: chapters/media/overview.png used on input line 7.
+Package pdftex.def Info: chapters/media/overview.png used on input line 6.
 (pdftex.def)             Requested size: 396.0pt x 176.81009pt.
  [5
 
@@ -707,7 +707,7 @@ File: chapters/media/celine_startpage.png Graphic file (type png)
 
 <use chapters/media/celine_startpage.png>
 Package pdftex.def Info: chapters/media/celine_startpage.png used on input line
- 23.
+ 19.
 (pdftex.def)             Requested size: 297.0pt x 176.85365pt.
 
 <chapters/media/celine_listproblems.png, id=66, 800.23969pt x 594.72188pt>
@@ -715,7 +715,7 @@ File: chapters/media/celine_listproblems.png Graphic file (type png)
 
 <use chapters/media/celine_listproblems.png>
 Package pdftex.def Info: chapters/media/celine_listproblems.png used on input l
-ine 41.
+ine 37.
 (pdftex.def)             Requested size: 190.07831pt x 141.25699pt.
 
 <chapters/media/celine_easysort.png, id=68, 1022.82124pt x 792.9625pt>
@@ -723,10 +723,10 @@ File: chapters/media/celine_easysort.png Graphic file (type png)
 
 <use chapters/media/celine_easysort.png>
 Package pdftex.def Info: chapters/media/celine_easysort.png used on input line 
-41.
+37.
 (pdftex.def)             Requested size: 190.07831pt x 147.36124pt.
 
-Overfull \hbox (9.70657pt too wide) in paragraph at lines 41--42
+Overfull \hbox (9.70657pt too wide) in paragraph at lines 37--38
  [][] 
  []
 
@@ -736,7 +736,7 @@ s.png> <./chapters/media/celine_easysort.png>]
 File: chapters/media/celine_submit.png Graphic file (type png)
 
 <use chapters/media/celine_submit.png>
-Package pdftex.def Info: chapters/media/celine_submit.png used on input line 59
+Package pdftex.def Info: chapters/media/celine_submit.png used on input line 55
 .
 (pdftex.def)             Requested size: 190.07831pt x 167.8456pt.
 
@@ -745,45 +745,47 @@ File: chapters/media/celine_submissions.png Graphic file (type png)
 
 <use chapters/media/celine_submissions.png>
 Package pdftex.def Info: chapters/media/celine_submissions.png used on input li
-ne 59.
+ne 55.
 (pdftex.def)             Requested size: 190.07831pt x 169.84853pt.
 
-Overfull \hbox (9.70657pt too wide) in paragraph at lines 59--60
+Overfull \hbox (9.70657pt too wide) in paragraph at lines 55--56
  [][] 
  []
 
 [7 <./chapters/media/celine_submit.png> <./chapters/media/celine_submissions.pn
-g>])) (./chapters/testing_methodology.tex [8]
+g>]) (./chapters/implementation/supported_languages.tex)
+(./chapters/implementation/difficulties_limitations.tex))
+(./chapters/testing_methodology.tex [8] [9] [10
+
+]
 (./chapters/testing_methodology/aspects.tex)
 (./chapters/testing_methodology/chosen_tests.tex))
-(./chapters/testing_results.tex [9
-
-] [10
+(./chapters/testing_results.tex [11] [12
 
 ]
 (./chapters/testing_results/language_overhead.tex)
 (./chapters/testing_results/common_operators.tex)
 (./chapters/testing_results/insertion_sort.tex)
 (./chapters/testing_results/merge_sort.tex)) (./chapters/discussion.tex
-[11] [12
+[13] [14
 
-]) (./chapters/references.tex [13] [14
+]) (./chapters/references.tex [15] [16
 
-]) [15] [16
+]) [17] [18
 
-] [17]
+] [19]
 \tf@toc=\write4
 \openout4 = `xjobb-en.toc'.
 
  (./xjobb-en.aux) ) 
 Here is how much of TeX's memory you used:
- 5110 strings out of 493488
- 72138 string characters out of 3141326
- 148168 words of memory out of 3000000
+ 5116 strings out of 493488
+ 72383 string characters out of 3141326
+ 149168 words of memory out of 3000000
  8245 multiletter control sequences out of 15000+200000
  75543 words of font info for 54 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,10n,27p,1010b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,11n,27p,1010b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec
 .enc}{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/lo
 cal/texlive/2012/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texliv
@@ -793,10 +795,10 @@ s/type1/public/lm/lmr9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publ
 ic/lm/lmss10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmss
 12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><
 /usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssdc10.pfb>
-Output written on xjobb-en.pdf (27 pages, 453433 bytes).
+Output written on xjobb-en.pdf (29 pages, 455362 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
+ 147 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
