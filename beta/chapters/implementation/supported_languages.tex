@@ -1,8 +1,10 @@
 \section{Supported languages}
 
 \subsection{C\#}
+The support for C\# was implemented with the use of the Microsoft CSharp library (ref http://msdn.microsoft.com/en-us/library/microsoft.csharp.csharpcodeprovider.aspx) and the System CodeDom Compiler library (ref http://msdn.microsoft.com/en-us/library/system.codedom.compiler.icodecompiler.aspx).
 
 \subsection{Java}
+The Java support comes from using javac (ref http://www.oracle.com/technetwork/java/javase/tech/javac-137034.html), the standard Java compiler that comes with the Java Development Kit (JDK) (ref http://www.oracle.com/technetwork/java/javase/overview/index.html). Javac compiles Java code to bytecode. This bytecode is then converted to CIL using ikvmc (ref http://sourceforge.net/apps/mediawiki/ikvm/index.php?title=Ikvmc), a tool that is part of IKVM.NET (an implementation of Java for Mono and the Microsoft .NET Framework) (ref http://www.ikvm.net/). 
 
 \subsection{Python}
-
+Python is supported through the use of IronPython (ref http://ironpython.net/). IronPython provides a library which contains a ScriptEngine from which python code can run without the need for compiling. Some issues encountered with the IronPython implementation are discussed in section ???. FIXME 

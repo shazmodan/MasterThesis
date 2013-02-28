@@ -78,7 +78,16 @@ The status code is a simple message indicating if the submission was successful 
 
 
 \subsection{The code evaluation system}
-When a user has submitted his or her code, eventually it reaches the CES. Depending on the programming language, a compiler is chosen. The code is then compiled into an assembly file and loaded into a seperate secure (sandboxed) Application Domain (AppDomain). The CES then invokes the user specified method with a string containing the test data. The CES waits for the code to complete or for the problem to timeout. It then compares the string returned by this method with another string containing what should be the correct output. If the strings match, the submission is regarded as being a success, otherwise it's regarded as a failure. The CES then returns the appropriate status code. 
+When a user has submitted his or her code, it eventually reaches the CES. Figure \ref{fig:flowchart} describes the flow of the most common paths for a submission through the system.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\linewidth]{chapters/media/flowchart.png}
+	\caption{Common paths of problem flow in the CES.}
+	\label{fig:flowchart}
+\end{figure}
+
+Depending on the programming language, a compiler is chosen. The code is then compiled into an assembly file and loaded into a seperate secure (sandboxed) Application Domain (AppDomain). The CES then invokes the user specified method with a string containing the test data. The CES waits for the code to complete or for the problem to timeout. It then compares the string returned by this method with another string containing what should be the correct output. If the strings match, the submission is regarded as being a success, otherwise it's regarded as a failure. The CES then returns the appropriate status code. 
 
 
 
