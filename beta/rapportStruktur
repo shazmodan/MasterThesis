@@ -1,0 +1,52 @@
+Frontpage
+
+Abstract
+
+Referat
+
+Foreword
+
+Glossary
+
+Table Of Contents
+
+
+1. Introduction
+- Problem statement
+- Goal
+- About Valtech
+
+2. Background
+- What is automatic code evaluation?
+- Previous work
+	-- History
+	-- Todays systems
+
+3. Implementation
+- System overview
+- IKVM
+- IronPython
+- Difficulties and limitations
+
+4. Testing methodology
+- Aspects to test
+	--Speed
+	--Memory usage
+- The chosen tests
+	-- Language overhead
+	-- Common operators
+	-- Insertion sort
+	-- Merge sort
+
+5. Testing results
+- Language overhead
+- Common operators
+- Insertion sort
+- Merge sort
+
+6. Discussion
+- ... (perhaps talk about why things are slower in some languages and some things faster)
+- Improvements
+- Future work
+
+References

@@ -12,11 +12,27 @@
 \contentsline {section}{\numberline {2.2}History}{3}
 \contentsline {section}{\numberline {2.3}Todays systems}{4}
 \contentsline {chapter}{\chapternumberline {3}Implementation}{5}
-\contentsline {section}{\numberline {3.1}System Overview}{5}
+\contentsline {section}{\numberline {3.1}System Description}{5}
 \contentsline {subsection}{\numberline {3.1.1}The Web GUI}{6}
 \contentsline {subsection}{\numberline {3.1.2}The status codes}{7}
-\contentsline {section}{\numberline {3.2}IKVM}{7}
-\contentsline {section}{\numberline {3.3}IronPython}{7}
-\contentsline {section}{\numberline {3.4}Difficulties and limitations}{7}
-\contentsline {chapter}{Appendices}{7}
-\contentsline {chapter}{\chapternumberline {A}RDF}{9}
+\contentsline {section}{\numberline {3.2}IKVM}{8}
+\contentsline {section}{\numberline {3.3}IronPython}{8}
+\contentsline {section}{\numberline {3.4}Difficulties and limitations}{8}
+\contentsline {chapter}{\chapternumberline {4}Testing Methodology}{9}
+\contentsline {section}{\numberline {4.1}Aspects to tests}{9}
+\contentsline {subsection}{\numberline {4.1.1}Execution speed}{9}
+\contentsline {subsection}{\numberline {4.1.2}Memory usage}{9}
+\contentsline {section}{\numberline {4.2}The chosen tests}{9}
+\contentsline {subsection}{\numberline {4.2.1}Language overhead}{9}
+\contentsline {subsection}{\numberline {4.2.2}Common Operators}{9}
+\contentsline {subsection}{\numberline {4.2.3}Insertion Sort}{9}
+\contentsline {subsection}{\numberline {4.2.4}Merge sort}{9}
+\contentsline {chapter}{\chapternumberline {5}Testing Results}{11}
+\contentsline {section}{\numberline {5.1}Language overhead}{11}
+\contentsline {section}{\numberline {5.2}Common operators}{11}
+\contentsline {section}{\numberline {5.3}Insertion sort}{11}
+\contentsline {section}{\numberline {5.4}Merge sort}{11}
+\contentsline {chapter}{\chapternumberline {6}Discussion}{13}
+\contentsline {chapter}{\chapternumberline {7}References}{15}
+\contentsline {chapter}{Appendices}{15}
+\contentsline {chapter}{\chapternumberline {A}RDF}{17}
