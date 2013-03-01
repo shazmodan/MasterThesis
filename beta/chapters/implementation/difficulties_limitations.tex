@@ -7,14 +7,11 @@ There is an exception to the rule about AppDomains being safe from each other. T
 
 
 \subsection{IronPython limitations} \label{subsec:ironpython_limitations}
-IronPython does not have the same performance as the other languages for a number of reasons. The first reason is that it's 61.6\% slower on average than normal Python (version 2.7) (ref http://ironpython.codeplex.com/wikipage?title=IP27A1VsCPy27Perf). The startup time is also significantly slower since this language is scripted using a ScriptEngine which adds another layer of interpretation. It is however important to mention that IronPython does have the capability to compile the code into an assembly, but with a serious drawback, the assemblys methods and main entry point cannot be invoked like other assemblies since the MSIL is not CLS-compliant (ref http://msdn.microsoft.com/en-us/library/system.clscompliantattribute.aspx) and therefore cannot be directly accessed from other .NET languages (ref %https://github.com/IronLanguages/main/blob/master/Languages/IronPython/Public/Doc/dotnet-integration.rst#accessing-python-code-from-other-net-code). 
+IronPython does not have the same performance as the other languages for a number of reasons. The first reason is that it's 61.6\% slower on average than normal Python (version 2.7) (ref http://ironpython.codeplex.com/wikipage?title=IP27A1VsCPy27Perf). The startup time is also significantly slower since this language is scripted using a ScriptEngine which adds another layer of interpretation. It is however important to mention that IronPython does have the capability to compile the code into an assembly, but with a serious drawback, the assemblys methods and main entry point cannot be invoked like other assemblies since the MSIL is not CLS-compliant (ref http://msdn.microsoft.com/en-us/library/system.clscompliantattribute.aspx) and therefore cannot be directly accessed from other .NET languages \cite{Nobody06} (ref %https://github.com/IronLanguages/main/blob/master/Languages/IronPython/Public/Doc/dotnet-integration.rst#accessing-python-code-from-other-net-code). 
 
 
-- IronPython limitation
-- Python ScriptEngine thing
+\subsection{White- and black-box testing} \label{subsec:whitebox_blackbox}
+White-box testing is a method of testing a softwares internal structures as opposed to black-box testing which test application functionality/behaviour on a higher level (usually done with users in mind).
 
-\subsection{White- and black-box testing}
-
-- White-box testing and black-box testing
-
+As mentioned in section \ref{subsec:status_codes}, CELINE is a grey-box system since it requires the user to define a method that has a pre-defined signature (used as the invocation point), but it doesn't care about any other implementation details. The choice for this type of implementation was made because it saved time compared with the approach of using standard system in and system out (black-box testing) to provide input and output channels. 
 

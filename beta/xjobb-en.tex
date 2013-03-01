@@ -8,7 +8,9 @@
 \usepackage{modifications}
 \usepackage{graphicx}
 \usepackage{subfigure}
-
+\usepackage{cite}
+%\usepackage{url}
+\usepackage{hyperref}
 
 \input{chapters/frontpage}
 
@@ -50,7 +52,7 @@
 
 \input{chapters/discussion}
 
-\input{chapters/references}
+%\input{chapters/references}
 
 
 \appendix
@@ -65,4 +67,10 @@ And here is a figure
 \end{figure}
 
 that we refer to here: \ref{RDF_4}
+
+
+
+\bibliography{chapters/mybib}
+\bibliographystyle{plain}
+
 \end{document}
