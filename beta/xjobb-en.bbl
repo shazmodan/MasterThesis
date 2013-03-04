@@ -1,13 +1,111 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{WinNT}
-Durrr.
-\newblock \\{MS Windows NT} kernel description.
-\newblock {\url{http://www.google.se}}.
-\newblock Accessed: 30/09/2010.
+\bibitem{Gradebot}
+Colton D, Fife L, and Thompson A.
+\newblock {{A Web-based Automatic Program Grader}}.
+\newblock {\em Information Systems Education Journal}, 2006.
 
-\bibitem{Nobody06}
-Nobody JR0678.
-\newblock My article, 2006.
+\bibitem{Hollingsworth}
+Hollingsworth J.
+\newblock Automatic graders for programming classes.
+\newblock {\em Communications of the ACM}, 1960.
+
+\bibitem{GenerationReview}
+Douce C, Livingstone D, and Orwell J.
+\newblock {Automatic Test-Based Assesment of Programming: A Review}.
+\newblock {\em Journal on Educational Resources in Computing}, 2005.
+
+\bibitem{Kattis}
+Enstr\H{o}m E, Kreitz G, Niemel\H{a} F, S\H{o}derman P, and Kann V.
+\newblock {Five Years with - Kattis Using an Automated Assessment System in
+  Teaching}.
+\newblock {\em 41st ASEE/IEEE Frontiers in Education Conference}, 2011.
+
+\bibitem{Amelung}
+Amelung M, Forbrig P, and R\H{o}sner D.
+\newblock {Towards Generic and Flexible Web Services for E-Assessment}.
+\newblock {\em TiCSE '08 Proceedings of the 13th annual conference on
+  Innovation and technology in computer science education}, 2008.
+
+\bibitem{MicrosoftCSharp}
+{MSDN}.
+\newblock {CSharpCodeProvider}.
+\newblock \\
+  \url{http://msdn.microsoft.com/en-us/library/microsoft.csharp.csharpcodeprovider.aspx}.
+\newblock \\Accessed 2013-03-04.
+
+\bibitem{CodeDomCompiler}
+{MSDN}.
+\newblock {System CodeDom Compiler}.
+\newblock \\
+  \url{http://msdn.microsoft.com/en-us/library/system.codedom.compiler.icodecompiler.aspx}.
+\newblock \\Accessed 2013-03-04.
+
+\bibitem{Javac}
+{Oracle}.
+\newblock {The Java Programming Language Compiler - javac}.
+\newblock \\
+  \url{http://docs.oracle.com/javase/6/docs/technotes/guides/javac/}.
+\newblock \\Accessed 2013-03-04.
+
+\bibitem{JDK}
+{Oracle}.
+\newblock {Java Development Kit SE}.
+\newblock \\
+  \url{http://www.oracle.com/technetwork/java/javase/overview/index.html}.
+\newblock \\Accessed 2013-03-04.
+
+\bibitem{IKVMC}
+Frijters J.
+\newblock Ikvmc.
+\newblock \\
+  \url{http://sourceforge.net/apps/mediawiki/ikvm/index.php?title=Ikvmc}.
+\newblock \\Accessed 2013-03-04.
+
+\bibitem{IKVM.NET}
+Frijters J.
+\newblock {IKVM.NET}.
+\newblock \\ \url{http://www.ikvm.net/}.
+\newblock \\Accessed 2013-03-04.
+
+\bibitem{IronPython}
+Viehland D.
+\newblock {IronPython}.
+\newblock \\ \url{http://ironpython.net/}.
+\newblock \\Accessed 2013-03-04.
+
+\bibitem{ApplicationDomains}
+{MSDN}.
+\newblock {Application Domains}.
+\newblock \\ \url{http://msdn.microsoft.com/en-us/library/cxk374d9.aspx}.
+\newblock \\Accessed 2013-03-04.
+
+\bibitem{Marshals}
+{MSDN}.
+\newblock {Remotable Objects}.
+\newblock \\
+  \url{http://msdn.microsoft.com/en-us/library/aa720494(v=vs.71).aspx}.
+\newblock \\Accessed 2013-03-04.
+
+\bibitem{IronPythonPerformance}
+{IronPython}.
+\newblock {Performance Report}.
+\newblock \\
+  \url{http://ironpython.codeplex.com/wikipage?title=IP27A1VsCPy27Perf}.
+\newblock \\Accessed 2013-03-04.
+
+\bibitem{CLSCompliant}
+{MSDN}.
+\newblock {CLSCompliantAttribute}.
+\newblock \\
+  \url{http://msdn.microsoft.com/en-us/library/system.clscompliantattribute.aspx}.
+\newblock \\Accessed 2013-03-04.
+
+\bibitem{AccessingPythonCode}
+{IronPython documentation}.
+\newblock {Accessing Python code from other .NET code}.
+\newblock \\
+  \url{https://github.com/IronLanguages/main/blob/master/Languages/IronPython/Public/Doc/dotnet-integration.rst#accessing-python-code-from-other-net-code}.
+\newblock \\Accessed 2013-03-04.
 
 \end{thebibliography}

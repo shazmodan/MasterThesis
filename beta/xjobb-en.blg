@@ -1,46 +1,46 @@
 This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: xjobb-en.aux
-The style file: plain.bst
+The style file: unsrt.bst
 Database file #1: chapters/mybib.bib
-You've used 2 entries,
-            2118 wiz_defined-function locations,
-            508 strings with 4145 characters,
-and the built_in function-call counts, 430 in all, are:
-= -- 38
-> -- 14
+You've used 17 entries,
+            1791 wiz_defined-function locations,
+            528 strings with 5908 characters,
+and the built_in function-call counts, 2425 in all, are:
+= -- 203
+> -- 102
 < -- 0
-+ -- 6
-- -- 4
-* -- 13
-:= -- 77
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 8
++ -- 44
+- -- 27
+* -- 41
+:= -- 413
+add.period$ -- 63
+call.type$ -- 17
+change.case$ -- 17
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 14
-empty$ -- 45
-format.name$ -- 4
-if$ -- 91
+cite$ -- 17
+duplicate$ -- 100
+empty$ -- 287
+format.name$ -- 27
+if$ -- 553
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 0
-newline$ -- 13
-num.names$ -- 4
-pop$ -- 19
+int.to.str$ -- 17
+missing$ -- 5
+newline$ -- 100
+num.names$ -- 17
+pop$ -- 99
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 0
 quote$ -- 0
-skip$ -- 13
+skip$ -- 38
 stack$ -- 0
-substring$ -- 10
-swap$ -- 2
+substring$ -- 0
+swap$ -- 17
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
+type$ -- 0
 warning$ -- 0
-while$ -- 4
-width$ -- 3
-write$ -- 21
+while$ -- 17
+width$ -- 19
+write$ -- 184
