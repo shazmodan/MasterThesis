@@ -74,16 +74,20 @@ Depending on the programming language, a compiler is chosen. The code is then co
 
 
 \subsection{The status codes} \label{subsec:status_codes}
-The status code is a simple message indicating if the submission was successful or not. This system attempts to be more verbose on errors than other modern systems (described in section \ref{sec:todays_systems}) since it uses grey-box testing which is more prone to submission related errors than black-box testing. These concepts are described more thoroughly in section \ref{subsec:whitebox_blackbox}.
+The status code is a simple message indicating if the submission was successful or not. This system attempts to be more verbose on errors than other modern systems (described in section \ref{sec:todays_systems}) since it uses grey-box testing which is more prone to submission related errors than black-box testing. The concepts of white- and black-box testing are described more thoroughly in section \ref{subsec:whitebox_blackbox}. The following list are the possible status codes:
+
 \begin{itemize}
 	\item Accepted - The code has compiled, run and gave the correct answer.
 	\item Wrong Answer - The code has compiled and run but gave the wrong answer.
 	\item Server Assembly Error - The CES failed to build an assembly from the codefile, thus making the code unable to run.
-	\item Submission Error - Occurs if the code tries to reference a code library that isn't available/allowed. 
+	\item Submission Error - The code tries to reference a code library that isn't available/allowed. 
 	\item Illegal Operation - Occurs if the CES detects a forbidden system call (i.e. accessing files, using the network etc...).
 	\item Class or Function Error - Occurs if the class or method name doesn't correspond to the name provided by the user, thus resulting in the CES being unable to invoke the method.
 	\item Time Limit Exceeded - The code ran longer than the limit for this particular problem.
 	\item Rejected - This is a general error, it indicates that the CES has been unable to determine why the submission failed. 
 	\item Server Error - This indicates that the CES instance has crashed.
 \end{itemize}
+
+The status messages ``Server Assembly Error'', ``Submission Error'', ``Illegal operation'' and ``Class or Function Error'' are all related to the user not having submitted code in the correct format. These may appear to be less verbose than one would wish (e.g. each submission could have returned exactly where in the code the error occured) however any more verbose feedback would have required an expansion of the scope of this thesis, so this is discarded due to time limitations.
+
 

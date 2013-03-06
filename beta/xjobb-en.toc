@@ -20,25 +20,25 @@
 \contentsline {subsection}{\numberline {3.2.1}C\#}{9}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Java}{9}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Python}{9}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Difficulties and limitations}{9}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Security}{9}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.3}Difficulties and limitations}{10}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Security}{10}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}IronPython limitations}{10}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}White- and black-box testing}{10}{subsection.3.3.3}
-\contentsline {chapter}{\chapternumberline {4}Testing Methodology}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Aspects to tests}{11}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Execution speed}{11}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Memory usage}{11}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}The chosen tests}{11}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Language overhead}{12}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Common Operators}{12}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Insertion Sort}{12}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Merge sort}{12}{subsection.4.2.4}
-\contentsline {chapter}{\chapternumberline {5}Testing Results}{13}{chapter.5}
-\contentsline {section}{\numberline {5.1}Language overhead}{13}{section.5.1}
-\contentsline {section}{\numberline {5.2}Common operators}{13}{section.5.2}
-\contentsline {section}{\numberline {5.3}Insertion sort}{13}{section.5.3}
-\contentsline {section}{\numberline {5.4}Merge sort}{13}{section.5.4}
-\contentsline {chapter}{\chapternumberline {6}Discussion}{15}{chapter.6}
-\contentsline {chapter}{Appendices}{15}{section*.3}
-\contentsline {chapter}{\chapternumberline {A}RDF}{17}{appendix.A}
-\contentsline {chapter}{Bibliography}{19}{section*.5}
+\contentsline {chapter}{\chapternumberline {4}Testing Methodology}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Aspects to tests}{13}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Execution speed}{13}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Memory usage}{13}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}The chosen tests}{13}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Language overhead}{14}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Common Operators}{14}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Insertion Sort}{15}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Merge sort}{15}{subsection.4.2.4}
+\contentsline {chapter}{\chapternumberline {5}Testing Results}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Language overhead}{17}{section.5.1}
+\contentsline {section}{\numberline {5.2}Common operators}{17}{section.5.2}
+\contentsline {section}{\numberline {5.3}Insertion sort}{17}{section.5.3}
+\contentsline {section}{\numberline {5.4}Merge sort}{17}{section.5.4}
+\contentsline {chapter}{\chapternumberline {6}Discussion}{19}{chapter.6}
+\contentsline {chapter}{Appendices}{19}{section*.3}
+\contentsline {chapter}{\chapternumberline {A}RDF}{21}{appendix.A}
+\contentsline {chapter}{Bibliography}{23}{section*.5}

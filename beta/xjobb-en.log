@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  5 MAR 2013 19:57
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  6 MAR 2013 12:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -803,7 +803,7 @@ l.44 \clearpage
 same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 ...e {5.1}Language overhead}{13}{section.5.1}
+l.37 ...e {5.1}Language overhead}{17}{section.5.1}
                                                    [8
 
 ])pdfTeX warning (ext4): destination with the same identifier (name{page.}) has
@@ -838,7 +838,7 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )))
 (./chapters/implementation.tex [4]
 (./chapters/implementation/system_description.tex
-<chapters/media/overview.png, id=287, 872.25874pt x 389.455pt>
+<chapters/media/overview.png, id=288, 872.25874pt x 389.455pt>
 File: chapters/media/overview.png Graphic file (type png)
 
 <use chapters/media/overview.png>
@@ -847,7 +847,7 @@ Package pdftex.def Info: chapters/media/overview.png used on input line 6.
  [5
 
  <./chapters/media/overview.png>]
-<chapters/media/celine_startpage.png, id=297, 1114.1625pt x 663.47874pt>
+<chapters/media/celine_startpage.png, id=298, 1114.1625pt x 663.47874pt>
 File: chapters/media/celine_startpage.png Graphic file (type png)
 
 <use chapters/media/celine_startpage.png>
@@ -855,7 +855,7 @@ Package pdftex.def Info: chapters/media/celine_startpage.png used on input line
  19.
 (pdftex.def)             Requested size: 297.0pt x 176.85365pt.
 
-<chapters/media/celine_listproblems.png, id=299, 800.23969pt x 594.72188pt>
+<chapters/media/celine_listproblems.png, id=300, 800.23969pt x 594.72188pt>
 File: chapters/media/celine_listproblems.png Graphic file (type png)
 
 <use chapters/media/celine_listproblems.png>
@@ -863,7 +863,7 @@ Package pdftex.def Info: chapters/media/celine_listproblems.png used on input l
 ine 37.
 (pdftex.def)             Requested size: 190.07831pt x 141.25699pt.
 
-<chapters/media/celine_easysort.png, id=301, 1022.82124pt x 792.9625pt>
+<chapters/media/celine_easysort.png, id=302, 1022.82124pt x 792.9625pt>
 File: chapters/media/celine_easysort.png Graphic file (type png)
 
 <use chapters/media/celine_easysort.png>
@@ -878,7 +878,7 @@ Overfull \hbox (9.70657pt too wide) in paragraph at lines 37--38
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapters/media/celine_submit.png, id=305, 1038.88126pt x 917.4275pt>
+<chapters/media/celine_submit.png, id=306, 1038.88126pt x 917.4275pt>
 File: chapters/media/celine_submit.png Graphic file (type png)
 
 <use chapters/media/celine_submit.png>
@@ -886,7 +886,7 @@ Package pdftex.def Info: chapters/media/celine_submit.png used on input line 55
 .
 (pdftex.def)             Requested size: 190.07831pt x 167.8456pt.
 
-<chapters/media/celine_submissions.png, id=306, 785.18344pt x 701.62125pt>
+<chapters/media/celine_submissions.png, id=307, 785.18344pt x 701.62125pt>
 File: chapters/media/celine_submissions.png Graphic file (type png)
 
 <use chapters/media/celine_submissions.png>
@@ -901,7 +901,7 @@ Overfull \hbox (9.70657pt too wide) in paragraph at lines 55--56
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapters/media/flowchart.png, id=310, 583.17876pt x 439.6425pt>
+<chapters/media/flowchart.png, id=311, 583.17876pt x 439.6425pt>
 File: chapters/media/flowchart.png Graphic file (type png)
 
 <use chapters/media/flowchart.png>
@@ -915,27 +915,33 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 .png> <./chapters/media/celine_submit.png> <./chapters/media/celine_submissions
 .png>] [8 <./chapters/media/flowchart.png>])
 (./chapters/implementation/supported_languages.tex)
-(./chapters/implementation/difficulties_limitations.tex [9]))
-(./chapters/testing_methodology.tex [10]
-(./chapters/testing_methodology/aspects.tex)
-(./chapters/testing_methodology/chosen_tests.tex [11
+(./chapters/implementation/difficulties_limitations.tex [9] [10]))
+(./chapters/testing_methodology.tex [11] [12
 
 ]
+(./chapters/testing_methodology/aspects.tex)
+(./chapters/testing_methodology/chosen_tests.tex [13]
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
-)))
-(./chapters/testing_results.tex [12]
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+Underfull \vbox (badness 4726) has occurred while \output is active []
+
+ [14]))
+(./chapters/testing_results.tex [15] [16
+
+]
 (./chapters/testing_results/language_overhead.tex)
 (./chapters/testing_results/common_operators.tex)
 (./chapters/testing_results/insertion_sort.tex)
 (./chapters/testing_results/merge_sort.tex)) (./chapters/discussion.tex
-[13
+[17] [18
 
-] [14
+]) [19] [20
 
-]) [15] [16
-
-] (./xjobb-en.bbl [17] [18
+] (./xjobb-en.bbl [21] [22
 
 ]
 bibitemlist
@@ -960,7 +966,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--57
 se / overview / index .
  []
 
-[19]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 98--103
 []$\T1/lmtt/m/n/10.95 http : / / msdn . microsoft . com / en-[]us / library / s
 ystem .
@@ -984,7 +990,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--117
 ystem . diagnostics .
  []
 
-) [20]
+) [24]
 \tf@toc=\write5
 \openout5 = `xjobb-en.toc'.
 
@@ -998,28 +1004,33 @@ Package rerunfilecheck Info: File `xjobb-en.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 10947 strings out of 493488
- 155434 string characters out of 3141326
- 285546 words of memory out of 3000000
- 13910 multiletter control sequences out of 15000+200000
+ 11003 strings out of 493488
+ 156151 string characters out of 3141326
+ 297051 words of memory out of 3000000
+ 13949 multiletter control sequences out of 15000+200000
  80125 words of font info for 56 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  33i,12n,47p,1204b,1260s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2012/
-texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2012/texmf-dist
-/fonts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
-1/public/lm/lmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm
-/lmr9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/loca
-l/texlive/2012/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/
-2012/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2012/tex
-mf-dist/fonts/type1/public/lm/lmssdc10.pfb></usr/local/texlive/2012/texmf-dist/
-fonts/type1/public/lm/lmtt10.pfb>
-Output written on xjobb-en.pdf (30 pages, 566428 bytes).
+texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
+12/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2012/texmf-dist/
+fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2012/texmf-dist/fonts/enc/
+dvips/lm/lm-ts1.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/l
+mbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmbx9.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local
+/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/20
+12/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2012/texmf-dis
+t/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
+1/public/lm/lmri10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/l
+m/lmss10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmss12.p
+fb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssdc10.pfb></usr/local/t
+exlive/2012/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/201
+2/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on xjobb-en.pdf (34 pages, 603754 bytes).
 PDF statistics:
- 513 PDF objects out of 1000 (max. 8388607)
- 456 compressed objects within 5 object streams
- 109 named destinations out of 1000 (max. 500000)
+ 567 PDF objects out of 1000 (max. 8388607)
+ 502 compressed objects within 6 object streams
+ 124 named destinations out of 1000 (max. 500000)
  353 words of extra memory for PDF output out of 10000 (max. 10000000)
 
