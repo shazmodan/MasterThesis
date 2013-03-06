@@ -1,5 +1,10 @@
 \section{Aspects to tests}
+There are several ways to evaluate code. Code can be evaluated on its structure, understandability, execution speed, memory usage and others. I've decided on execution speed and memory usage since they are free of any human opinion. Since we do not yet have infinite time or memory these two aspects are considered scarce resources and should ideally be fully optimized.
 
 \subsection{Execution speed}
+The primary objective of the code should be to execute quickly. In general, the faster any code executes the more efficient the implementation. Apart from saving time this priority enables the users to compete amongst each other, using leaderboards on the website, for the shortest execution time by writing the most efficient code. 
+The time is measured using the .NET Stopwatch class \cite{Stopwatch} which starts from the point of executing the thread which invokes the submissions entry method and ends when the thread ends, either by the same thread returning an answer or timing out. 
+
 
 \subsection{Memory usage}
+The secondary objective is memory usage. This is measured using ... FIXME

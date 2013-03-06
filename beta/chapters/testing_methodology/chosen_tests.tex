@@ -1,6 +1,22 @@
 \section{The chosen tests}
+The tests are a mixture of general functionality and two specific algorithms.
 
 \subsection{Language overhead}
+Each programming language has an overhead startup cost measured in time. This is measured by submitting code which does the minimum given this context. In Figure \ref{fig:minimum_code} a minimum code block for the C\# programming language is demonstrated.
+
+\begin{figure}[h]
+	\lstset{style=sharpc}
+	\begin{lstlisting}
+	public class OverheadTest{
+		public string SimpleReturn(string input){
+			return "";
+		}
+		public static void Main(){}
+	}
+	\end{lstlisting}
+	\caption{C\# code which returns an empty string.}
+	\label{fig:minimum_code}
+\end{figure}
 
 \subsection{Common Operators}
 

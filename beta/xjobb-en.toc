@@ -29,10 +29,10 @@
 \contentsline {subsection}{\numberline {4.1.1}Execution speed}{11}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Memory usage}{11}{subsection.4.1.2}
 \contentsline {section}{\numberline {4.2}The chosen tests}{11}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Language overhead}{11}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Common Operators}{11}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Insertion Sort}{11}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Merge sort}{11}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.1}Language overhead}{12}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Common Operators}{12}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Insertion Sort}{12}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Merge sort}{12}{subsection.4.2.4}
 \contentsline {chapter}{\chapternumberline {5}Testing Results}{13}{chapter.5}
 \contentsline {section}{\numberline {5.1}Language overhead}{13}{section.5.1}
 \contentsline {section}{\numberline {5.2}Common operators}{13}{section.5.2}

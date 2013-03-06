@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  4 MAR 2013 20:22
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  5 MAR 2013 19:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -589,31 +589,73 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip168
 )
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count143
+\lst@gtempboxa=\box26
+\lst@token=\toks25
+\lst@length=\count144
+\lst@currlwidth=\dimen138
+\lst@column=\count145
+\lst@pos=\count146
+\lst@lostspace=\dimen139
+\lst@width=\dimen140
+\lst@newlines=\count147
+\lst@lineno=\count148
+\lst@maxwidth=\dimen141
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count149
+\lst@skipnumbers=\count150
+\lst@framebox=\box27
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
 (./chapters/frontpage.tex) (./xjobb-en.aux)
 \openout1 = `xjobb-en.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 26.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 19.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 26.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -627,17 +669,17 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count143
-\scratchdimen=\dimen138
-\scratchbox=\box26
-\nofMPsegments=\count144
-\nofMParguments=\count145
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count146
-\MPscratchDim=\dimen139
-\MPnumerator=\count147
-\makeMPintoPDFobject=\count148
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count151
+\scratchdimen=\dimen142
+\scratchbox=\box28
+\nofMPsegments=\count152
+\nofMParguments=\count153
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count154
+\MPscratchDim=\dimen143
+\MPnumerator=\count155
+\makeMPintoPDFobject=\count156
+\everyMPtoPDFconversion=\toks27
 ) (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -653,8 +695,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring OFF on input line 19.
+\AtBeginShipoutBox=\box29
+Package hyperref Info: Link coloring OFF on input line 26.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -662,17 +704,18 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count149
+\c@section@level=\count157
 )
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
 
 (./xjobb-en.out) (./xjobb-en.out)
 \@outlinefile=\write4
 \openout4 = `xjobb-en.out'.
 
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 24.
+\c@lstlisting=\count158
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 31.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -681,7 +724,7 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: kth_svv_comp_science_comm.pdf Graphic file (type pdf)
 
 <use kth_svv_comp_science_comm.pdf>
-Package pdftex.def Info: kth_svv_comp_science_comm.pdf used on input line 24.
+Package pdftex.def Info: kth_svv_comp_science_comm.pdf used on input line 31.
 (pdftex.def)             Requested size: 410.53275pt x 468.75009pt.
  [1
 
@@ -755,7 +798,7 @@ Overfull \hbox (26.73856pt too wide) in paragraph at lines 4--19
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 \clearpage
+l.44 \clearpage
                 [7] (./xjobb-en.tocpdfTeX warning (ext4): destination with the 
 same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
@@ -767,12 +810,12 @@ l.37 ...e {5.1}Language overhead}{13}{section.5.1}
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.42 \pagestyle
+l.49 \pagestyle
                {newchap} [9]pdfTeX warning (ext4): destination with the same id
 entifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.42 \pagestyle
+l.49 \pagestyle
                {newchap} [10
 
 ] (./chapters/introduction.tex
@@ -875,17 +918,20 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 (./chapters/implementation/difficulties_limitations.tex [9]))
 (./chapters/testing_methodology.tex [10]
 (./chapters/testing_methodology/aspects.tex)
-(./chapters/testing_methodology/chosen_tests.tex))
-(./chapters/testing_results.tex [11
-
-] [12
+(./chapters/testing_methodology/chosen_tests.tex [11
 
 ]
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)))
+(./chapters/testing_results.tex [12]
 (./chapters/testing_results/language_overhead.tex)
 (./chapters/testing_results/common_operators.tex)
 (./chapters/testing_results/insertion_sort.tex)
 (./chapters/testing_results/merge_sort.tex)) (./chapters/discussion.tex
-[13] [14
+[13
+
+] [14
 
 ]) [15] [16
 
@@ -932,27 +978,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--110
  . rst #
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--117
+[]$\T1/lmtt/m/n/10.95 http : / / msdn . microsoft . com / en-[]us / library / s
+ystem . diagnostics .
+ []
+
 ) [20]
 \tf@toc=\write5
 \openout5 = `xjobb-en.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
  (./xjobb-en.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `xjobb-en.out' has not changed.
 (rerunfilecheck)             Checksum: E2FB2E35FB863885AE87CC71575F2871;2383.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 8786 strings out of 493488
- 127855 string characters out of 3141326
- 232655 words of memory out of 3000000
- 11780 multiletter control sequences out of 15000+200000
+ 10947 strings out of 493488
+ 155434 string characters out of 3141326
+ 285546 words of memory out of 3000000
+ 13910 multiletter control sequences out of 15000+200000
  80125 words of font info for 56 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 30i,11n,38p,1204b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 33i,12n,47p,1204b,1260s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2012/
 texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2012/texmf-dist
@@ -964,10 +1016,10 @@ l/texlive/2012/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/
 2012/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2012/tex
 mf-dist/fonts/type1/public/lm/lmssdc10.pfb></usr/local/texlive/2012/texmf-dist/
 fonts/type1/public/lm/lmtt10.pfb>
-Output written on xjobb-en.pdf (30 pages, 562399 bytes).
+Output written on xjobb-en.pdf (30 pages, 566428 bytes).
 PDF statistics:
- 497 PDF objects out of 1000 (max. 8388607)
- 440 compressed objects within 5 object streams
- 100 named destinations out of 1000 (max. 500000)
+ 513 PDF objects out of 1000 (max. 8388607)
+ 456 compressed objects within 5 object streams
+ 109 named destinations out of 1000 (max. 500000)
  353 words of extra memory for PDF output out of 10000 (max. 10000000)
 
