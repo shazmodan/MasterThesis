@@ -8,4 +8,5 @@ The time is measured using the .NET Stopwatch class \cite{Stopwatch} which start
 
 
 \subsection{Memory usage}
-The secondary objective is memory usage. This is measured using ... FIXME
+The secondary objective is memory usage. Every problem has the option to severly restrict memory consumption. This will allow administrators of the system to create problems in which the goal could be to force users to make a trade-off between speed and memory, illustrating real life situations such as optimizing code in order to avoid the unnecessary cost of purchasing more memory.
+The tool used to measure the memory consumption (and more) is the Windows Performance Monitor. This tool allows for tracking of specific Windows processes, and more specifically, tracking of individual resources contained in the .NET CLR.

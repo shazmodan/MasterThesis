@@ -28,16 +28,17 @@
 \contentsline {section}{\numberline {4.1}Aspects to tests}{13}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Execution speed}{13}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Memory usage}{13}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}The chosen tests}{13}{section.4.2}
+\contentsline {section}{\numberline {4.2}The chosen tests}{14}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Language overhead}{14}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Common Operators}{14}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Insertion Sort}{15}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Merge sort}{15}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.4}Merge Sort}{15}{subsection.4.2.4}
 \contentsline {chapter}{\chapternumberline {5}Testing Results}{17}{chapter.5}
-\contentsline {section}{\numberline {5.1}Language overhead}{17}{section.5.1}
-\contentsline {section}{\numberline {5.2}Common operators}{17}{section.5.2}
-\contentsline {section}{\numberline {5.3}Insertion sort}{17}{section.5.3}
-\contentsline {section}{\numberline {5.4}Merge sort}{17}{section.5.4}
+\contentsline {section}{\numberline {5.1}Testing Systems Specifications}{17}{section.5.1}
+\contentsline {section}{\numberline {5.2}Language overhead}{18}{section.5.2}
+\contentsline {section}{\numberline {5.3}Common operators}{18}{section.5.3}
+\contentsline {section}{\numberline {5.4}Insertion sort}{18}{section.5.4}
+\contentsline {section}{\numberline {5.5}Merge sort}{18}{section.5.5}
 \contentsline {chapter}{\chapternumberline {6}Discussion}{19}{chapter.6}
 \contentsline {chapter}{Appendices}{19}{section*.3}
 \contentsline {chapter}{\chapternumberline {A}RDF}{21}{appendix.A}
