@@ -1,17 +1,17 @@
-\section{Language overhead}
+\subsection{Language overhead}
 
 \begin{table}[h]
 	\begin{center}
 		\begin{tabular} { >{\centering\arraybackslash}m{3cm} | >{\centering\arraybackslash}m{2cm} | >{\centering\arraybackslash}m{2cm} }
 			\hline
 			\textbf{Language}	& \textbf{Time} & \textbf{Ratio} \\ \hline
-			C\#				& 0.014s & 1:1 \\ \hline
-			Java			& 0.038s & 1:2.7 \\ \hline
-			Python			& 1.401s & 1:10 \\  \hline		
+			C\#					& 0.014s 		& 1:1 \\ \hline
+			Java				& 0.038s 		& 1:2.7 \\ \hline
+			Python				& 1.401s 		& 1:10 \\  \hline		
 		\end{tabular}
 	\end{center}
-	\caption{Herppa caption}
+	\caption{The overhead startup cost for each implemented language.}
 	\label{table:language_overhead}
 \end{table}
 
-As can be seen in Table \ref{table:language_overhead} Python has a greater overhead cost than the other two. This is because both C\# and Java code are pre-compiled before execution while Python code needs to be parsed and intepreted in one extra layer before the code itself can be executed.
+As can be seen in Table \ref{table:language_overhead} Python has a greater overhead cost than the other two. This is because both C\# and Java code are pre-compiled before execution while Python code needs to be parsed and intepreted in an extra layer before the code itself can be executed.

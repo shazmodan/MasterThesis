@@ -53,6 +53,8 @@ Insertion Sort is a comparison based sorting algorithm useful for sorting small 
 
 The algorithm has a runtime of $O(n^2)$ but can still outperform more advanced algorithms such as Merge Sort (described in section \ref{subsec:merge_sort}) because Merge sort has an extra overhead from its recursive function calls and also uses more memory, but this is only true for small inputs (what ``small'' is varies from system to system) \cite{Insertionsort}.
 
+Insertion Sort is a suitable algorithm for testing performance between different languages since its implementation is very simple, straightforward and similar in these languages.
+
 
 \subsection{Merge Sort} \label{subsec:merge_sort}
 Merge Sort is a divide and conquer, comparison based sorting algorithm. It's stable in the sense that it preserves the input order of equal elements in the output. The algorithm goes as follows (once again using the common 52 card deck):
@@ -75,7 +77,7 @@ Figure \ref{fig:mergesort} illustrates this process using eight cards.
 	\label{fig:mergesort}
 \end{figure}
 
-Merge sort was chosen as the $O(n * log(n))$ algorithm because it uses more memory than other algorithms of the same time complexity such as Heap Sort \cite{Mergesort}. This helps in illustrating how different programming languages differ in memory consumption (the algorithm is also fairly easy to implement). 
+Merge sort was chosen as the $O(n * log(n))$ algorithm because it tends to use more memory than other algorithms of the same time complexity \cite{Mergesort} (e.g. Heap Sort). This helps in illustrating how different programming languages differ in memory consumption (the algorithm is also fairly easy to implement). 
 
 
 
