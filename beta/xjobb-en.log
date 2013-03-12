@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  11 MAR 2013 15:33
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  12 MAR 2013 16:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1024,15 +1024,77 @@ Overfull \hbox (9.70657pt too wide) in paragraph at lines 30--31
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [21 <./chapters/media/multiplication.png> <./chapters/media/division.png> <./
-chapters/media/modulo.png>] (./chapters/testing_results/merge_sort.tex)))
-(./chapters/discussion.tex [22 <./chapters/media/insertion_sort_csharp_java.png
-> <./chapters/media/insertion_sort_python.png>]) [23
+[21 <./chapters/media/multiplication.png> <./chapters/media/division.png> <./ch
+apters/media/modulo.png>]
+<chapters/media/insertion_sort_native_java.png, id=501, 362.3136pt x 218.2554pt
+>
+File: chapters/media/insertion_sort_native_java.png Graphic file (type png)
+ <use chapters/media/insertion_sort_native_java.png>
+Package pdftex.def Info: chapters/media/insertion_sort_native_java.png used on 
+input line 48.
+(pdftex.def)             Requested size: 190.07831pt x 114.4992pt.
 
-] [24
+<chapters/media/insertion_sort_native_python.png, id=502, 362.7954pt x 217.7736
+pt>
+File: chapters/media/insertion_sort_native_python.png Graphic file (type png)
+ <use chapters/media/insertion_sort_native_python.png>
+Package pdftex.def Info: chapters/media/insertion_sort_native_python.png used o
+n input line 48.
+(pdftex.def)             Requested size: 190.07831pt x 114.10023pt.
 
-] (./xjobb-en.bbl
-[25] [26
+Overfull \hbox (9.70657pt too wide) in paragraph at lines 48--49
+ [][] 
+ []
+
+<chapters/media/insertion_sort_memory.png, id=504, 362.3136pt x 218.2554pt>
+File: chapters/media/insertion_sort_memory.png Graphic file (type png)
+
+<use chapters/media/insertion_sort_memory.png>
+Package pdftex.def Info: chapters/media/insertion_sort_memory.png used on input
+ line 57.
+(pdftex.def)             Requested size: 237.60242pt x 143.12984pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./chapters/testing_results/merge_sort.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22 <./chapters/media/insertion_sort_csharp_java.png> <./chapters/media/inserti
+on_sort_python.png> <./chapters/media/insertion_sort_native_java.png> <./chapte
+rs/media/insertion_sort_native_python.png>]
+<chapters/media/merge_sort_csharp_java.png, id=525, 362.3136pt x 218.2554pt>
+File: chapters/media/merge_sort_csharp_java.png Graphic file (type png)
+
+<use chapters/media/merge_sort_csharp_java.png>
+Package pdftex.def Info: chapters/media/merge_sort_csharp_java.png used on inpu
+t line 27.
+(pdftex.def)             Requested size: 237.60242pt x 143.12984pt.
+ [23 <./chapters/media/insertion_sort_memory.png> <./chapters/media/merge_sort_
+csharp_java.png>]
+<chapters/media/merge_sort_csharp_java_native.png, id=534, 362.3136pt x 218.255
+4pt>
+File: chapters/media/merge_sort_csharp_java_native.png Graphic file (type png)
+ <use chapters/media/merge_sort_csharp_java_native.png>
+Package pdftex.def Info: chapters/media/merge_sort_csharp_java_native.png used 
+on input line 38.
+(pdftex.def)             Requested size: 237.60242pt x 143.12984pt.
+
+<chapters/media/merge_sort_memory.png, id=535, 508.7808pt x 314.6154pt>
+File: chapters/media/merge_sort_memory.png Graphic file (type png)
+
+<use chapters/media/merge_sort_memory.png>
+Package pdftex.def Info: chapters/media/merge_sort_memory.png used on input lin
+e 45.
+(pdftex.def)             Requested size: 237.60242pt x 146.92833pt.
+))) (./chapters/discussion.tex
+[24 <./chapters/media/merge_sort_csharp_java_native.png> <./chapters/media/merg
+e_sort_memory.png>]) [25
+
+] [26
+
+] (./xjobb-en.bbl [27] [28
 
 ]
 bibitemlist
@@ -1057,7 +1119,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--57
 se / overview / index .
  []
 
-[27]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 98--103
 []$\T1/lmtt/m/n/10.95 http : / / msdn . microsoft . com / en-[]us / library / s
 ystem .
@@ -1081,7 +1143,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--117
 ystem . diagnostics .
  []
 
-) [28]
+) [30]
 \tf@toc=\write5
 \openout5 = `xjobb-en.toc'.
 
@@ -1091,14 +1153,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `xjobb-en.out' has not changed.
-(rerunfilecheck)             Checksum: C953B60BFC2E1879785E04808D9FEEF1;2606.
+(rerunfilecheck)             Checksum: 43C460715ADD7DD185391E9C8B05F2BE;2606.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 11099 strings out of 493488
- 158515 string characters out of 3141326
- 298790 words of memory out of 3000000
- 14005 multiletter control sequences out of 15000+200000
+ 11147 strings out of 493488
+ 160206 string characters out of 3141326
+ 299664 words of memory out of 3000000
+ 14039 multiletter control sequences out of 15000+200000
  80125 words of font info for 56 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  33i,12n,47p,1250b,1260s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1118,10 +1180,10 @@ fb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr
 /local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssdc10.pfb></usr/local/t
 exlive/2012/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/201
 2/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on xjobb-en.pdf (38 pages, 815618 bytes).
+Output written on xjobb-en.pdf (40 pages, 975052 bytes).
 PDF statistics:
- 646 PDF objects out of 1000 (max. 8388607)
- 561 compressed objects within 6 object streams
- 147 named destinations out of 1000 (max. 500000)
- 417 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 682 PDF objects out of 1000 (max. 8388607)
+ 583 compressed objects within 6 object streams
+ 155 named destinations out of 1000 (max. 500000)
+ 447 words of extra memory for PDF output out of 10000 (max. 10000000)
 
