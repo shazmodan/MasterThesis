@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  12 MAR 2013 16:11
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  13 MAR 2013 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -967,6 +967,9 @@ Overfull \hbox (9.70657pt too wide) in paragraph at lines 14--15
  [][] 
  []
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <chapters/media/multiplication.png, id=466, 362.7954pt x 217.7736pt>
 File: chapters/media/multiplication.png Graphic file (type png)
 
@@ -999,102 +1002,160 @@ Package pdftex.def Info: chapters/media/modulo.png used on input line 37.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./chapters/testing_results/insertion_sort.tex [20 <./chapters/media/addition
-.png> <./chapters/media/subtraction.png>]
-<chapters/media/insertion_sort_csharp_java.png, id=482, 362.3136pt x 218.2554pt
+) (./chapters/testing_results/insertion_sort.tex
+<chapters/media/insertion_sort_all_net.png, id=472, 362.3136pt x 218.2554pt>
+File: chapters/media/insertion_sort_all_net.png Graphic file (type png)
+
+<use chapters/media/insertion_sort_all_net.png>
+Package pdftex.def Info: chapters/media/insertion_sort_all_net.png used on inpu
+t line 16.
+(pdftex.def)             Requested size: 190.07831pt x 114.4992pt.
+
+<chapters/media/insertion_sort_all_native.png, id=473, 362.3136pt x 218.2554pt>
+File: chapters/media/insertion_sort_all_native.png Graphic file (type png)
+<use chapters/media/insertion_sort_all_native.png>
+Package pdftex.def Info: chapters/media/insertion_sort_all_native.png used on i
+nput line 16.
+(pdftex.def)             Requested size: 190.07831pt x 114.4992pt.
+
+Overfull \hbox (9.70657pt too wide) in paragraph at lines 16--17
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<chapters/media/insertion_sort_csharp_java.png, id=477, 362.3136pt x 218.2554pt
 >
 File: chapters/media/insertion_sort_csharp_java.png Graphic file (type png)
  <use chapters/media/insertion_sort_csharp_java.png>
 Package pdftex.def Info: chapters/media/insertion_sort_csharp_java.png used on 
-input line 30.
+input line 34.
 (pdftex.def)             Requested size: 190.07831pt x 114.4992pt.
 
-<chapters/media/insertion_sort_python.png, id=483, 362.7954pt x 218.2554pt>
+<chapters/media/insertion_sort_python.png, id=478, 362.7954pt x 218.2554pt>
 File: chapters/media/insertion_sort_python.png Graphic file (type png)
 
 <use chapters/media/insertion_sort_python.png>
 Package pdftex.def Info: chapters/media/insertion_sort_python.png used on input
- line 30.
+ line 34.
 (pdftex.def)             Requested size: 190.07831pt x 114.35266pt.
 
-Overfull \hbox (9.70657pt too wide) in paragraph at lines 30--31
+Overfull \hbox (9.70657pt too wide) in paragraph at lines 34--35
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21 <./chapters/media/multiplication.png> <./chapters/media/division.png> <./ch
-apters/media/modulo.png>]
-<chapters/media/insertion_sort_native_java.png, id=501, 362.3136pt x 218.2554pt
->
-File: chapters/media/insertion_sort_native_java.png Graphic file (type png)
- <use chapters/media/insertion_sort_native_java.png>
-Package pdftex.def Info: chapters/media/insertion_sort_native_java.png used on 
-input line 48.
-(pdftex.def)             Requested size: 190.07831pt x 114.4992pt.
-
-<chapters/media/insertion_sort_native_python.png, id=502, 362.7954pt x 217.7736
-pt>
-File: chapters/media/insertion_sort_native_python.png Graphic file (type png)
- <use chapters/media/insertion_sort_native_python.png>
-Package pdftex.def Info: chapters/media/insertion_sort_native_python.png used o
-n input line 48.
-(pdftex.def)             Requested size: 190.07831pt x 114.10023pt.
-
-Overfull \hbox (9.70657pt too wide) in paragraph at lines 48--49
- [][] 
- []
-
-<chapters/media/insertion_sort_memory.png, id=504, 362.3136pt x 218.2554pt>
+<chapters/media/insertion_sort_memory.png, id=479, 362.3136pt x 218.2554pt>
 File: chapters/media/insertion_sort_memory.png Graphic file (type png)
 
 <use chapters/media/insertion_sort_memory.png>
 Package pdftex.def Info: chapters/media/insertion_sort_memory.png used on input
- line 57.
+ line 41.
 (pdftex.def)             Requested size: 237.60242pt x 143.12984pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./chapters/testing_results/merge_sort.tex
+[20]) (./chapters/testing_results/merge_sort.tex
+<chapters/media/merge_sort_all_net.png, id=492, 438.438pt x 270.2898pt>
+File: chapters/media/merge_sort_all_net.png Graphic file (type png)
+
+<use chapters/media/merge_sort_all_net.png>
+Package pdftex.def Info: chapters/media/merge_sort_all_net.png used on input li
+ne 14.
+(pdftex.def)             Requested size: 190.07831pt x 117.1833pt.
+
+<chapters/media/merge_sort_all_native.png, id=493, 437.9562pt x 268.8444pt>
+File: chapters/media/merge_sort_all_native.png Graphic file (type png)
+
+<use chapters/media/merge_sort_all_native.png>
+Package pdftex.def Info: chapters/media/merge_sort_all_native.png used on input
+ line 14.
+(pdftex.def)             Requested size: 190.07831pt x 116.67972pt.
+
+Overfull \hbox (9.70657pt too wide) in paragraph at lines 14--15
+ [][] 
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22 <./chapters/media/insertion_sort_csharp_java.png> <./chapters/media/inserti
-on_sort_python.png> <./chapters/media/insertion_sort_native_java.png> <./chapte
-rs/media/insertion_sort_native_python.png>]
-<chapters/media/merge_sort_csharp_java.png, id=525, 362.3136pt x 218.2554pt>
+<chapters/media/merge_sort_csharp_java.png, id=496, 362.3136pt x 218.2554pt>
 File: chapters/media/merge_sort_csharp_java.png Graphic file (type png)
 
 <use chapters/media/merge_sort_csharp_java.png>
 Package pdftex.def Info: chapters/media/merge_sort_csharp_java.png used on inpu
-t line 27.
+t line 23.
 (pdftex.def)             Requested size: 237.60242pt x 143.12984pt.
- [23 <./chapters/media/insertion_sort_memory.png> <./chapters/media/merge_sort_
-csharp_java.png>]
-<chapters/media/merge_sort_csharp_java_native.png, id=534, 362.3136pt x 218.255
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<chapters/media/merge_sort_csharp_java_native.png, id=498, 362.3136pt x 218.255
 4pt>
 File: chapters/media/merge_sort_csharp_java_native.png Graphic file (type png)
  <use chapters/media/merge_sort_csharp_java_native.png>
 Package pdftex.def Info: chapters/media/merge_sort_csharp_java_native.png used 
-on input line 38.
+on input line 32.
 (pdftex.def)             Requested size: 237.60242pt x 143.12984pt.
 
-<chapters/media/merge_sort_memory.png, id=535, 508.7808pt x 314.6154pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<chapters/media/merge_sort_memory.png, id=499, 508.7808pt x 314.6154pt>
 File: chapters/media/merge_sort_memory.png Graphic file (type png)
 
 <use chapters/media/merge_sort_memory.png>
 Package pdftex.def Info: chapters/media/merge_sort_memory.png used on input lin
-e 45.
+e 39.
 (pdftex.def)             Requested size: 237.60242pt x 146.92833pt.
-))) (./chapters/discussion.tex
-[24 <./chapters/media/merge_sort_csharp_java_native.png> <./chapters/media/merg
-e_sort_memory.png>]) [25
 
-] [26
 
-] (./xjobb-en.bbl [27] [28
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<chapters/media/merge_sort_java_native.png, id=501, 362.7954pt x 218.2554pt>
+File: chapters/media/merge_sort_java_native.png Graphic file (type png)
+
+<use chapters/media/merge_sort_java_native.png>
+Package pdftex.def Info: chapters/media/merge_sort_java_native.png used on inpu
+t line 58.
+(pdftex.def)             Requested size: 190.07831pt x 114.35266pt.
+
+<chapters/media/merge_sort_python_native.png, id=502, 362.3136pt x 218.2554pt>
+File: chapters/media/merge_sort_python_native.png Graphic file (type png)
+
+<use chapters/media/merge_sort_python_native.png>
+Package pdftex.def Info: chapters/media/merge_sort_python_native.png used on in
+put line 58.
+(pdftex.def)             Requested size: 190.07831pt x 114.4992pt.
+
+Overfull \hbox (9.70657pt too wide) in paragraph at lines 58--59
+ [][] 
+ []
+
+[21 <./chapters/media/addition.png> <./chapters/media/subtraction.png> <./chapt
+ers/media/multiplication.png> <./chapters/media/division.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+))) (./chapters/discussion.tex [22 <./chapters/media/modulo.png> <./chapters/me
+dia/insertion_sort_all_net.png> <./chapters/media/insertion_sort_all_native.png
+>] [23 <./chapters/media/insertion_sort_csharp_java.png> <./chapters/media/inse
+rtion_sort_python.png> <./chapters/media/insertion_sort_memory.png> <./chapters
+/media/merge_sort_all_net.png> <./chapters/media/merge_sort_all_native.png>]
+[24 <./chapters/media/merge_sort_csharp_java.png> <./chapters/media/merge_sort_
+csharp_java_native.png> <./chapters/media/merge_sort_memory.png>] [25 <./chapte
+rs/media/merge_sort_java_native.png> <./chapters/media/merge_sort_python_native
+.png>] [26
+
+]) [27] [28
+
+] (./xjobb-en.bbl [29] [30
 
 ]
 bibitemlist
@@ -1119,7 +1180,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--57
 se / overview / index .
  []
 
-[29]
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 98--103
 []$\T1/lmtt/m/n/10.95 http : / / msdn . microsoft . com / en-[]us / library / s
 ystem .
@@ -1143,7 +1204,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--117
 ystem . diagnostics .
  []
 
-) [30]
+) [32]
 \tf@toc=\write5
 \openout5 = `xjobb-en.toc'.
 
@@ -1157,10 +1218,10 @@ Package rerunfilecheck Info: File `xjobb-en.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 11147 strings out of 493488
- 160206 string characters out of 3141326
- 299664 words of memory out of 3000000
- 14039 multiletter control sequences out of 15000+200000
+ 11181 strings out of 493488
+ 161302 string characters out of 3141326
+ 300173 words of memory out of 3000000
+ 14063 multiletter control sequences out of 15000+200000
  80125 words of font info for 56 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  33i,12n,47p,1250b,1260s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1180,10 +1241,10 @@ fb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr
 /local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssdc10.pfb></usr/local/t
 exlive/2012/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/201
 2/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on xjobb-en.pdf (40 pages, 975052 bytes).
+Output written on xjobb-en.pdf (42 pages, 1068116 bytes).
 PDF statistics:
- 682 PDF objects out of 1000 (max. 8388607)
- 583 compressed objects within 6 object streams
- 155 named destinations out of 1000 (max. 500000)
- 447 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 702 PDF objects out of 1000 (max. 8388607)
+ 593 compressed objects within 6 object streams
+ 161 named destinations out of 1000 (max. 500000)
+ 467 words of extra memory for PDF output out of 10000 (max. 10000000)
 
