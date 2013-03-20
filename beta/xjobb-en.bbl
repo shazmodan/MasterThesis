@@ -135,4 +135,44 @@ Viehland D.
 \newblock \\ \url{http://www.sorting-algorithms.com/merge-sort}.
 \newblock \\Accessed 2013-03-04.
 
+\bibitem{Benchmark}
+{Brent Fulgham}.
+\newblock {Computer Language Benchmark Game}.
+\newblock \\ \url{http://benchmarksgame.alioth.debian.org/u64/csharp.php}.
+\newblock \\Accessed 2013-03-04.
+
+\bibitem{Benchmark2}
+{Decebal Mihailescu}.
+\newblock {Benchmark start-up and system performance for .Net, Mono, Java, C++
+  and their respective UI}.
+\newblock \\
+  \url{http://www.codeproject.com/Articles/92812/Benchmark-start-up-and-system-performance-for-Net}.
+\newblock \\Accessed 2013-03-04.
+
+\bibitem{JavaScript.NET}
+{JavaScript.NET}.
+\newblock \\ \url{http://javascriptdotnet.codeplex.com/}.
+\newblock \\Accessed 2013-03-04.
+
+\bibitem{Jint}
+{Jint}.
+\newblock \\ \url{http://jint.codeplex.com/}.
+\newblock \\Accessed 2013-03-04.
+
+\bibitem{Phalanger}
+{Phalanger}.
+\newblock \\ \url{http://phalanger.codeplex.com/}.
+\newblock \\Accessed 2013-03-04.
+
+\bibitem{IronRuby}
+{IronRuby}.
+\newblock \\ \url{http://ironruby.codeplex.com/}.
+\newblock \\Accessed 2013-03-04.
+
+\bibitem{Tiobe}
+{TIOBE Programming Community Index}.
+\newblock \\
+  \url{http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html}.
+\newblock \\Accessed 2013-03-20.
+
 \end{thebibliography}

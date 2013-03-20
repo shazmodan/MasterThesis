@@ -29,10 +29,9 @@ The common operators are addition (+), subtraction (-), multiplication (*), divi
 	class AdditionTest:
 	    def AddNumbers(self, input):
 	        input = input.split(" ")
-	        sum = 0
-	        for x in range(0, len(input)):
-	            sum += int(input[x])
-	        return str(sum)
+	        array = list(map(int, input))
+	        total = sum(array)
+	        return str(total)
 	\end{lstlisting}
 	\caption{Python code for testing the addition operation.}
 	\label{fig:addition_test}

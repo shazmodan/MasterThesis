@@ -23,7 +23,7 @@
 \contentsline {section}{\numberline {3.3}Difficulties and limitations}{10}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Security}{10}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}IronPython limitations}{10}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}White- and black-box testing}{10}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.3}White- and black-box testing}{11}{subsection.3.3.3}
 \contentsline {chapter}{\chapternumberline {4}Testing Methodology}{13}{chapter.4}
 \contentsline {section}{\numberline {4.1}Aspects to tests}{13}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Execution speed}{13}{subsection.4.1.1}
@@ -42,6 +42,9 @@
 \contentsline {subsection}{\numberline {5.3.3}Insertion Sort}{20}{subsection.5.3.3}
 \contentsline {subsection}{\numberline {5.3.4}Merge Sort}{21}{subsection.5.3.4}
 \contentsline {chapter}{\chapternumberline {6}Discussion}{27}{chapter.6}
-\contentsline {chapter}{Appendices}{27}{section*.3}
+\contentsline {section}{\numberline {6.1}Reflections on the results}{27}{section.6.1}
+\contentsline {section}{\numberline {6.2}Conclusion}{28}{section.6.2}
+\contentsline {section}{\numberline {6.3}Future Work}{28}{section.6.3}
+\contentsline {chapter}{Appendices}{28}{section*.3}
 \contentsline {chapter}{\chapternumberline {A}RDF}{29}{appendix.A}
 \contentsline {chapter}{Bibliography}{31}{section*.5}

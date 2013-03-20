@@ -17,51 +17,42 @@
 \end{figure}
 
 
-Since the runtime for Python was already over the one minute mark with just 100'000 elements (see Figure \ref{fig:merge_sort_all_net}) I decided not to test one million elements with Python. Instead I tested C\# and Java with one million elements and compared the runtimes with one hundred thousand elements in Figure \ref{fig:merge_sort_csharp_java}.
+Running code in its native environment provides a big increase in performance for Merge Sort as well, see Figure \ref{fig:merge_sort_net_native}. This gap seemed to get narrower when increasing the amount of numbers to be sorted.
+
+C\# still outperforms Java when run in the .NET environment. But the gap between them seemed to narrow the more elements were added (see Figure \ref{fig:merge_sort_all_net}). 
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.6\textwidth]{chapters/media/merge_sort_csharp_java.png}
-	\caption{Time difference between using 100'000 elements and a million.}
-	\label{fig:merge_sort_csharp_java}
+	\includegraphics[width=0.6\textwidth]{chapters/media/tim_sort.png}
+	\caption{Python built-in function Tim Sort vs Merge Sort.}
+	\label{fig:tim_sort}
 \end{figure}
 
-C\# still outperforms Java when run in the .NET environment. But the gap between them seemed to narrow the more elements were added. I attempted to run the Java implementation in its native environment, and it  outperformed C\# (see Figure \ref{fig:merge_sort_csharp_java_native}). 
+Figure \ref{fig:tim_sort} illustrates the performance gained from using the built-in Python sorting function Tim Sort. 
+
+
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.6\textwidth]{chapters/media/merge_sort_csharp_java_native.png}
-	\caption{Comparing Java and C\# when both are run in their respective native environments.}
-	\label{fig:merge_sort_csharp_java_native}
+	\includegraphics[width=1.0\textwidth]{chapters/media/mergesort_memory_1mil_all.png}
+	\caption{Memory consumption over 100 test runs with one million elements for each language. Blue line represents memory consumption and red line represents the number of induced GC.}
+	\label{fig:merge_sort_memory_all}
 \end{figure}
 
+
+Figure \ref{fig:merge_sort_memory_all} illustrates 100 runs with one million elements of the Mergesort algorithm with each language run in .NET (all Python runs are not visible). It would appear that since the algorithm runs on the same input each run, one would expect it to be a much more even data plot. But due to restrictions in the Microsoft Performance Monitor it could only take one sample every second, and since C\# and Java ran faster than that, the plot is uneven. Therefore it is important to only consider the peak for each language. Several more runs were made in order to reduce the risk of data collection error, Figure \ref{fig:merge_sort_memory_all} is just an example run with all languages present to illustrate their differences (see Figure \ref{fig:merge_sort_memory} for  maximum values). The red line is the number of times the garbage collector was induced, note that Java forces this induction every other run.
+
+
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.6\textwidth]{chapters/media/merge_sort_memory.png}
-	\caption{Comparing Java and C\# when both are run in their respective native environments.}
+	\includegraphics[width=1.0\textwidth]{chapters/media/merge_sort_memory.png}
+	\caption{Comparison of the memory consumption between the three languages.}
 	\label{fig:merge_sort_memory}
 \end{figure}
 
-Java run in .NET is about equal to C\# when it comes to memory management (Figure \ref{fig:merge_sort_memory}). Python consumed more memory, performing 40-50\% worse than the other two.
+The maximum memory consumption can be seen in Figure \ref{fig:merge_sort_memory}. Java consumed the most memory while C\# consumed the least.
 
 
-\begin{figure}[h]
-	\centering
-	\mbox{
-		\subfigure[Java under the .NET Environment and the native environment.]{
-			\includegraphics[width=0.48\textwidth]{chapters/media/merge_sort_java_native.png}
-			\label{fig:merge_sort_native_java}
-		}
-		\subfigure[Python under the .NET Environment and the native environment.]{
-			\includegraphics[width=0.48\textwidth]{chapters/media/merge_sort_python_native.png}
-			\label{fig:merge_sort_native_python}
-		}
-	}
-	\caption{Comparison of running under the .NET Environment and the native environment with Java to the left and Python to the right (using 100'000 elements).}
-	\label{fig:merge_sort_natives}
-\end{figure}
-
-Running code in its native environment provides a big increase in performance for Merge Sort as well. Java is about 5-6 times faster and Python is more than 70 times faster (see Figure \ref{fig:merge_sort_natives}). The slow execution of Python code in .NET seem to depend on the size of the input as seen in Figure blsblalbla FIXME. 
 
 
 
