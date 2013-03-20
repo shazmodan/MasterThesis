@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  20 MAR 2013 19:06
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  20 MAR 2013 19:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1428,53 +1428,53 @@ rtion_sort_python.png> <./chapters/media/insertion_sort_memory.png> <./chapters
 
 ]
 bibitemlist
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 42.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 43.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 39--44
+Underfull \hbox (badness 10000) in paragraph at lines 40--45
 []$\T1/lmtt/m/n/10.95 http : / / msdn . microsoft . com / en-[]us / library / m
 icrosoft . csharp .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--51
+Underfull \hbox (badness 10000) in paragraph at lines 47--52
 []$\T1/lmtt/m/n/10.95 http : / / msdn . microsoft . com / en-[]us / library / s
 ystem . codedom . compiler .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--65
+Underfull \hbox (badness 10000) in paragraph at lines 61--66
 []$\T1/lmtt/m/n/10.95 http : / / www . oracle . com / technetwork / java / java
 se / overview / index .
  []
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 106--111
+Underfull \hbox (badness 10000) in paragraph at lines 107--112
 []$\T1/lmtt/m/n/10.95 http : / / msdn . microsoft . com / en-[]us / library / s
 ystem .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--118
+Underfull \hbox (badness 10000) in paragraph at lines 114--119
 []$\T1/lmtt/m/n/10.95 https : / / github . com / IronLanguages / main / blob / 
 master /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--118
+Underfull \hbox (badness 10000) in paragraph at lines 114--119
 \T1/lmtt/m/n/10.95 Languages / IronPython / Public / Doc / dotnet-[]integration
  . rst #
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--125
+Underfull \hbox (badness 10000) in paragraph at lines 121--126
 []$\T1/lmtt/m/n/10.95 http : / / msdn . microsoft . com / en-[]us / library / s
 ystem . diagnostics .
  []
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 145--151
+Underfull \hbox (badness 10000) in paragraph at lines 146--152
 []$\T1/lmtt/m/n/10.95 http : / / www . codeproject . com / Articles / 92812 /
  []
 
@@ -1492,10 +1492,10 @@ Package rerunfilecheck Info: File `xjobb-en.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 11424 strings out of 493488
- 162841 string characters out of 3141326
+ 11423 strings out of 493488
+ 162834 string characters out of 3141326
  300627 words of memory out of 3000000
- 14286 multiletter control sequences out of 15000+200000
+ 14285 multiletter control sequences out of 15000+200000
  80125 words of font info for 56 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  33i,12n,47p,1144b,1260s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1515,7 +1515,7 @@ fb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr
 /local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssdc10.pfb></usr/local/t
 exlive/2012/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/201
 2/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on xjobb-en.pdf (43 pages, 1042397 bytes).
+Output written on xjobb-en.pdf (43 pages, 1042019 bytes).
 PDF statistics:
  744 PDF objects out of 1000 (max. 8388607)
  638 compressed objects within 7 object streams
