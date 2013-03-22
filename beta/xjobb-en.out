@@ -3,41 +3,41 @@
 \BOOKMARK [1][-]{section.1.2}{Goal}{chapter.1}% 3
 \BOOKMARK [1][-]{section.1.3}{About Valtech}{chapter.1}% 4
 \BOOKMARK [0][-]{chapter.2}{Background}{}% 5
-\BOOKMARK [1][-]{section.2.1}{What is automatic grading?}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.1}{What is Automatic Grading?}{chapter.2}% 6
 \BOOKMARK [1][-]{section.2.2}{History}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.3}{Todays systems}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.3}{Todays Systems}{chapter.2}% 8
 \BOOKMARK [0][-]{chapter.3}{Method}{}% 9
 \BOOKMARK [1][-]{section.3.1}{System Description}{chapter.3}% 10
 \BOOKMARK [2][-]{subsection.3.1.1}{The Web GUI}{section.3.1}% 11
-\BOOKMARK [2][-]{subsection.3.1.2}{The code evaluation system}{section.3.1}% 12
-\BOOKMARK [2][-]{subsection.3.1.3}{The status codes}{section.3.1}% 13
-\BOOKMARK [1][-]{section.3.2}{Supported languages}{chapter.3}% 14
+\BOOKMARK [2][-]{subsection.3.1.2}{The Automatic Grading System}{section.3.1}% 12
+\BOOKMARK [2][-]{subsection.3.1.3}{System-User Feedback}{section.3.1}% 13
+\BOOKMARK [1][-]{section.3.2}{Supported Languages}{chapter.3}% 14
 \BOOKMARK [2][-]{subsection.3.2.1}{C\043}{section.3.2}% 15
 \BOOKMARK [2][-]{subsection.3.2.2}{Java}{section.3.2}% 16
 \BOOKMARK [2][-]{subsection.3.2.3}{Python}{section.3.2}% 17
-\BOOKMARK [1][-]{section.3.3}{Difficulties and limitations}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.3}{Difficulties and Limitations}{chapter.3}% 18
 \BOOKMARK [2][-]{subsection.3.3.1}{Security}{section.3.3}% 19
-\BOOKMARK [2][-]{subsection.3.3.2}{IronPython limitations}{section.3.3}% 20
-\BOOKMARK [2][-]{subsection.3.3.3}{White- and black-box testing}{section.3.3}% 21
+\BOOKMARK [2][-]{subsection.3.3.2}{IronPython Limitations}{section.3.3}% 20
+\BOOKMARK [2][-]{subsection.3.3.3}{White- and Black-box Testing}{section.3.3}% 21
 \BOOKMARK [0][-]{chapter.4}{Testing Methodology}{}% 22
-\BOOKMARK [1][-]{section.4.1}{Aspects to tests}{chapter.4}% 23
-\BOOKMARK [2][-]{subsection.4.1.1}{Execution speed}{section.4.1}% 24
-\BOOKMARK [2][-]{subsection.4.1.2}{Memory usage}{section.4.1}% 25
-\BOOKMARK [1][-]{section.4.2}{The chosen tests}{chapter.4}% 26
-\BOOKMARK [2][-]{subsection.4.2.1}{Language overhead}{section.4.2}% 27
+\BOOKMARK [1][-]{section.4.1}{Aspects to Test}{chapter.4}% 23
+\BOOKMARK [2][-]{subsection.4.1.1}{Execution Speed}{section.4.1}% 24
+\BOOKMARK [2][-]{subsection.4.1.2}{Memory Consumption}{section.4.1}% 25
+\BOOKMARK [1][-]{section.4.2}{The Chosen Tests}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.2.1}{Language Overhead}{section.4.2}% 27
 \BOOKMARK [2][-]{subsection.4.2.2}{Common Operators}{section.4.2}% 28
 \BOOKMARK [2][-]{subsection.4.2.3}{Insertion Sort}{section.4.2}% 29
 \BOOKMARK [2][-]{subsection.4.2.4}{Merge Sort}{section.4.2}% 30
 \BOOKMARK [0][-]{chapter.5}{Testing Results}{}% 31
 \BOOKMARK [1][-]{section.5.1}{Testing Systems Specifications}{chapter.5}% 32
-\BOOKMARK [1][-]{section.5.2}{Testing procedure}{chapter.5}% 33
+\BOOKMARK [1][-]{section.5.2}{Testing Procedure}{chapter.5}% 33
 \BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 34
-\BOOKMARK [2][-]{subsection.5.3.1}{Language overhead}{section.5.3}% 35
-\BOOKMARK [2][-]{subsection.5.3.2}{Common operators}{section.5.3}% 36
+\BOOKMARK [2][-]{subsection.5.3.1}{Language Overhead}{section.5.3}% 35
+\BOOKMARK [2][-]{subsection.5.3.2}{Common Operators}{section.5.3}% 36
 \BOOKMARK [2][-]{subsection.5.3.3}{Insertion Sort}{section.5.3}% 37
 \BOOKMARK [2][-]{subsection.5.3.4}{Merge Sort}{section.5.3}% 38
 \BOOKMARK [0][-]{chapter.6}{Discussion}{}% 39
-\BOOKMARK [1][-]{section.6.1}{Reflections on the results}{chapter.6}% 40
+\BOOKMARK [1][-]{section.6.1}{Result Analysis}{chapter.6}% 40
 \BOOKMARK [1][-]{section.6.2}{Conclusion}{chapter.6}% 41
 \BOOKMARK [1][-]{section.6.3}{Future Work}{chapter.6}% 42
 \BOOKMARK [0][-]{section*.3}{Bilagor}{}% 43

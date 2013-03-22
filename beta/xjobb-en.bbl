@@ -36,6 +36,11 @@ Douce C, Livingstone D, and Orwell J.
 \newblock {\em TiCSE '08 Proceedings of the 13th annual conference on
   Innovation and technology in computer science education}, 2008.
 
+\bibitem{GradingScheme}
+Hext J, B and Winings J, W.
+\newblock An automatic grading scheme for simple programming exercises.
+\newblock {\em Communications of the ACM, Volume 12 / Number 5 / May}, 1969.
+
 \bibitem{MicrosoftCSharp}
 {MSDN}.
 \newblock {CSharpCodeProvider}.

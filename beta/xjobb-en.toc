@@ -8,43 +8,43 @@
 \contentsline {section}{\numberline {1.2}Goal}{1}{section.1.2}
 \contentsline {section}{\numberline {1.3}About Valtech}{2}{section.1.3}
 \contentsline {chapter}{\chapternumberline {2}Background}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}What is automatic grading?}{3}{section.2.1}
+\contentsline {section}{\numberline {2.1}What is Automatic Grading?}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}History}{4}{section.2.2}
-\contentsline {section}{\numberline {2.3}Todays systems}{4}{section.2.3}
-\contentsline {chapter}{\chapternumberline {3}Method}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}System Description}{5}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}The Web GUI}{6}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}The code evaluation system}{7}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}The status codes}{8}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Supported languages}{9}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}C\#}{9}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Java}{9}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Python}{9}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Difficulties and limitations}{10}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Security}{10}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}IronPython limitations}{10}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}White- and black-box testing}{11}{subsection.3.3.3}
-\contentsline {chapter}{\chapternumberline {4}Testing Methodology}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}Aspects to tests}{13}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Execution speed}{13}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Memory usage}{13}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}The chosen tests}{14}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Language overhead}{14}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Common Operators}{14}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Insertion Sort}{15}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Merge Sort}{15}{subsection.4.2.4}
-\contentsline {chapter}{\chapternumberline {5}Testing Results}{19}{chapter.5}
-\contentsline {section}{\numberline {5.1}Testing Systems Specifications}{19}{section.5.1}
-\contentsline {section}{\numberline {5.2}Testing procedure}{19}{section.5.2}
-\contentsline {section}{\numberline {5.3}Results}{20}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Language overhead}{20}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Common operators}{20}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Insertion Sort}{20}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Merge Sort}{21}{subsection.5.3.4}
-\contentsline {chapter}{\chapternumberline {6}Discussion}{27}{chapter.6}
-\contentsline {section}{\numberline {6.1}Reflections on the results}{27}{section.6.1}
-\contentsline {section}{\numberline {6.2}Conclusion}{28}{section.6.2}
-\contentsline {section}{\numberline {6.3}Future Work}{28}{section.6.3}
-\contentsline {chapter}{Bilagor}{28}{section*.3}
-\contentsline {chapter}{\chapternumberline {A}RDF}{29}{appendix.A}
-\contentsline {chapter}{Bibliography}{31}{section*.5}
+\contentsline {section}{\numberline {2.3}Todays Systems}{4}{section.2.3}
+\contentsline {chapter}{\chapternumberline {3}Method}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}System Description}{7}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}The Web GUI}{8}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}The Automatic Grading System}{9}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}System-User Feedback}{10}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Supported Languages}{11}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}C\#}{11}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Java}{11}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Python}{11}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Difficulties and Limitations}{12}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Security}{12}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}IronPython Limitations}{12}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}White- and Black-box Testing}{13}{subsection.3.3.3}
+\contentsline {chapter}{\chapternumberline {4}Testing Methodology}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}Aspects to Test}{15}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Execution Speed}{15}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Memory Consumption}{15}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}The Chosen Tests}{16}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Language Overhead}{16}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Common Operators}{16}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Insertion Sort}{17}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Merge Sort}{17}{subsection.4.2.4}
+\contentsline {chapter}{\chapternumberline {5}Testing Results}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}Testing Systems Specifications}{21}{section.5.1}
+\contentsline {section}{\numberline {5.2}Testing Procedure}{21}{section.5.2}
+\contentsline {section}{\numberline {5.3}Results}{22}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Language Overhead}{22}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Common Operators}{22}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Insertion Sort}{22}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Merge Sort}{23}{subsection.5.3.4}
+\contentsline {chapter}{\chapternumberline {6}Discussion}{29}{chapter.6}
+\contentsline {section}{\numberline {6.1}Result Analysis}{29}{section.6.1}
+\contentsline {section}{\numberline {6.2}Conclusion}{30}{section.6.2}
+\contentsline {section}{\numberline {6.3}Future Work}{30}{section.6.3}
+\contentsline {chapter}{Bilagor}{30}{section*.3}
+\contentsline {chapter}{\chapternumberline {A}RDF}{31}{appendix.A}
+\contentsline {chapter}{Bibliography}{33}{section*.5}

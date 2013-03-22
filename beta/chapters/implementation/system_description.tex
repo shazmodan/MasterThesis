@@ -8,7 +8,7 @@ The system was named CELINE, an abbreviation that comes from the descriptive phr
 	\label{fig:SystemOverview}
 \end{figure}
 
-Figure \ref{fig:SystemOverview} describes an overview of the system. The system uses a web based GUI for listing problems and submitting solutions to them. Going through this figure from left to right we can see that a user connects to the website through a web based GUI, which is built using a combination of ASP.NET MVC4 (Razor v2) technology and JavaScript. The system uses Microsoft IIS to enable this web support, which the standard web server software used in .NET. When the user submits code to solve a problem, that submission is saved to a database which is a Microsoft SQL Server 2008 R2 database. The submission is then forwarded to a WCF Service which in turn creates a new instance of the code evaluation system (built using C\#) using the submission as input. It then returns the status code generated from the submission, this is described in section \ref{subsec:status_codes}.
+Figure \ref{fig:SystemOverview} describes an overview of the system. The system uses a web based GUI for listing problems and submitting solutions to them. Going through this figure from left to right we can see that a user connects to the website through a web based GUI, which is built using a combination of ASP.NET MVC4 (Razor v2) technology and JavaScript. The system uses Microsoft IIS to enable this web support, which the standard web server software used in .NET. When the user submits code to solve a problem, that submission is saved to a database which is a Microsoft SQL Server 2008 R2 database. The submission is then forwarded to a WCF Service which in turn creates a new instance of the automatic grading system (built using C\#) using the submission as input. It then returns the status code generated from the submission, this is described in section \ref{subsec:status_codes}.
 
 
 \subsection{The Web GUI}
@@ -60,32 +60,32 @@ Figure \ref{fig:celine_listproblems} shows what happens if you click on ``Proble
 Figure \ref{fig:celine_submissions} shows the page listing all of the current users submissions. The user is sent here after successfully submitting a solution (by filling out all the fields of the Submission page illustrated in Figure \ref{fig:celine_submit}) or by clicking on the button in the top right corner. This page contains information about each of the users submissions. Each line details what problem the user attempted to solve, a timestamp, total runtime, the programming language used and the returned status code. 
 
 
-\subsection{The code evaluation system}
-When a user has submitted his or her code, it eventually reaches the CES. Figure \ref{fig:flowchart} describes the flow of the most common paths for a submission through the system.
+\subsection{The Automatic Grading System}
+When a user has submitted his or her code, it eventually reaches the AGS. Figure \ref{fig:flowchart} describes the flow of the most common paths for a submission through the system.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\linewidth]{chapters/media/flowchart.png}
-	\caption{Common paths of problem flow in the CES.}
+	\caption{Common paths of problem flow in the AGS.}
 	\label{fig:flowchart}
 \end{figure}
 
-Depending on the programming language, a compiler is chosen. The code is then compiled into an assembly file and loaded into a seperate and secure  Application Domain (AppDomain, see section \ref{subsec:security}). The CES then invokes the user specified method with a string containing the test data. The CES waits for the code to complete or for the problem to timeout. It then compares the string returned by this method with another string containing what should be the correct output. If the strings match, the submission is regarded as being a success, otherwise it's regarded as a failure. The CES then returns the appropriate status code. 
+Depending on the programming language, a compiler is chosen. The code is then compiled into an assembly file and loaded into a seperate and secure  Application Domain (AppDomain, see section \ref{subsec:security}). The AGS then invokes the user specified method with a string containing the test data. The AGS waits for the code to complete or for the problem to timeout. It then compares the string returned by this method with another string containing what should be the correct output. If the strings match, the submission is regarded as being a success, otherwise it's regarded as a failure. The AGS then returns the appropriate status code. 
 
 
-\subsection{The status codes} \label{subsec:status_codes}
+\subsection{System-User Feedback} \label{subsec:status_codes}
 The status code is a simple message indicating if the submission was successful or not. This system attempts to be more verbose on errors than other modern systems (described in section \ref{sec:todays_systems}) since it uses grey-box testing which is more prone to submission related errors than black-box testing. The concepts of white- and black-box testing are described more thoroughly in section \ref{subsec:whitebox_blackbox}. The following list are the possible status codes:
 
 \begin{itemize}
 	\item Accepted - The code has compiled, run and gave the correct answer.
 	\item Wrong Answer - The code has compiled and run but gave the wrong answer.
-	\item Server Assembly Error - The CES failed to build an assembly from the codefile, thus making the code unable to run.
+	\item Server Assembly Error - The AGS failed to build an assembly from the codefile, thus making the code unable to run.
 	\item Submission Error - The code tries to reference a code library that isn't available/allowed. 
-	\item Illegal Operation - Occurs if the CES detects a forbidden system call (i.e. accessing files, using the network etc...).
-	\item Class or Function Error - Occurs if the class or method name doesn't correspond to the name provided by the user, thus resulting in the CES being unable to invoke the method.
+	\item Illegal Operation - Occurs if the AGS detects a forbidden system call (i.e. accessing files, using the network etc...).
+	\item Class or Function Error - Occurs if the class or method name doesn't correspond to the name provided by the user, thus resulting in the AGS being unable to invoke the method.
 	\item Time Limit Exceeded - The code ran longer than the limit for this particular problem.
-	\item Rejected - This is a general error, it indicates that the CES has been unable to determine why the submission failed. 
-	\item Server Error - This indicates that the CES instance has crashed.
+	\item Rejected - This is a general error, it indicates that the AGS has been unable to determine why the submission failed. 
+	\item Server Error - This indicates that the AGS instance has crashed.
 \end{itemize}
 
 The status messages ``Server Assembly Error'', ``Submission Error'', ``Illegal operation'' and ``Class or Function Error'' are all related to the user not having submitted code in the correct format. These might be less verbose than one would like (e.g. each submission could have returned exactly where in the code the error occured) however any more verbose feedback would have required an expansion of the scope of this thesis.

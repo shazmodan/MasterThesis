@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: xjobb-en.aux
 The style file: unsrt.bst
 Database file #1: chapters/mybib.bib
-You've used 28 entries,
+You've used 29 entries,
             1791 wiz_defined-function locations,
-            577 strings with 7324 characters,
-and the built_in function-call counts, 3681 in all, are:
-= -- 322
-> -- 111
+            583 strings with 7493 characters,
+and the built_in function-call counts, 3828 in all, are:
+= -- 334
+> -- 119
 < -- 0
-+ -- 55
-- -- 27
-* -- 30
-:= -- 579
-add.period$ -- 101
-call.type$ -- 28
-change.case$ -- 28
++ -- 58
+- -- 29
+* -- 35
+:= -- 606
+add.period$ -- 104
+call.type$ -- 29
+change.case$ -- 29
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 158
-empty$ -- 481
-format.name$ -- 27
-if$ -- 870
+cite$ -- 29
+duplicate$ -- 166
+empty$ -- 495
+format.name$ -- 29
+if$ -- 902
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 6
-newline$ -- 160
-num.names$ -- 23
-pop$ -- 177
+int.to.str$ -- 29
+missing$ -- 7
+newline$ -- 165
+num.names$ -- 24
+pop$ -- 180
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 66
+skip$ -- 70
 stack$ -- 0
 substring$ -- 0
-swap$ -- 28
+swap$ -- 29
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 23
-width$ -- 30
-write$ -- 294
+while$ -- 24
+width$ -- 31
+write$ -- 304
