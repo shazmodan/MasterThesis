@@ -101,6 +101,13 @@ Viehland D.
   \url{http://msdn.microsoft.com/en-us/library/aa720494(v=vs.71).aspx}.
 \newblock \\Accessed 2013-03-04.
 
+\bibitem{StackOverflowException}
+MSDN.
+\newblock {StackOverflowException Class}.
+\newblock \\
+  \url{http://msdn.microsoft.com/en-us/library/system.stackoverflowexception.aspx}.
+\newblock \\Accessed 2013-03-22.
+
 \bibitem{IronPythonPerformance}
 {IronPython}.
 \newblock {Performance Report}.
@@ -140,6 +147,21 @@ Viehland D.
 \newblock {Sorting Algorithms: Merge Sort}.
 \newblock \\ \url{http://www.sorting-algorithms.com/merge-sort}.
 \newblock \\Accessed 2013-03-04.
+
+\bibitem{PythonSum}
+{Python 2.7.3 Documentation: Sum Function}.
+\newblock \\ \url{http://docs.python.org/2/library/functions.html#sum}.
+\newblock \\Accessed 2013-03-22.
+
+\bibitem{PythonReduce}
+{Python 2.7.3 Documentation: Reduce Function}.
+\newblock \\ \url{http://docs.python.org/2/library/functions.html#reduce}.
+\newblock \\Accessed 2013-03-22.
+
+\bibitem{PythonSort}
+{Python 2.7.3 Documentation: List Functions}.
+\newblock \\ \url{http://docs.python.org/2/tutorial/datastructures.html}.
+\newblock \\Accessed 2013-03-22.
 
 \bibitem{Benchmark}
 {Brent Fulgham}.

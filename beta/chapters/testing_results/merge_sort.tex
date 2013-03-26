@@ -28,7 +28,7 @@ C\# still outperforms Java when run in the .NET environment. But the gap between
 	\label{fig:tim_sort}
 \end{figure}
 
-Figure \ref{fig:tim_sort} illustrates the performance gained from using the built-in Python sorting function Tim Sort. 
+Figure \ref{fig:tim_sort} illustrates the performance gained from using the built-in Python sorting function Tim Sort natively. 
 
 
 
@@ -40,7 +40,7 @@ Figure \ref{fig:tim_sort} illustrates the performance gained from using the buil
 \end{figure}
 
 
-Figure \ref{fig:merge_sort_memory_all} illustrates 100 runs with one million elements of the Mergesort algorithm with each language run in .NET (all Python runs are not visible). It would appear that since the algorithm runs on the same input each run, one would expect it to be a much more even data plot. But due to restrictions in the Microsoft Performance Monitor it could only take one sample every second, and since C\# and Java ran faster than that, the plot is uneven. Therefore it is important to only consider the peak for each language. Several more runs were made in order to reduce the risk of data collection error, Figure \ref{fig:merge_sort_memory_all} is just an example run with all languages present to illustrate their differences (see Figure \ref{fig:merge_sort_memory} for  maximum values). The red line is the number of times the garbage collector was induced, note that Java forces this induction every other run.
+Figure \ref{fig:merge_sort_memory_all} illustrates 100 runs with one million elements of the Merge Sort algorithm with each language run in .NET (all Python runs are not visible). It would appear that since the algorithm runs on the same input each run, one would expect a pattern to emerge. But due to restrictions in the Microsoft Performance Monitor it could only take one sample every second, and since C\# and Java ran faster than that, the plot is uneven. Therefore it is important to only consider the peak for each language. Several more runs were made in order to reduce the risk of data collection error, Figure \ref{fig:merge_sort_memory_all} is just an example run with all languages present to illustrate their differences (see Figure \ref{fig:merge_sort_memory} for  maximum values). The red line is the number of times the garbage collector was induced, note that Java forces this induction every other run.
 
 
 \begin{figure}[h]
