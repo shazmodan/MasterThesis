@@ -1,12 +1,12 @@
 \section{Aspects to Test}
-There are several ways to evaluate code. Code can be evaluated on its structure, understandability, execution speed, memory usage and others. Execution speed and memory usage are of particular interest since they are free of any human opinion. Since we do not yet have infinite time or memory these two aspects can be considered scarce resources and should ideally be fully optimized.
+There are several ways to evaluate code. Code can be evaluated on its structure, understandability, execution speed, memory usage and others. Execution speed and memory usage are of interest since they are free of any human opinion. Since infinite time or memory does not yet exist, these two aspects can be considered scarce resources and should ideally be fully optimized.
 
 
 \subsection{Execution Speed}
-The primary objective of the code should be to execute quickly. In general, the faster any code executes the more efficient the implementation. Apart from saving time this priority enables the users to compete amongst each other (using leaderboards on the website), for the shortest execution time by writing the most efficient code. 
+The primary objective of the code should be to execute quickly. In general, the faster any code executes the more efficient the implementation is. Apart from saving time this priority enables users to compete amongst each other (using leaderboards on the website), for the shortest execution time by writing the most efficient code. 
 The time is measured using the .NET Stopwatch class \cite{Stopwatch} which starts from the point of executing the thread which invokes the submissions entry method and ends when the thread ends, either by returning an answer or timing out. 
 
 
 \subsection{Memory Consumption}
 The secondary objective is memory consumption. Every problem has the option to restrict memory consumption. This will allow administrators of the system to create problems in which the goal could be to force users to make a trade-off between speed and memory, illustrating real life situations such as optimizing code in order to avoid the unnecessary cost of purchasing more memory.
-The tool used to measure the memory consumption (and more) is the Windows Performance Monitor. This tool allows for tracking of specific Windows processes, and more specifically, tracking of individual resources contained in the .NET CLR.
+The tool used to measure the memory consumption (and more) is the Windows Performance Monitor. This tool allows for tracking of Windows processes, and more specifically, tracking of individual resources contained in the .NET CLR.

@@ -136,6 +136,12 @@ MSDN.
   \url{http://msdn.microsoft.com/en-us/library/system.diagnostics.stopwatch.aspx}.
 \newblock \\Accessed 2013-03-04.
 
+\bibitem{BigO}
+Goodrich M~T and Tamassia R.
+\newblock {\em Algorithm Design: Foundations, Analysis and Internet Examples},
+  pages 13--16.
+\newblock John Wiley {\&} Sons, Inc., 2002.
+
 \bibitem{Insertionsort}
 {D, R Martin}.
 \newblock {Sorting Algorithms: Insertion Sort}.
