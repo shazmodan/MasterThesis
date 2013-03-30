@@ -56,5 +56,4 @@
 \contentsline {subsection}{\numberline {A.2.5}Modulo}{35}{subsection.A.2.5}
 \contentsline {section}{\numberline {A.3}Insertion Sort}{36}{section.A.3}
 \contentsline {section}{\numberline {A.4}Merge Sort}{37}{section.A.4}
-\contentsline {chapter}{\chapternumberline {B}RDF}{43}{appendix.B}
-\contentsline {chapter}{Bibliography}{45}{section*.5}
+\contentsline {chapter}{Bibliography}{43}{section*.5}

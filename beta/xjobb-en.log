@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  30 MAR 2013 17:42
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  30 MAR 2013 17:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1009,7 +1009,7 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 51.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<kth_svv_comp_science_comm.pdf, id=225, 410.53375pt x 468.75125pt>
+<kth_svv_comp_science_comm.pdf, id=221, 410.53375pt x 468.75125pt>
 File: kth_svv_comp_science_comm.pdf Graphic file (type pdf)
 
 <use kth_svv_comp_science_comm.pdf>
@@ -1123,14 +1123,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [5] [6
 
 ] (./chapters/implementation/system_description.tex
-<chapters/media/overview.png, id=374, 875.27pt x 411.5375pt>
+<chapters/media/overview.png, id=369, 875.27pt x 411.5375pt>
 File: chapters/media/overview.png Graphic file (type png)
 
 <use chapters/media/overview.png>
 Package pdftex.def Info: chapters/media/overview.png used on input line 6.
 (pdftex.def)             Requested size: 356.39758pt x 167.56975pt.
  [7 <./chapters/media/overview.png>]
-<chapters/media/celine_startpage.png, id=384, 1114.1625pt x 663.47874pt>
+<chapters/media/celine_startpage.png, id=379, 1114.1625pt x 663.47874pt>
 File: chapters/media/celine_startpage.png Graphic file (type png)
 
 <use chapters/media/celine_startpage.png>
@@ -1138,7 +1138,7 @@ Package pdftex.def Info: chapters/media/celine_startpage.png used on input line
  19.
 (pdftex.def)             Requested size: 297.0pt x 176.85365pt.
 
-<chapters/media/celine_listproblems.png, id=386, 800.23969pt x 594.72188pt>
+<chapters/media/celine_listproblems.png, id=381, 800.23969pt x 594.72188pt>
 File: chapters/media/celine_listproblems.png Graphic file (type png)
 
 <use chapters/media/celine_listproblems.png>
@@ -1146,7 +1146,7 @@ Package pdftex.def Info: chapters/media/celine_listproblems.png used on input l
 ine 37.
 (pdftex.def)             Requested size: 190.07831pt x 141.25699pt.
 
-<chapters/media/celine_easysort.png, id=388, 1022.82124pt x 792.9625pt>
+<chapters/media/celine_easysort.png, id=383, 1022.82124pt x 792.9625pt>
 File: chapters/media/celine_easysort.png Graphic file (type png)
 
 <use chapters/media/celine_easysort.png>
@@ -1161,7 +1161,7 @@ Overfull \hbox (9.70657pt too wide) in paragraph at lines 37--38
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapters/media/celine_submit.png, id=393, 1038.88126pt x 917.4275pt>
+<chapters/media/celine_submit.png, id=388, 1038.88126pt x 917.4275pt>
 File: chapters/media/celine_submit.png Graphic file (type png)
 
 <use chapters/media/celine_submit.png>
@@ -1169,7 +1169,7 @@ Package pdftex.def Info: chapters/media/celine_submit.png used on input line 55
 .
 (pdftex.def)             Requested size: 190.07831pt x 167.8456pt.
 
-<chapters/media/celine_submissions.png, id=394, 785.18344pt x 701.62125pt>
+<chapters/media/celine_submissions.png, id=389, 785.18344pt x 701.62125pt>
 File: chapters/media/celine_submissions.png Graphic file (type png)
 
 <use chapters/media/celine_submissions.png>
@@ -1185,7 +1185,7 @@ Overfull \hbox (9.70657pt too wide) in paragraph at lines 55--56
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8 <./chapters/media/celine_startpage.png>]
-<chapters/media/flowchart.png, id=406, 583.17876pt x 439.6425pt>
+<chapters/media/flowchart.png, id=401, 583.17876pt x 439.6425pt>
 File: chapters/media/flowchart.png Graphic file (type png)
 
 <use chapters/media/flowchart.png>
@@ -1220,7 +1220,7 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 ) [16]
-<chapters/media/mergesort4.png, id=510, 898.35625pt x 1187.43625pt>
+<chapters/media/mergesort4.png, id=505, 898.35625pt x 1187.43625pt>
 File: chapters/media/mergesort4.png Graphic file (type png)
 
 <use chapters/media/mergesort4.png>
@@ -1245,14 +1245,14 @@ Overfull \hbox (10.6858pt too wide) in paragraph at lines 6--29
 (./chapters/testing_results/results.tex
 (./chapters/testing_results/language_overhead.tex)
 (./chapters/testing_results/common_operators.tex
-<chapters/media/addition.png, id=546, 362.7954pt x 218.2554pt>
+<chapters/media/addition.png, id=541, 362.7954pt x 218.2554pt>
 File: chapters/media/addition.png Graphic file (type png)
 
 <use chapters/media/addition.png>
 Package pdftex.def Info: chapters/media/addition.png used on input line 14.
 (pdftex.def)             Requested size: 190.07831pt x 114.35266pt.
 
-<chapters/media/subtraction.png, id=547, 362.3136pt x 218.2554pt>
+<chapters/media/subtraction.png, id=542, 362.3136pt x 218.2554pt>
 File: chapters/media/subtraction.png Graphic file (type png)
 
 <use chapters/media/subtraction.png>
@@ -1266,7 +1266,7 @@ Overfull \hbox (9.70657pt too wide) in paragraph at lines 14--15
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapters/media/multiplication.png, id=548, 362.7954pt x 217.7736pt>
+<chapters/media/multiplication.png, id=543, 362.7954pt x 217.7736pt>
 File: chapters/media/multiplication.png Graphic file (type png)
 
 <use chapters/media/multiplication.png>
@@ -1274,7 +1274,7 @@ Package pdftex.def Info: chapters/media/multiplication.png used on input line 3
 0.
 (pdftex.def)             Requested size: 190.07831pt x 114.10023pt.
 
-<chapters/media/division.png, id=549, 362.7954pt x 218.2554pt>
+<chapters/media/division.png, id=544, 362.7954pt x 218.2554pt>
 File: chapters/media/division.png Graphic file (type png)
 
 <use chapters/media/division.png>
@@ -1288,7 +1288,7 @@ Overfull \hbox (9.70657pt too wide) in paragraph at lines 30--31
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapters/media/modulo.png, id=550, 362.7954pt x 217.7736pt>
+<chapters/media/modulo.png, id=545, 362.7954pt x 217.7736pt>
 File: chapters/media/modulo.png Graphic file (type png)
 
 <use chapters/media/modulo.png>
@@ -1299,7 +1299,7 @@ Package pdftex.def Info: chapters/media/modulo.png used on input line 37.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./chapters/testing_results/insertion_sort.tex
-<chapters/media/insertion_sort_all_net.png, id=554, 362.3136pt x 218.2554pt>
+<chapters/media/insertion_sort_all_net.png, id=549, 362.3136pt x 218.2554pt>
 File: chapters/media/insertion_sort_all_net.png Graphic file (type png)
 
 <use chapters/media/insertion_sort_all_net.png>
@@ -1307,7 +1307,7 @@ Package pdftex.def Info: chapters/media/insertion_sort_all_net.png used on inpu
 t line 16.
 (pdftex.def)             Requested size: 190.07831pt x 114.4992pt.
 
-<chapters/media/insertion_sort_all_native.png, id=555, 362.7954pt x 218.2554pt>
+<chapters/media/insertion_sort_all_native.png, id=550, 362.7954pt x 218.2554pt>
 File: chapters/media/insertion_sort_all_native.png Graphic file (type png)
 <use chapters/media/insertion_sort_all_native.png>
 Package pdftex.def Info: chapters/media/insertion_sort_all_native.png used on i
@@ -1322,7 +1322,7 @@ Overfull \hbox (9.70657pt too wide) in paragraph at lines 16--17
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<chapters/media/insertion_sort_csharp_java.png, id=559, 362.3136pt x 218.2554pt
+<chapters/media/insertion_sort_csharp_java.png, id=554, 362.3136pt x 218.2554pt
 >
 File: chapters/media/insertion_sort_csharp_java.png Graphic file (type png)
  <use chapters/media/insertion_sort_csharp_java.png>
@@ -1330,7 +1330,7 @@ Package pdftex.def Info: chapters/media/insertion_sort_csharp_java.png used on
 input line 34.
 (pdftex.def)             Requested size: 190.07831pt x 114.4992pt.
 
-<chapters/media/insertion_sort_python.png, id=560, 362.7954pt x 218.2554pt>
+<chapters/media/insertion_sort_python.png, id=555, 362.7954pt x 218.2554pt>
 File: chapters/media/insertion_sort_python.png Graphic file (type png)
 
 <use chapters/media/insertion_sort_python.png>
@@ -1346,7 +1346,7 @@ Overfull \hbox (9.70657pt too wide) in paragraph at lines 34--35
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapters/media/insertion_sort_memory.png, id=569, 362.3136pt x 218.2554pt>
+<chapters/media/insertion_sort_memory.png, id=564, 362.3136pt x 218.2554pt>
 File: chapters/media/insertion_sort_memory.png Graphic file (type png)
 
 <use chapters/media/insertion_sort_memory.png>
@@ -1358,7 +1358,7 @@ Package pdftex.def Info: chapters/media/insertion_sort_memory.png used on input
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./chapters/testing_results/merge_sort.tex
-<chapters/media/merge_sort_all_net.png, id=571, 438.438pt x 270.2898pt>
+<chapters/media/merge_sort_all_net.png, id=566, 438.438pt x 270.2898pt>
 File: chapters/media/merge_sort_all_net.png Graphic file (type png)
 
 <use chapters/media/merge_sort_all_net.png>
@@ -1366,7 +1366,7 @@ Package pdftex.def Info: chapters/media/merge_sort_all_net.png used on input li
 ne 14.
 (pdftex.def)             Requested size: 190.07831pt x 117.1833pt.
 
-<chapters/media/merge_sort_all_native.png, id=572, 437.9562pt x 269.3262pt>
+<chapters/media/merge_sort_all_native.png, id=567, 437.9562pt x 269.3262pt>
 File: chapters/media/merge_sort_all_native.png Graphic file (type png)
 
 <use chapters/media/merge_sort_all_native.png>
@@ -1381,7 +1381,7 @@ Overfull \hbox (9.70657pt too wide) in paragraph at lines 14--15
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapters/media/tim_sort.png, id=575, 362.3136pt x 217.7736pt>
+<chapters/media/tim_sort.png, id=570, 362.3136pt x 217.7736pt>
 File: chapters/media/tim_sort.png Graphic file (type png)
 
 <use chapters/media/tim_sort.png>
@@ -1392,7 +1392,7 @@ Package pdftex.def Info: chapters/media/tim_sort.png used on input line 26.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<chapters/media/mergesort_memory_1mil_all.png, id=577, 1035.87pt x 426.59375pt>
+<chapters/media/mergesort_memory_1mil_all.png, id=572, 1035.87pt x 426.59375pt>
 File: chapters/media/mergesort_memory_1mil_all.png Graphic file (type png)
 <use chapters/media/mergesort_memory_1mil_all.png>
 Package pdftex.def Info: chapters/media/mergesort_memory_1mil_all.png used on i
@@ -1404,7 +1404,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [23 <./chapters/media/addition.png> <./chapters/media/subtraction.png> <./chapt
 ers/media/multiplication.png> <./chapters/media/division.png>]
-<chapters/media/merge_sort_memory.png, id=603, 508.7808pt x 314.1336pt>
+<chapters/media/merge_sort_memory.png, id=598, 508.7808pt x 314.1336pt>
 File: chapters/media/merge_sort_memory.png Graphic file (type png)
 
 <use chapters/media/merge_sort_memory.png>
@@ -1442,9 +1442,7 @@ Underfull \vbox (badness 5050) has occurred while \output is active []
 Underfull \vbox (badness 5050) has occurred while \output is active []
 
  [40]))
-[41] [42
-
-] (./xjobb-en.bbl [43] [44
+(./xjobb-en.bbl [41] [42
 
 ]
 bibitemlist
@@ -1460,7 +1458,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--57
 ystem . codedom . compiler .
  []
 
-[45]
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 66--71
 []$\T1/lmtt/m/n/10.95 http : / / www . oracle . com / technetwork / java / java
 se / overview / index .
@@ -1496,29 +1494,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--138
 ystem . diagnostics .
  []
 
-[46]
+[44]
 Underfull \hbox (badness 10000) in paragraph at lines 179--185
 []$\T1/lmtt/m/n/10.95 http : / / www . codeproject . com / Articles / 92812 /
  []
 
-[47]) [48]
+[45]) [46]
 \tf@toc=\write5
 \openout5 = `xjobb-en.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
  (./xjobb-en.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `xjobb-en.out' has not changed.
-(rerunfilecheck)             Checksum: FFF3A45E24DACDEFC0FAC36CB3107BDC;3391.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
+(rerunfilecheck)             Checksum: C950662FF3C70C28810535D9876CAF90;3351.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  ) 
 Here is how much of TeX's memory you used:
- 12139 strings out of 493488
- 173781 string characters out of 3141326
- 609368 words of memory out of 3000000
- 14406 multiletter control sequences out of 15000+200000
+ 12132 strings out of 493488
+ 173722 string characters out of 3141326
+ 609261 words of memory out of 3000000
+ 14403 multiletter control sequences out of 15000+200000
  83810 words of font info for 59 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  32i,12n,43p,1232b,1811s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1540,10 +1538,10 @@ exlive/2012/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/201
 2/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2012/texmf-dis
 t/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
 pe1/public/lm/lmtt8.pfb>
-Output written on xjobb-en.pdf (58 pages, 1125840 bytes).
+Output written on xjobb-en.pdf (56 pages, 1124685 bytes).
 PDF statistics:
- 1554 PDF objects out of 1728 (max. 8388607)
- 1423 compressed objects within 15 object streams
- 736 named destinations out of 1000 (max. 500000)
- 561 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1538 PDF objects out of 1728 (max. 8388607)
+ 1409 compressed objects within 15 object streams
+ 732 named destinations out of 1000 (max. 500000)
+ 553 words of extra memory for PDF output out of 10000 (max. 10000000)
 
