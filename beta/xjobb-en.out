@@ -41,5 +41,15 @@
 \BOOKMARK [1][-]{section.6.2}{Conclusion}{chapter.6}% 41
 \BOOKMARK [1][-]{section.6.3}{Future Work}{chapter.6}% 42
 \BOOKMARK [0][-]{section*.3}{Bilagor}{}% 43
-\BOOKMARK [0][-]{appendix.A}{RDF}{}% 44
-\BOOKMARK [0][-]{section*.5}{Bibliography}{}% 45
+\BOOKMARK [0][-]{appendix.A}{Code}{}% 44
+\BOOKMARK [1][-]{section.A.1}{Language Overhead}{appendix.A}% 45
+\BOOKMARK [1][-]{section.A.2}{Common Operators}{appendix.A}% 46
+\BOOKMARK [2][-]{subsection.A.2.1}{Addition}{section.A.2}% 47
+\BOOKMARK [2][-]{subsection.A.2.2}{Subtraction}{section.A.2}% 48
+\BOOKMARK [2][-]{subsection.A.2.3}{Multiplication}{section.A.2}% 49
+\BOOKMARK [2][-]{subsection.A.2.4}{Division}{section.A.2}% 50
+\BOOKMARK [2][-]{subsection.A.2.5}{Modulo}{section.A.2}% 51
+\BOOKMARK [1][-]{section.A.3}{Insertion Sort}{appendix.A}% 52
+\BOOKMARK [1][-]{section.A.4}{Merge Sort}{appendix.A}% 53
+\BOOKMARK [0][-]{appendix.B}{RDF}{}% 54
+\BOOKMARK [0][-]{section*.5}{Bibliography}{}% 55

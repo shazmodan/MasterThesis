@@ -13,10 +13,30 @@
 %\usepackage{url}
 \usepackage{hyperref}
 
+
 %C# Code specific things
 \usepackage{listings}
 \usepackage{xcolor}
 \lstdefinestyle{sharpc}{language=[Sharp]C, frame=lr, rulecolor=\color{blue!80!black}}
+\lstdefinestyle{java}{language=Java, frame=lr, rulecolor=\color{red!80!black}}
+\lstdefinestyle{python}{language=Python, frame=lr, rulecolor=\color{green!80!black}}
+\lstset{
+    language=java,
+    basicstyle=\scriptsize,
+    upquote=true,
+    aboveskip={1.5\baselineskip},
+    columns=fullflexible,
+    showstringspaces=false,
+    extendedchars=true,
+    breaklines=true,
+    showtabs=false,
+    showspaces=false,
+    showstringspaces=false,
+    identifierstyle=\ttfamily,
+    keywordstyle=\color[rgb]{0,0,1},
+    commentstyle=\color[rgb]{0.133,0.545,0.133},
+    stringstyle=\color[rgb]{0.627,0.126,0.941},
+}
 
 
 
@@ -65,6 +85,10 @@
 
 \appendix
 \addappheadtotoc
+
+\input{chapters/appendix/appendixA}
+
+
 \chapter{RDF}\label{appA}
 
 \begin{figure}[ht]

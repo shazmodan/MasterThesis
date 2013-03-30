@@ -1,0 +1,117 @@
+\section{Insertion Sort}
+
+%\begin{figure}[h]
+	\lstset{style=sharpc}
+	\begin{lstlisting}
+using System;
+using System.Text;
+
+public class CSharpInsertionSort
+{
+	public String Sort(String input)
+	{
+		// Organize input.
+		String[] splitted = input.Split(' ');
+		int[] array = new int[splitted.Length];
+		for (int i = 0; i < splitted.Length; i++)
+		{
+			array[i] = int.Parse(splitted[i]);
+		}
+
+		// Start insertion sort.
+		for (int i = 1; i < array.Length; i++)
+		{
+			int a = array[i];
+			int j;
+			for (j = i - 1; j >= 0 && array[j] > a; j--)
+			{
+				array[j + 1] = array[j];
+			}
+			array[j + 1] = a;
+		}
+
+		// Prepare output.
+		StringBuilder builder = new StringBuilder();
+		for (int i = 0; i < array.Length; i++)
+		{
+			builder.Append(array[i] + " ");
+		}
+		return builder.ToString().TrimEnd();
+	}
+	
+	public static void Main(String [] args){}
+}
+
+	\end{lstlisting}
+	%\caption{To get the other tests simply replace the operator.}
+	%\label{fig:language_overhead}
+%\end{figure}
+
+%\begin{figure}[h]
+	\lstset{style=java}
+	\begin{lstlisting}
+
+public class JavaInsertionSort {
+	public String Sort (String input) {
+		
+		// Organize input. 
+		String [] splitted = input.split(" ");
+		int [] A = new int[splitted.length];
+		for(int i = 0; i < splitted.length; i++){
+			A[i] = Integer.parseInt(splitted[i]);
+		}
+		
+		// Start insertion sort.
+	    for (int i = 1; i < A.length; i++) {
+	      int a = A[i];
+	      int j;
+	      for (j = i - 1; j >=0 && A[j] > a; j--){
+	        A[j + 1] = A[j];
+	      }
+	      A[j + 1] = a;
+	    }
+	    
+	    // Prepare output.
+	    StringBuffer buffy = new StringBuffer();
+	    for(int i = 0; i < A.length; i++){
+	    	buffy.append(A[i] + " ");
+	    }
+	    return buffy.toString().trim();
+	}
+	
+	public static void main(String[] args){
+	}
+}
+
+	\end{lstlisting}
+	%\caption{C\# code for language overhead testing.}
+	%\label{fig:language_overhead}
+%\end{figure}
+
+%\begin{figure}[h]
+	\lstset{style=python}
+	\begin{lstlisting}
+import sys
+class PythonInsertionSort:
+    def Sort(self, s):
+
+        # Organise input
+        s = s.split(" ")
+        s = list(map(int, s))
+        
+        # Start insertion sort
+        for i in range(1, len(s)):
+            val = s[i]
+            j = i - 1
+            while (j >= 0) and (s[j] > val):
+                s[j+1] = s[j]
+                j = j - 1
+            s[j+1] = val
+
+        s = map(str, s)
+        s = " ".join(s)
+        return s
+	\end{lstlisting}
+	%\caption{C\# code for language overhead testing.}
+	%\label{fig:language_overhead}
+%\end{figure}

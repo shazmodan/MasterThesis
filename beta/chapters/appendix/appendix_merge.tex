@@ -1,0 +1,231 @@
+\section{Merge Sort}
+
+%\begin{figure}[h]
+	\lstset{style=sharpc}
+	\begin{lstlisting}
+using System;
+using System.Text;
+
+public class CSharpMergeSort
+{
+	public static int[] Sort(int [] array)
+	{
+		if (array.Length > 1)
+		{
+			int elementsInA1 = array.Length / 2;
+			int elementsInA2 = array.Length - elementsInA1;
+			int[] arr1 = new int[elementsInA1];
+			int[] arr2 = new int[elementsInA2];
+
+			for (int y = 0; y < elementsInA1; y++)
+			{
+				arr1[y] = array[y];
+			}
+
+
+			for (int x = elementsInA1; x < elementsInA1 + elementsInA2; x++)
+			{
+				arr2[x - elementsInA1] = array[x];
+			}
+
+
+			arr1 = Sort(arr1);
+			arr2 = Sort(arr2);
+
+			int i = 0, j = 0, k = 0;
+
+			while (arr1.Length != j && arr2.Length != k)
+			{
+				if (arr1[j] <= arr2[k])
+				{
+					array[i] = arr1[j];
+					i++;
+					j++;
+				}
+				else
+				{
+					array[i] = arr2[k];
+					i++;
+					k++;
+				}
+			}
+
+			while (arr1.Length != j)
+			{
+				array[i] = arr1[j];
+				i++;
+				j++;
+			}
+			while (arr2.Length != k)
+			{
+				array[i] = arr2[k];
+				i++;
+				k++;
+			}
+		}
+		return array;
+	}
+
+	public static String HandleInputOutput(String input)
+	{
+		// Organize input.
+		String[] splitted = input.Split(' ');
+		int[] array = new int[splitted.Length];
+		for (int i = 0; i < splitted.Length; i++)
+		{
+			array[i] = int.Parse(splitted[i]);
+		}
+
+
+		// Sort the array (using mergesort)
+		array = Sort(array);
+
+		
+		// Prepare output.
+		StringBuilder builder = new StringBuilder();
+		for (int i = 0; i < array.Length; i++)
+		{
+			builder.Append(array[i] + " ");
+		}
+		return builder.ToString().TrimEnd();
+	}
+	
+	public static void Main(String [] args){}
+}
+
+	\end{lstlisting}
+	%\caption{To get the other tests simply replace the operator.}
+	%\label{fig:language_overhead}
+%\end{figure}
+
+%\begin{figure}[h]
+	\lstset{style=java}
+	\begin{lstlisting}
+
+public class JavaMergeSort{
+	
+	public int[] Sort(int array[])  {
+		if(array.length > 1)  	{
+			int elementsInA1 = array.length/2;
+			int elementsInA2 = array.length - elementsInA1;
+			int arr1[] = new int[elementsInA1];
+			int arr2[] = new int[elementsInA2];
+
+			for(int i = 0; i < elementsInA1; i++)
+				arr1[i] = array[i];
+
+			for(int i = elementsInA1; i < elementsInA1 + elementsInA2; i++)
+				arr2[i - elementsInA1] = array[i];
+
+			arr1 = Sort(arr1);
+			arr2 = Sort(arr2);
+
+			int i = 0, j = 0, k = 0;
+
+			while(arr1.length != j && arr2.length != k) {
+				if(arr1[j] <= arr2[k]) {
+					array[i] = arr1[j];
+					i++;
+					j++;
+				} else {
+					array[i] = arr2[k];
+					i++;
+					k++;
+				}
+			}
+
+			while(arr1.length != j) {
+				array[i] = arr1[j];
+				i++;
+				j++;
+			}
+			while(arr2.length != k) {
+				array[i] = arr2[k];
+				i++;
+				k++;
+			}
+		}
+		return array;
+	}
+
+	public String HandleInputOutput(String input){
+
+		// Organize input. 
+		String [] splitted = input.split(" ");
+		int [] A = new int[splitted.length];
+		for(int i = 0; i < splitted.length; i++){
+			A[i] = Integer.parseInt(splitted[i]);
+		}
+
+		// Start merge sort.
+		A = Sort(A);
+
+		// Prepare output.
+		StringBuffer buffy = new StringBuffer();
+		for(int i = 0; i < A.length; i++){
+			buffy.append(A[i] + " ");
+		}
+		return buffy.toString().trim();
+	}
+	
+	public static void main(String[] args){}
+}
+
+	\end{lstlisting}
+	%\caption{C\# code for language overhead testing.}
+	%\label{fig:language_overhead}
+%\end{figure}
+
+%\begin{figure}[h]
+	\lstset{style=python}
+	\begin{lstlisting}
+import sys
+import time
+import array
+
+class PythonMergeSort:
+	def Sort(self, arr):
+		if len(arr) == 1:
+			return arr
+		
+		m = len(arr) // 2
+		l = self.Sort(arr[:m])
+		r = self.Sort(arr[m:])
+
+		if not len(l) or not len(r):
+			return l or r
+			
+		result = []
+		i = j = 0
+		while (len(result) < len(r)+len(l)):        
+			if l[i] < r[j]:
+				result.append(l[i])
+				i += 1
+			else:
+				result.append(r[j])
+				j += 1            
+			if i == len(l) or j == len(r):            
+				result.extend(l[i:] or r[j:])
+				break
+			
+		return result
+	
+	def HandleInputOutput(self, input):
+		# Organise input.
+		input = input.split(" ")
+		array = list(map(int, input))
+		
+		# Start merge sort.
+		derp = MergeSort()
+		array = derp.Sort(array)
+
+		# Prepare output.
+		array = map(str, array)
+		returnString = " ".join(array)
+
+		return returnString
+
+	\end{lstlisting}
+	%\caption{C\# code for language overhead testing.}
+	%\label{fig:language_overhead}
+%\end{figure}

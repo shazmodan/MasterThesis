@@ -1,0 +1,358 @@
+\section{Common Operators}
+
+\subsection{Addition}
+
+%\begin{figure}[h]
+	\lstset{style=sharpc}
+	\begin{lstlisting}
+using System;
+
+public class AdditionTest
+{
+    //int.parse() is faster than convert.ToInt32() since it performs an additional null check.
+    public string AddNumbers(string input)
+    {
+        int sum = 0;
+        
+        string[] splitted = input.Split(' ');
+        for (var i = 0; i < splitted.Length; i++)
+        {
+            sum += Int32.Parse(splitted[i]);
+        }
+        return sum.ToString();
+    }
+
+    public static void Main(){}
+}
+
+	\end{lstlisting}
+	%\caption{To get the other tests simply replace the operator.}
+	%\label{fig:language_overhead}
+%\end{figure}
+
+%\begin{figure}[h]
+	\lstset{style=java}
+	\begin{lstlisting}
+
+public class AdditionTest {
+	
+	public String AddNumbers(String input){
+		int sum = 0;
+		String [] splitted = input.split(" ");
+		
+		for(int i = 0; i < splitted.length; i++){
+			sum += Integer.parseInt(splitted[i]);
+		}
+		
+		return "" + sum;
+	}
+	
+	public static void main(String[] args){}	 
+}
+
+	\end{lstlisting}
+	%\caption{C\# code for language overhead testing.}
+	%\label{fig:language_overhead}
+%\end{figure}
+
+%\begin{figure}[h]
+	\lstset{style=python}
+	\begin{lstlisting}
+import sys
+class AdditionTest:
+    def AddNumbers(self, input):
+        input = input.split(" ")
+        array = list(map(int, input))
+        total = sum(array)
+        return str(total)
+	\end{lstlisting}
+	%\caption{C\# code for language overhead testing.}
+	%\label{fig:language_overhead}
+%\end{figure}
+
+
+
+\subsection{Subtraction}
+
+
+%\begin{figure}[h]
+	\lstset{style=sharpc}
+	\begin{lstlisting}
+using System;
+public class SubtractionTest
+{
+    //int.parse() is faster than convert.ToInt32() since it performs an additional null check.
+    public string SubtractNumbers(string input)
+    {
+        int sum = 0;
+
+        string[] splitted = input.Split(' ');
+        for (var i = 0; i < splitted.Length; i++)
+        {
+            sum -= Int32.Parse(splitted[i]);
+        }
+        return sum.ToString();
+    }
+	
+	public static void Main(){}
+}
+	\end{lstlisting}
+	%\caption{To get the other tests simply replace the operator.}
+	%\label{fig:language_overhead}
+%\end{figure}
+
+%\begin{figure}[h]
+	\lstset{style=java}
+	\begin{lstlisting}
+public class SubtractionTest {
+	
+	public String SubtractNumbers(String input){
+		int sum = 0;
+		String [] splitted = input.split(" ");
+		
+		for(int i = 0; i < splitted.length; i++){
+			sum -= Integer.parseInt(splitted[i]);
+		}
+		
+		return "" + sum;
+	}
+	
+	public static void main(String[] args){}
+}
+	\end{lstlisting}
+	%\caption{C\# code for language overhead testing.}
+	%\label{fig:language_overhead}
+%\end{figure}
+
+
+%\begin{figure}[h]
+	\lstset{style=python}
+	\begin{lstlisting}
+import operator
+class SubtractionTest:
+    def SubtractNumbers(self, input):
+        input = input.split(" ")
+        array = list(map(int, input))
+        total = reduce(operator.sub, array, 1)
+        return str(total)
+	\end{lstlisting}
+	%\caption{C\# code for language overhead testing.}
+	%\label{fig:language_overhead}
+%\end{figure}
+
+
+\subsection{Multiplication}
+
+
+%\begin{figure}[h]
+	\lstset{style=sharpc}
+	\begin{lstlisting}
+using System;
+public class MultiplicationTest
+{
+    //int.parse() is faster than convert.ToInt32() since it performs an additional null check.
+
+    public string MultiplyNumbers(string input)
+    {
+        int sum = 1; //multiplication starts at 1, not 0.
+
+        string[] splitted = input.Split(' ');
+        for (var i = 0; i < splitted.Length; i++)
+        {
+            sum *= Int32.Parse(splitted[i]);
+        }
+        return sum.ToString();
+    }
+	
+	public static void Main(String[] args){}
+
+}
+	\end{lstlisting}
+	%\caption{To get the other tests simply replace the operator.}
+	%\label{fig:language_overhead}
+%\end{figure}
+
+%\begin{figure}[h]
+	\lstset{style=java}
+	\begin{lstlisting}
+public class MultiplicationTest {
+	
+	public String MultiplyNumbers(String input){
+		int sum = 1;
+		String [] splitted = input.split(" ");
+		
+		for(int i = 0; i < splitted.length; i++){
+			sum *= Integer.parseInt(splitted[i]);
+		}
+		
+		return "" + sum;
+	}
+	
+	public static void main(String[] args){}
+}
+	\end{lstlisting}
+	%\caption{C\# code for language overhead testing.}
+	%\label{fig:language_overhead}
+%\end{figure}
+
+
+%\begin{figure}[h]
+	\lstset{style=python}
+	\begin{lstlisting}
+import operator
+class MultiplicationTest:
+    def MultiplyNumbers(self, input):
+        input = input.split(" ")
+        array = list(map(int, input))
+        total = reduce(operator.mul, array, 1)
+        return str(total)
+	\end{lstlisting}
+	%\caption{C\# code for language overhead testing.}
+	%\label{fig:language_overhead}
+%\end{figure}
+
+
+\subsection{Division}
+
+
+%\begin{figure}[h]
+	\lstset{style=sharpc}
+	\begin{lstlisting}
+using System;
+
+public class DivisionTest
+{
+    //int.parse() is faster than convert.ToInt32() since it performs an additional null check.
+
+    public string DivideNumbers(string input)
+    {
+        float sum = 1; //divide by zero is a bad idea
+
+        string[] splitted = input.Split(' ');
+        for (var i = 0; i < splitted.Length; i++)
+        {
+            sum /= Int32.Parse(splitted[i]);
+        }
+        return sum.ToString();
+    }
+	
+	public static void Main(String[] args){}
+
+}
+
+	\end{lstlisting}
+	%\caption{To get the other tests simply replace the operator.}
+	%\label{fig:language_overhead}
+%\end{figure}
+
+%\begin{figure}[h]
+	\lstset{style=java}
+	\begin{lstlisting}
+public class DivisionTest {
+	
+	public String DivideNumbers(String input){
+		float sum = 1;
+		String [] splitted = input.split(" ");
+		
+		for(int i = 0; i < splitted.length; i++){
+			sum /= Integer.parseInt(splitted[i]);
+		}
+		
+		return "" + sum;
+	}
+	
+	public static void main(String[] args){}
+}
+	\end{lstlisting}
+	%\caption{C\# code for language overhead testing.}
+	%\label{fig:language_overhead}
+%\end{figure}
+
+
+%\begin{figure}[h]
+	\lstset{style=python}
+	\begin{lstlisting}
+import operator
+class DivisionTest:
+    def DivideNumbers(self, input):
+        input = input.split(" ")
+        array = list(map(int, input))
+        total = reduce(operator.div, array, 1)
+        return str(total)
+	\end{lstlisting}
+	%\caption{C\# code for language overhead testing.}
+	%\label{fig:language_overhead}
+%\end{figure}
+
+
+
+\subsection{Modulo}
+
+%\begin{figure}[h]
+	\lstset{style=sharpc}
+	\begin{lstlisting}
+using System;
+
+public class ModuloTest
+{
+    public string ModuloNumbers(string input)
+    {
+        double sum = double.MaxValue;
+
+        string[] splitted = input.Split(' ');
+        for (var i = 0; i < splitted.Length; i++)
+        {
+            sum %= Double.Parse(splitted[i]);
+        }
+        return sum.ToString();
+    }
+	
+	public static void Main(String[] args){}
+}
+	\end{lstlisting}
+	%\caption{To get the other tests simply replace the operator.}
+	%\label{fig:language_overhead}
+%\end{figure}
+
+%\begin{figure}[h]
+	\lstset{style=java}
+	\begin{lstlisting}
+public class ModuloTest {
+	
+	public String ModuloNumbers(String input){
+		double sum = Double.MAX_VALUE;
+		String [] splitted = input.split(" ");
+		
+		for(int i = 0; i < splitted.length; i++){
+			sum %= Double.parseDouble(splitted[i]);
+		}
+		
+		return "" + sum;
+	}
+	
+	public static void main(String[] args){}
+}
+
+	\end{lstlisting}
+	%\caption{C\# code for language overhead testing.}
+	%\label{fig:language_overhead}
+%\end{figure}
+
+
+%\begin{figure}[h]
+	\lstset{style=python}
+	\begin{lstlisting}
+import operator
+class ModuloTest:
+    def ModuloNumbers(self, input):
+        input = input.split(" ")
+        array = list(map(int, input))
+        total = reduce(operator.mod, array, 1)
+        return str(total)
+	\end{lstlisting}
+	%\caption{C\# code for language overhead testing.}
+	%\label{fig:language_overhead}
+%\end{figure}
+
+
+
