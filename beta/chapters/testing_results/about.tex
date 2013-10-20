@@ -1,6 +1,8 @@
 \section{Testing Procedure}
 All tests presented in this chapter were run on both computers. Test results show that the machine running Windows 8 natively is 2-3 times slower on every test than the Windows 7 machine. This seems to be hardware related. The results from the native Windows computer will not be presented in this thesis, due to this fact. The results presented in this chapter are from the computer running Windows 7 and should not be interpreted in absolute numerical values but rather in relative terms. The ratios on the native Windows 8 computer were remarkably close to the OSX computer. The small differences are likely due to pure variance.
 
-While the best time is the only time presented in this chapter, the mean-time was also recorded to make sure that the best time was not just a one-time fluke (which could have depended on unknown factors). 
+While the best time is the only time presented in this chapter, the mean-time was also recorded to make sure that the best time was not just a one-time fluke (which could have depended on unknown factors).
 
-Every test was run 100 times on each computer in order to reduce variance. All results were adjusted according to the overhead for each language (see section \ref{subsec:language_overhead}). The input for each test varies from 1000 elements up to 10 million elements. The elements are randomly generated positive integers. 
+Every test was run 100 times on each computer in order to reduce variance. All results were adjusted according to the overhead for each language (see section \ref{subsec:language_overhead}). The input for each test varies from 1000 elements up to 10 million elements. The elements are randomly generated positive integers.
+
+All tests in the Java environment were run in server mode on for optimization. The same is true for the .NET environment (Release-mode).
