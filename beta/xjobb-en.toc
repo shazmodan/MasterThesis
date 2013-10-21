@@ -33,6 +33,7 @@
 \contentsline {subsection}{\numberline {4.2.2}Common Operators}{16}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Insertion Sort}{17}{subsection.4.2.3}
 \contentsline {subsection}{\numberline {4.2.4}Merge Sort}{17}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}About Just-in-time compilation}{19}{section.4.3}
 \contentsline {chapter}{\chapternumberline {5}Testing Results}{21}{chapter.5}
 \contentsline {section}{\numberline {5.1}Testing Systems Specifications}{21}{section.5.1}
 \contentsline {section}{\numberline {5.2}Testing Procedure}{21}{section.5.2}

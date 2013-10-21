@@ -28,27 +28,28 @@
 \BOOKMARK [2][-]{subsection.4.2.2}{Common Operators}{section.4.2}% 28
 \BOOKMARK [2][-]{subsection.4.2.3}{Insertion Sort}{section.4.2}% 29
 \BOOKMARK [2][-]{subsection.4.2.4}{Merge Sort}{section.4.2}% 30
-\BOOKMARK [0][-]{chapter.5}{Testing Results}{}% 31
-\BOOKMARK [1][-]{section.5.1}{Testing Systems Specifications}{chapter.5}% 32
-\BOOKMARK [1][-]{section.5.2}{Testing Procedure}{chapter.5}% 33
-\BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 34
-\BOOKMARK [2][-]{subsection.5.3.1}{Language Overhead}{section.5.3}% 35
-\BOOKMARK [2][-]{subsection.5.3.2}{Common Operators}{section.5.3}% 36
-\BOOKMARK [2][-]{subsection.5.3.3}{Insertion Sort}{section.5.3}% 37
-\BOOKMARK [2][-]{subsection.5.3.4}{Merge Sort}{section.5.3}% 38
-\BOOKMARK [0][-]{chapter.6}{Discussion}{}% 39
-\BOOKMARK [1][-]{section.6.1}{Result Analysis}{chapter.6}% 40
-\BOOKMARK [1][-]{section.6.2}{Conclusion}{chapter.6}% 41
-\BOOKMARK [1][-]{section.6.3}{Future Work}{chapter.6}% 42
-\BOOKMARK [0][-]{section*.3}{Bilagor}{}% 43
-\BOOKMARK [0][-]{appendix.A}{Code}{}% 44
-\BOOKMARK [1][-]{section.A.1}{Language Overhead}{appendix.A}% 45
-\BOOKMARK [1][-]{section.A.2}{Common Operators}{appendix.A}% 46
-\BOOKMARK [2][-]{subsection.A.2.1}{Addition}{section.A.2}% 47
-\BOOKMARK [2][-]{subsection.A.2.2}{Subtraction}{section.A.2}% 48
-\BOOKMARK [2][-]{subsection.A.2.3}{Multiplication}{section.A.2}% 49
-\BOOKMARK [2][-]{subsection.A.2.4}{Division}{section.A.2}% 50
-\BOOKMARK [2][-]{subsection.A.2.5}{Modulo}{section.A.2}% 51
-\BOOKMARK [1][-]{section.A.3}{Insertion Sort}{appendix.A}% 52
-\BOOKMARK [1][-]{section.A.4}{Merge Sort}{appendix.A}% 53
-\BOOKMARK [0][-]{section*.5}{Bibliography}{}% 54
+\BOOKMARK [1][-]{section.4.3}{About Just-in-time compilation}{chapter.4}% 31
+\BOOKMARK [0][-]{chapter.5}{Testing Results}{}% 32
+\BOOKMARK [1][-]{section.5.1}{Testing Systems Specifications}{chapter.5}% 33
+\BOOKMARK [1][-]{section.5.2}{Testing Procedure}{chapter.5}% 34
+\BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 35
+\BOOKMARK [2][-]{subsection.5.3.1}{Language Overhead}{section.5.3}% 36
+\BOOKMARK [2][-]{subsection.5.3.2}{Common Operators}{section.5.3}% 37
+\BOOKMARK [2][-]{subsection.5.3.3}{Insertion Sort}{section.5.3}% 38
+\BOOKMARK [2][-]{subsection.5.3.4}{Merge Sort}{section.5.3}% 39
+\BOOKMARK [0][-]{chapter.6}{Discussion}{}% 40
+\BOOKMARK [1][-]{section.6.1}{Result Analysis}{chapter.6}% 41
+\BOOKMARK [1][-]{section.6.2}{Conclusion}{chapter.6}% 42
+\BOOKMARK [1][-]{section.6.3}{Future Work}{chapter.6}% 43
+\BOOKMARK [0][-]{section*.3}{Bilagor}{}% 44
+\BOOKMARK [0][-]{appendix.A}{Code}{}% 45
+\BOOKMARK [1][-]{section.A.1}{Language Overhead}{appendix.A}% 46
+\BOOKMARK [1][-]{section.A.2}{Common Operators}{appendix.A}% 47
+\BOOKMARK [2][-]{subsection.A.2.1}{Addition}{section.A.2}% 48
+\BOOKMARK [2][-]{subsection.A.2.2}{Subtraction}{section.A.2}% 49
+\BOOKMARK [2][-]{subsection.A.2.3}{Multiplication}{section.A.2}% 50
+\BOOKMARK [2][-]{subsection.A.2.4}{Division}{section.A.2}% 51
+\BOOKMARK [2][-]{subsection.A.2.5}{Modulo}{section.A.2}% 52
+\BOOKMARK [1][-]{section.A.3}{Insertion Sort}{appendix.A}% 53
+\BOOKMARK [1][-]{section.A.4}{Merge Sort}{appendix.A}% 54
+\BOOKMARK [0][-]{section*.5}{Bibliography}{}% 55

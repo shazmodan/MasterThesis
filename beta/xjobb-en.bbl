@@ -154,6 +154,19 @@ Goodrich M~T and Tamassia R.
 \newblock \\ \url{http://www.sorting-algorithms.com/merge-sort}.
 \newblock \\Accessed 2013-03-04.
 
+\bibitem{ExecutionEngine}
+{B, Abrams}.
+\newblock {Is the CLR a Virtual Machine?}
+\newblock \\
+  \url{http://blogs.msdn.com/b/brada/archive/2005/01/12/351958.aspx}.
+\newblock \\Accessed 2013-10-20.
+
+\bibitem{Jit}
+{J L, Schilling}.
+\newblock {The Simplest Heuristics May Be the Best in Java JIT Compilers}.
+\newblock \\ \url{http://www.sco.com/developers/java/news/jit-heur.pdf}.
+\newblock \\2003.
+
 \bibitem{PythonSum}
 {Python 2.7.3 Documentation: Sum Function}.
 \newblock \\ \url{http://docs.python.org/2/library/functions.html#sum}.
