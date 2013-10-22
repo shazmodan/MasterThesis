@@ -1,5 +1,5 @@
 \section{System Description}
-The system was named CELINE, an abbreviation that comes from the descriptive phrase ``\textbf{C}ode \textbf{E}va\textbf{L}uation \textbf{I}n .\textbf{NE}t'' (the uppercase bold letters forming the abbreviation). 
+The system was named CELINE, an abbreviation that comes from the descriptive phrase ``\textbf{C}ode \textbf{E}va\textbf{L}uation \textbf{I}n .\textbf{NE}t'' (the uppercase bold letters forming the abbreviation).
 
 \begin{figure}[h]
 	\centering
@@ -12,7 +12,7 @@ Figure \ref{fig:SystemOverview} describes an overview of the system. The system 
 
 
 \subsection{The Web GUI}
-The GUI is built using the ASP.NET MVC4 template. This saved both time and effort while still giving the website an easy to understand simplistic style. 
+The GUI is built using the ASP.NET MVC4 template. This saved both time and effort while still giving the website an easy to understand simplistic style.
 
 \begin{figure}[h]
 	\centering
@@ -23,41 +23,14 @@ The GUI is built using the ASP.NET MVC4 template. This saved both time and effor
 
 In Figure \ref{fig:celine_startpage}, we see the start page. The middle area contains some informative text; the top right contains the site menu, the register and login buttons.
 
-\begin{figure}[h]
-\centering
-\mbox{
-	\subfigure[List of available problems.]{
-		\includegraphics[width=0.48\textwidth]{chapters/media/celine_listproblems.png}
-		\label{fig:celine_listproblems}
-	}
-	\subfigure[One problem called ``easysort''.]{
-		\includegraphics[width=0.48\textwidth]{chapters/media/celine_easysort.png}
-		\label{fig:celine_easysort}
-	}
-}
-\caption{Navigation in the Problems menu.}
-\label{fig:celine_split_problemlist_easysort}
-\end{figure}
-
-Figure \ref{fig:celine_listproblems} shows what happens if one click on ``Problems'' in the menu. A list of currently available problems is displayed. The list contains details such as maximum run time and maximum memory usage. Clicking on one of the problems in this list will generate a page containing more details of that problem, this is displayed in Figure \ref{fig:celine_easysort}. To the right of the problem details is a button for submitting a solution. Clicking it will generate a page containing a form for submitting code, illustrated in Figure \ref{fig:celine_submit}. Apart from the submission form on the left side, this page contains some useful information on the right side concerning language-specific signatures. These signatures specify the point of entry for the application (where the execution of the code starts). Users are free to name this method to anything they see fit, the only limitation is that it takes a string as input and returns a string as output. This is discussed in further detail in section \ref{subsec:status_codes}.
+In Figure \ref{fig:celine_submit}, we see the submission form on the left side, this page contains some useful information on the right side concerning language-specific signatures. These signatures specify the point of entry for the application (where the execution of the code starts). Users are free to name this method to anything they see fit, the only limitation is that it takes a string as input and returns a string as output. This is discussed in further detail in section \ref{subsec:status_codes}.
 
 \begin{figure}[h]
-\centering
-\mbox{
-	\subfigure[Code submission page.]{
-		\includegraphics[width=0.48\textwidth]{chapters/media/celine_submit.png}
-		\label{fig:celine_submit}
-	}
-	\subfigure[List of all submission made by the current user.]{
-		\includegraphics[width=0.48\textwidth]{chapters/media/celine_submissions.png}
-		\label{fig:celine_submissions}
-	}
-}
-\caption{Navigation when submitting code.}
-\label{fig:celine_split_submit_submissions}
+	\centering
+	\includegraphics[width=0.75\textwidth]{chapters/media/celine_submit.png}
+	\caption{Code submission page.}
+	\label{fig:celine_submit}
 \end{figure}
-
-Figure \ref{fig:celine_submissions} shows the page listing all of the current user's submissions. The user is sent here after successfully submitting a solution (by filling out all the fields of the Submission page illustrated in Figure \ref{fig:celine_submit}) or by clicking on the button in the top right corner. This page contains information about each of the user's submissions. Each line details what problem the user attempted to solve, a timestamp, total runtime, the programming language used and the returned status code. 
 
 
 \subsection{The Automatic Grading System}
@@ -70,7 +43,7 @@ When a user has submitted his or her code, it eventually reaches the AGS. Figure
 	\label{fig:flowchart}
 \end{figure}
 
-Depending on the programming language, a compiler is chosen. The code is then compiled into an assembly file and loaded into a separate and secure Application Domain (AppDomain, see section \ref{subsec:security}). The AGS then invokes the user specified method with a string containing the test data. The AGS waits for the code to complete or for the problem to timeout. It then compares the string returned by this method with another string containing what should be the correct output. If the strings match, the submission is regarded as being a success; otherwise it is regarded as a failure. The AGS then returns the appropriate status code. 
+Depending on the programming language, a compiler is chosen. The code is then compiled into an assembly file and loaded into a separate and secure Application Domain (AppDomain, see section \ref{subsec:security}). The AGS then invokes the user specified method with a string containing the test data. The AGS waits for the code to complete or for the problem to timeout. It then compares the string returned by this method with another string containing what should be the correct output. If the strings match, the submission is regarded as being a success; otherwise it is regarded as a failure. The AGS then returns the appropriate status code.
 
 
 \subsection{System-User Feedback} \label{subsec:status_codes}
@@ -80,11 +53,11 @@ The system gives feedback to the user in the form of a status code, one for each
 	\item Accepted - The code has compiled, run and gave the correct answer.
 	\item Wrong Answer - The code has compiled and run but gave the wrong answer.
 	\item Server Assembly Error - The AGS failed to build an assembly from the code file, thus making the code unable to run.
-	\item Submission Error - The code tries to reference a code library that is not available/allowed. 
+	\item Submission Error - The code tries to reference a code library that is not available/allowed.
 	\item Illegal Operation - Occurs if the AGS detects a forbidden system call (e.g. accessing files, using the network etc...).
 	\item Class or Function Error - Occurs if the class or method name does not correspond to the name provided by the user, thus resulting in the AGS being unable to invoke it.
 	\item Time Limit Exceeded - The code ran longer than the time-limit for this problem allowed. This could be an indication that the code needs to be improved (performance wise).
-	\item Rejected - This is a general error which indicates that the AGS has been unable to determine why the submission failed. 
+	\item Rejected - This is a general error which indicates that the AGS has been unable to determine why the submission failed.
 	\item Server Error - This indicates that the AGS instance has crashed.
 \end{itemize}
 

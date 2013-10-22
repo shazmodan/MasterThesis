@@ -4,7 +4,7 @@
 The support for C\# was implemented with the use of the Microsoft CSharp library \cite{MicrosoftCSharp} and the System CodeDom Compiler library \cite{CodeDomCompiler}. Since C\# can be considered a native .NET language, no 3rd party libraries were required to achieve this support.
 
 \subsection{Java}
-The Java support comes from using javac \cite{Javac}, the standard Java compiler that comes with the Java Development Kit (JDK) \cite{JDK}. Javac compiles Java code to bytecode. This bytecode is then converted to CIL using ikvmc \cite{IKVMC}, a tool that is part of IKVM.NET (an implementation of Java for Mono and the Microsoft .NET Framework) \cite{IKVM.NET}. 
+The Java support comes from using javac \cite{Javac}, the standard Java compiler that comes with the Java Development Kit (JDK) \cite{JDK}. Javac compiles Java code to bytecode. This bytecode is then compiled to CIL using ikvmc \cite{IKVMC}, a tool that is part of IKVM.NET (an implementation of Java for Mono and the Microsoft .NET Framework) \cite{IKVM.NET}.
 
 \subsection{Python}
 Python is supported through the use of IronPython \cite{IronPython}. IronPython provides a library (a dll) which contains a ScriptEngine from which python code can run without the need for compiling. Some issues encountered with the IronPython implementation are described in section \ref{subsec:ironpython_limitations}.
