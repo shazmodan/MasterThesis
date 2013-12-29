@@ -35,19 +35,20 @@
 \BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 35
 \BOOKMARK [2][-]{subsection.5.3.1}{Native environments}{section.5.3}% 36
 \BOOKMARK [2][-]{subsection.5.3.2}{.NET environment}{section.5.3}% 37
-\BOOKMARK [0][-]{chapter.6}{Discussion}{}% 38
-\BOOKMARK [1][-]{section.6.1}{Result Analysis}{chapter.6}% 39
-\BOOKMARK [1][-]{section.6.2}{Conclusion}{chapter.6}% 40
-\BOOKMARK [1][-]{section.6.3}{Future Work}{chapter.6}% 41
-\BOOKMARK [0][-]{section*.6}{Bilagor}{}% 42
-\BOOKMARK [0][-]{appendix.A}{Code}{}% 43
-\BOOKMARK [1][-]{section.A.1}{Language Overhead}{appendix.A}% 44
-\BOOKMARK [1][-]{section.A.2}{Common Operators}{appendix.A}% 45
-\BOOKMARK [2][-]{subsection.A.2.1}{Addition}{section.A.2}% 46
-\BOOKMARK [2][-]{subsection.A.2.2}{Subtraction}{section.A.2}% 47
-\BOOKMARK [2][-]{subsection.A.2.3}{Multiplication}{section.A.2}% 48
-\BOOKMARK [2][-]{subsection.A.2.4}{Division}{section.A.2}% 49
-\BOOKMARK [2][-]{subsection.A.2.5}{Modulo}{section.A.2}% 50
-\BOOKMARK [1][-]{section.A.3}{Insertion Sort}{appendix.A}% 51
-\BOOKMARK [1][-]{section.A.4}{Merge Sort}{appendix.A}% 52
-\BOOKMARK [0][-]{section*.8}{Bibliography}{}% 53
+\BOOKMARK [2][-]{subsection.5.3.3}{Language Overhead}{section.5.3}% 38
+\BOOKMARK [0][-]{chapter.6}{Discussion}{}% 39
+\BOOKMARK [1][-]{section.6.1}{Result Analysis}{chapter.6}% 40
+\BOOKMARK [1][-]{section.6.2}{Conclusion}{chapter.6}% 41
+\BOOKMARK [1][-]{section.6.3}{Future Work}{chapter.6}% 42
+\BOOKMARK [0][-]{section*.9}{Bilagor}{}% 43
+\BOOKMARK [0][-]{appendix.A}{Code}{}% 44
+\BOOKMARK [1][-]{section.A.1}{Language Overhead}{appendix.A}% 45
+\BOOKMARK [1][-]{section.A.2}{Common Operators}{appendix.A}% 46
+\BOOKMARK [2][-]{subsection.A.2.1}{Addition}{section.A.2}% 47
+\BOOKMARK [2][-]{subsection.A.2.2}{Subtraction}{section.A.2}% 48
+\BOOKMARK [2][-]{subsection.A.2.3}{Multiplication}{section.A.2}% 49
+\BOOKMARK [2][-]{subsection.A.2.4}{Division}{section.A.2}% 50
+\BOOKMARK [2][-]{subsection.A.2.5}{Modulo}{section.A.2}% 51
+\BOOKMARK [1][-]{section.A.3}{Insertion Sort}{appendix.A}% 52
+\BOOKMARK [1][-]{section.A.4}{Merge Sort}{appendix.A}% 53
+\BOOKMARK [0][-]{section*.11}{Bibliography}{}% 54
