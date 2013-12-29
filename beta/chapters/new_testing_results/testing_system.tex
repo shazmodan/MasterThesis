@@ -1,36 +1,23 @@
 \section{Testing Systems Specifications} \label{sec:system_specs}
-The tests were conducted on two computers. The system specifications can be seen in Table \ref{table:system_specs}. The MacBook Pro runs Windows 7 with the help of Parallels Desktop 8. 
+The tests were conducted on two computers. The system specifications can be seen in Table \ref{table:system_specs}. The MacBook Pro runs Windows 7 with the help of Parallels Desktop 8. Additional tests were also made using Bootcamp with Windows 7 to exclude any severe overhead penalties added by Parallels.
 
 \begin{table}[h]
 	\begin{center}
 		\begin{tabular} { m{4cm} | m{4cm}  | m{5cm} }
 			\hline
-			\textbf{} & \textbf{MacBook Pro} & 
+			\textbf{} & \textbf{MacBook Pro} &
 			\textbf{Windows 8 Desktop}  \\ \hline
 
-			\textbf{Operating System}		& OSX 10.8.2 
+			\textbf{Operating System}		& OSX 10.8.2
 											& Windows 8 Pro 64-bit v6.2 \\ \hline
 
-			\textbf{Processor}				& 2.6 GHz Intel Core i7 
-											& 2.4 GHz Intel Core2Quad  \\ \hline
+			\textbf{Processor}				& 2.6 GHz Intel Core i7
+											& 3.4GHz Intel Core i7  \\ \hline
 
-			\textbf{Memory}					& 16 GB 1600 MHz DDR3
-											& 4GB 400 MHz DDR3 \\ \hline
-
-			\textbf{Parallels Memory}		& 8 GB dedicated memory 
-											& --- \\ \hline
-
-			\textbf{Parallels \# CPU:s} 	& 4 dedicated cores
-											& --- \\ \hline
-
-			\textbf{Parallels OS} 			& Windows 7 64-bit v6.1
-											& --- \\ \hline
+			\textbf{Memory}					& 16 GB 1600 MHz
+											& 16GB 1333 MHz \\ \hline
 		\end{tabular}
 	\end{center}
 	\caption{System specifications for the computers used.}
 	\label{table:system_specs}
 \end{table}
-It may appear strange that Parallels have 4 dedicated cores when the Intel Core i7 processor only contain 4 cores, but this is made possible due to the use of virtual cores (8 in total).
-
-
-

@@ -1,0 +1,7 @@
+Changelog
+
+- Uppdaterat grafernas utseende, de bör nu synas tydligare i svart-vitt format.
+- Några grafer saknade tidsenhet, detta bör nu vara ordnat.
+- Förklarat att en skalningsfaktor behövs, se Sektion 4.2.
+- Lagt till ny sektion angående Jit, se Sektion 4.3.
+- Betonat vikten av att vissa programmeringsuppgifter är intressanta ur ett prestandaperspektiv, se Sektion 4.1.
