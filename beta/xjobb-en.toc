@@ -31,7 +31,7 @@
 \contentsline {section}{\numberline {4.2}The Chosen Tests}{14}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Language Overhead}{14}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Common Operators}{14}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Insertion Sort}{14}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.3}Insertion Sort}{15}{subsection.4.2.3}
 \contentsline {subsection}{\numberline {4.2.4}Merge Sort}{15}{subsection.4.2.4}
 \contentsline {section}{\numberline {4.3}About Just-in-time compilation}{16}{section.4.3}
 \contentsline {chapter}{\chapternumberline {5}Testing Results}{19}{chapter.5}

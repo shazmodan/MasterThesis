@@ -1,6 +1,8 @@
 \section{The Chosen Tests}
 The tests are a mixture of general functionality and two algorithms. This section assumes that the reader is familiar with the Big O notation \cite{BigO}.
 
+The goal of these tests is to obtain a scaling factor between the different programming languages. This is needed in order to keep the judgement of user solutions fair. For example, it is very likely that C\# will execute faster than Java or Python in the context of the .NET Framework, therefore one needs to offset this difference if users are to be able to compete for optimal solutions regardless of the programming language they use.
+
 \subsection{Language Overhead}
 Each programming language has an overhead startup cost. This is measured by submitting code which does the minimum given this context. In Figure \ref{fig:language_overhead}, a minimum code block for the C\# programming language is demonstrated.
 
@@ -18,7 +20,7 @@ Each programming language has an overhead startup cost. This is measured by subm
 	\label{fig:language_overhead}
 \end{figure}
 
-This code will receive an empty string as input, and return an empty string. Measuring the overhead makes it possible to compensate for a language which has a slower start up time. For example, it would be unfair to restrict Python code to the same time-limit as C\# code since Python has a considerably longer startup time than the native .NET language C\# (see Chapter \ref{chap:results}). 
+This code will receive an empty string as input, and return an empty string. Measuring the overhead makes it possible to compensate for a language which has a slower start up time. For example, it would be unfair to restrict Python code to the same time-limit as C\# code since Python has a considerably longer startup time than the native .NET language C\# (see Chapter \ref{chap:results}).
 
 \subsection{Common Operators}
 The common operators are addition (+), subtraction (-), multiplication (*), division (/) and modulo (\%). This test will measure how the language performs doing the simplest operations, giving an indication of its general performance. Figure \ref{fig:addition_test} shows the code used for the addition test in Python.
@@ -48,7 +50,7 @@ Insertion Sort is a comparison based sorting algorithm useful for sorting small 
 \item Insert this card into the correct position in your left hand.
 \item The correct position is determined by comparing this card to each other card in your hand from right to left.
 \item The cards in your left hand are always sorted before each new card is picked.
-\end{itemize} 
+\end{itemize}
 
 The algorithm has a worst-case running time of $O(n^2)$ but can still outperform more advanced algorithms such as Merge Sort (section \ref{subsec:merge_sort}). However, this is only true when the input is small (the definition of ``small'' varies from system to system) \cite{Insertionsort} because Merge Sort has an extra overhead from its recursive function calls and also uses more memory.
 
@@ -61,11 +63,11 @@ Merge Sort is a divide and conquer, comparison based sorting algorithm. It is st
 \begin{itemize}
 \item Imagine yourself seeing a full deck of cards spread out in a line on a table.
 \item Divide all the cards into two equally sized piles. Now there should be 26 cards on your left side and 26 cards on your right side.
-\item Keep dividing these piles into halves until there are only piles with one card in them. 
+\item Keep dividing these piles into halves until there are only piles with one card in them.
 \item Now merge these one card piles together so that one ends up with a pile that contains 2 cards that are sorted from left to right (in ascending order).
 \item Keep merging all piles together until one ends up with one pile containing all of the cards (52) in sorted order.
 
-\end{itemize} 
+\end{itemize}
 
 Figure \ref{fig:mergesort} illustrates this process using eight cards.
 
