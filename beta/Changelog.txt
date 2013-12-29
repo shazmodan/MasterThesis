@@ -5,3 +5,5 @@ Changelog
 - Förklarat att en skalningsfaktor behövs, se Sektion 4.2.
 - Lagt till ny sektion angående Jit, se Sektion 4.3.
 - Betonat vikten av att vissa programmeringsuppgifter är intressanta ur ett prestandaperspektiv, se Sektion 4.1.
+- Små modifikationer gjorda i Sektion 5.1 och 5.2.
+

@@ -1,6 +1,6 @@
 \section{Common Operators}
 
-\subsection{Addition}
+\subsection{Addition} \label{appendix:code_addition}
 
 %\begin{figure}[h]
 	\lstset{style=sharpc}
@@ -13,7 +13,7 @@ public class AdditionTest
     public string AddNumbers(string input)
     {
         int sum = 0;
-        
+
         string[] splitted = input.Split(' ');
         for (var i = 0; i < splitted.Length; i++)
         {
@@ -35,19 +35,19 @@ public class AdditionTest
 	\begin{lstlisting}
 
 public class AdditionTest {
-	
+
 	public String AddNumbers(String input){
 		int sum = 0;
 		String [] splitted = input.split(" ");
-		
+
 		for(int i = 0; i < splitted.length; i++){
 			sum += Integer.parseInt(splitted[i]);
 		}
-		
+
 		return "" + sum;
 	}
-	
-	public static void main(String[] args){}	 
+
+	public static void main(String[] args){}
 }
 
 	\end{lstlisting}
@@ -93,7 +93,7 @@ public class SubtractionTest
         }
         return sum.ToString();
     }
-	
+
 	public static void Main(){}
 }
 	\end{lstlisting}
@@ -105,18 +105,18 @@ public class SubtractionTest
 	\lstset{style=java}
 	\begin{lstlisting}
 public class SubtractionTest {
-	
+
 	public String SubtractNumbers(String input){
 		int sum = 0;
 		String [] splitted = input.split(" ");
-		
+
 		for(int i = 0; i < splitted.length; i++){
 			sum -= Integer.parseInt(splitted[i]);
 		}
-		
+
 		return "" + sum;
 	}
-	
+
 	public static void main(String[] args){}
 }
 	\end{lstlisting}
@@ -163,7 +163,7 @@ public class MultiplicationTest
         }
         return sum.ToString();
     }
-	
+
 	public static void Main(String[] args){}
 
 }
@@ -176,18 +176,18 @@ public class MultiplicationTest
 	\lstset{style=java}
 	\begin{lstlisting}
 public class MultiplicationTest {
-	
+
 	public String MultiplyNumbers(String input){
 		int sum = 1;
 		String [] splitted = input.split(" ");
-		
+
 		for(int i = 0; i < splitted.length; i++){
 			sum *= Integer.parseInt(splitted[i]);
 		}
-		
+
 		return "" + sum;
 	}
-	
+
 	public static void main(String[] args){}
 }
 	\end{lstlisting}
@@ -235,7 +235,7 @@ public class DivisionTest
         }
         return sum.ToString();
     }
-	
+
 	public static void Main(String[] args){}
 
 }
@@ -249,18 +249,18 @@ public class DivisionTest
 	\lstset{style=java}
 	\begin{lstlisting}
 public class DivisionTest {
-	
+
 	public String DivideNumbers(String input){
 		float sum = 1;
 		String [] splitted = input.split(" ");
-		
+
 		for(int i = 0; i < splitted.length; i++){
 			sum /= Integer.parseInt(splitted[i]);
 		}
-		
+
 		return "" + sum;
 	}
-	
+
 	public static void main(String[] args){}
 }
 	\end{lstlisting}
@@ -306,7 +306,7 @@ public class ModuloTest
         }
         return sum.ToString();
     }
-	
+
 	public static void Main(String[] args){}
 }
 	\end{lstlisting}
@@ -318,18 +318,18 @@ public class ModuloTest
 	\lstset{style=java}
 	\begin{lstlisting}
 public class ModuloTest {
-	
+
 	public String ModuloNumbers(String input){
 		double sum = Double.MAX_VALUE;
 		String [] splitted = input.split(" ");
-		
+
 		for(int i = 0; i < splitted.length; i++){
 			sum %= Double.parseDouble(splitted[i]);
 		}
-		
+
 		return "" + sum;
 	}
-	
+
 	public static void main(String[] args){}
 }
 
