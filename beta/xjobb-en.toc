@@ -47,19 +47,19 @@
 \contentsline {subsubsection}{Addition Operator}{21}{section*.6}
 \contentsline {subsubsection}{Insertion Sort}{21}{section*.7}
 \contentsline {subsubsection}{Merge Sort}{21}{section*.8}
-\contentsline {chapter}{\chapternumberline {6}Discussion}{27}{chapter.6}
-\contentsline {section}{\numberline {6.1}Result Analysis}{27}{section.6.1}
-\contentsline {section}{\numberline {6.2}Conclusion}{28}{section.6.2}
-\contentsline {section}{\numberline {6.3}Future Work}{28}{section.6.3}
-\contentsline {chapter}{Bilagor}{28}{section*.9}
-\contentsline {chapter}{\chapternumberline {A}Code}{29}{appendix.A}
-\contentsline {section}{\numberline {A.1}Language Overhead}{29}{section.A.1}
-\contentsline {section}{\numberline {A.2}Common Operators}{29}{section.A.2}
-\contentsline {subsection}{\numberline {A.2.1}Addition}{29}{subsection.A.2.1}
-\contentsline {subsection}{\numberline {A.2.2}Subtraction}{30}{subsection.A.2.2}
-\contentsline {subsection}{\numberline {A.2.3}Multiplication}{31}{subsection.A.2.3}
-\contentsline {subsection}{\numberline {A.2.4}Division}{32}{subsection.A.2.4}
-\contentsline {subsection}{\numberline {A.2.5}Modulo}{33}{subsection.A.2.5}
-\contentsline {section}{\numberline {A.3}Insertion Sort}{34}{section.A.3}
-\contentsline {section}{\numberline {A.4}Merge Sort}{35}{section.A.4}
-\contentsline {chapter}{Bibliography}{41}{section*.11}
+\contentsline {chapter}{\chapternumberline {6}Discussion}{29}{chapter.6}
+\contentsline {section}{\numberline {6.1}Result Analysis}{29}{section.6.1}
+\contentsline {section}{\numberline {6.2}Conclusion}{30}{section.6.2}
+\contentsline {section}{\numberline {6.3}Future Work}{30}{section.6.3}
+\contentsline {chapter}{Bilagor}{30}{section*.9}
+\contentsline {chapter}{\chapternumberline {A}Code}{31}{appendix.A}
+\contentsline {section}{\numberline {A.1}Language Overhead}{31}{section.A.1}
+\contentsline {section}{\numberline {A.2}Common Operators}{31}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}Addition}{31}{subsection.A.2.1}
+\contentsline {subsection}{\numberline {A.2.2}Subtraction}{32}{subsection.A.2.2}
+\contentsline {subsection}{\numberline {A.2.3}Multiplication}{33}{subsection.A.2.3}
+\contentsline {subsection}{\numberline {A.2.4}Division}{34}{subsection.A.2.4}
+\contentsline {subsection}{\numberline {A.2.5}Modulo}{35}{subsection.A.2.5}
+\contentsline {section}{\numberline {A.3}Insertion Sort}{36}{section.A.3}
+\contentsline {section}{\numberline {A.4}Merge Sort}{37}{section.A.4}
+\contentsline {chapter}{Bibliography}{43}{section*.11}
