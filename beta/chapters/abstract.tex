@@ -6,7 +6,9 @@ This waste can be minimized by only interviewing qualified applicants. In the so
 
 This thesis evaluates such a system with regard to execution speed and memory consumption. It also explains how such a system can be built and attempts to demonstrate the performance differences between the supported programming languages. The system is unique in the aspect that it is built using only Microsoft .NET Framework while still supporting multiple programming languages. The supported languages are C\#, Java and Python. This support is enabled through the use of a Java byte code to CIL compiler called IKVM. Python is supported through the use of IronPython.
 
-The results showed that C\# and Java performed almost equally in terms of execution speed and memory usage, with Java being slightly behind. Python had greater performance and memory issues than the other two.
+The results showed that C\# and Java performed almost equally in terms of execution speed and memory usage, with Java being slightly behind. As a compensation for Javas slower execution speed a scaling factor was created. The average of this scaling factor was 1.29. Python had greater performance and memory issues than the other two and no scaling factor could be created for this language.
+
+En skalningsfaktor togs fram som en kompensation för Javas långsammare exekveringstider. Medelvärdet på denna skalningsfaktorn blev 1.29. Python verkade ha större prestanda- och minnesproblem än de andra två och ingen skalningsfaktor för detta språk kunde tas fram.
 
 Future work involves implementing additional language support and improving the system with usability in mind.
 

@@ -15,3 +15,7 @@ Changelog
 - Påpekat att det är olika virtuella maskiner som jämförs i sektion 5.3.1.
 - Påpekat att det är samma virtuella maskin som jämför i sektion 5.3.2.
 - Lagt till en ny sektion i Resultatdelen som handlar om skalningsfaktorn, se sektion 5.3.3.
+- Resultatanalysen ändrad för att matcha resultaten bättre.
+- Uppdaterat Sektion 6.2 till att omfatta svårigheten med att benchmarka mellan olika språk.
+- Uppdaterat Sektion 6.3 till att poängtera att det kan finnas ett behov för förbättring av interaktionen med systemet, ett annat exjobb möjligtvis (MDI)?
+

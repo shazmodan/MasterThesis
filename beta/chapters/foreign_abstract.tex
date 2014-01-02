@@ -6,7 +6,7 @@ Detta slöseri kan minimeras genom att endast intervjua kvalificerade sökanden.
 
 Denna uppsats utvärderar ett sådant system med hänsyn till exekveringshastighet och minneskonsumtion. Den förklarar också hur ett sådant system kan byggas och hur de olika språken presterade. Systemet är unikt i och med att det är byggdes med enbart Microsoft .NET Framework och samtidigt klarar av att stödja flera olika programmeringsspråk. De språk som stöds är C\#, Java och Python. Detta stöd möjliggjordes genom användning av en Java byte-kod till CIL kompilator som kallas IKVM och Python stöds genom användning av IronPython.
 
-Resultaten visar att C\# och Java presterar nästan lika med hänsyn till exekveringshastighet, med Java på andraplats. Python verkade ha större prestandaproblem än de andra två. Java konsumerade mest minne av de tre, med Python som tvåa.
+Resultaten visar att C\# och Java presterar nästan lika med hänsyn till exekveringshastighet, med Java på andraplats. En skalningsfaktor togs fram som en kompensation för Javas långsammare exekveringstider. Medelvärdet på denna skalningsfaktorn var 1.29. Python verkade ha större prestanda- och minnesproblem än de andra två och ingen skalningsfaktor för detta språk kunde tas fram.
 
 Framtida arbete omfattar stöd för fler programmeringsspråk och förbättra systemet med användbarhet i åtanke.
 

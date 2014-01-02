@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  2 JAN 2014 21:01
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  2 JAN 2014 23:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1125,8 +1125,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 1.
-) [3]
-(./chapters/foreign_abstract.tex
+
+Overfull \hbox (4.88551pt too wide) in paragraph at lines 11--12
+[]\T1/lmr/m/n/10 En skalnings-fak-tor togs fram som en kom-pen-sa-tion för Java
+s långsam-
+ []
+
+) [3] (./chapters/foreign_abstract.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1408,42 +1413,27 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [24 <./chapters/new_media/AdditionOperatorNet.png>] [25 <./chapters/new_media/I
 nsertionSortNet.png>] [26 <./chapters/new_media/MergeSortNet.png>] [27 <./chapt
 ers/new_media/MBytesMergesort.png>] [28 <./chapters/new_media/ProcessorTime.png
->] (./chapters/discussion/result_reflections.tex
+>] (./chapters/discussion/result_reflections.tex) [29
 
-LaTeX Warning: Reference `fig:insertion_sort_all_native' on page 29 undefined o
-n input line 5.
+]
+(./chapters/discussion/conclusion.tex) (./chapters/discussion/future_work.tex)
+[30]) (./chapters/appendix/appendixA.tex [31] [32
 
-
-LaTeX Warning: Reference `fig:tim_sort' on page 29 undefined on input line 5.
-
-
-LaTeX Warning: Reference `fig:merge_sort_memory_all' on page 29 undefined on in
-put line 11.
-
-[29
-
-]) (./chapters/discussion/conclusion.tex
-
-LaTeX Warning: Reference `fig:merge_sort_all_net' on page 30 undefined on input
- line 4.
-
-) (./chapters/discussion/future_work.tex)) (./chapters/appendix/appendixA.tex
-[30] (./chapters/appendix/appendix_overhead.tex)
-(./chapters/appendix/appendix_operator.tex [31
-
-] [32] [33] [34])
-(./chapters/appendix/appendix_insertion.tex [35] [36])
-(./chapters/appendix/appendix_merge.tex [37]
+]
+(./chapters/appendix/appendix_overhead.tex)
+(./chapters/appendix/appendix_operator.tex [33] [34] [35] [36])
+(./chapters/appendix/appendix_insertion.tex [37] [38])
+(./chapters/appendix/appendix_merge.tex [39]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
+ [40]
 Underfull \vbox (badness 5050) has occurred while \output is active []
 
- [39]
+ [41]
 Underfull \vbox (badness 5050) has occurred while \output is active []
 
- [40]))
-(./xjobb-en.bbl [41] [42
+ [42]))
+(./xjobb-en.bbl [43] [44
 
 ]
 bibitemlist
@@ -1459,7 +1449,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--57
 ystem . codedom . compiler .
  []
 
-[43]
+[45]
 Underfull \hbox (badness 10000) in paragraph at lines 66--71
 []$\T1/lmtt/m/n/10.95 http : / / www . oracle . com / technetwork / java / java
 se / overview / index .
@@ -1495,12 +1485,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--138
 ystem . diagnostics .
  []
 
-[44]
+[46]
 Underfull \hbox (badness 10000) in paragraph at lines 192--198
 []$\T1/lmtt/m/n/10.95 http : / / www . codeproject . com / Articles / 92812 /
  []
 
-[45]) [46]
+[47]) [48]
 \tf@toc=\write5
 \openout5 = `xjobb-en.toc'.
 
@@ -1511,20 +1501,16 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
 Package rerunfilecheck Info: File `xjobb-en.out' has not changed.
 (rerunfilecheck)             Checksum: B07313C905AD7DA74482A0C416E2D061;3373.
-
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
  ) 
 Here is how much of TeX's memory you used:
- 13163 strings out of 493488
- 187329 string characters out of 3141326
+ 13161 strings out of 493488
+ 187247 string characters out of 3141326
  630863 words of memory out of 3000000
- 15411 multiletter control sequences out of 15000+200000
+ 15407 multiletter control sequences out of 15000+200000
  83810 words of font info for 59 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 32i,12n,43p,1149b,1833s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,12n,43p,1378b,1833s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
 12/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2012/texmf-dist
@@ -1544,10 +1530,10 @@ ive/2012/texmf-dist/fonts/type1/public/lm/lmssdc10.pfb></usr/local/texlive/2012
 t/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2012/texmf-dist/fonts/typ
 e1/public/lm/lmtt10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/
 lm/lmtt8.pfb>
-Output written on xjobb-en.pdf (56 pages, 971988 bytes).
+Output written on xjobb-en.pdf (58 pages, 973104 bytes).
 PDF statistics:
- 1511 PDF objects out of 1728 (max. 8388607)
- 1398 compressed objects within 14 object streams
- 725 named destinations out of 1000 (max. 500000)
+ 1524 PDF objects out of 1728 (max. 8388607)
+ 1408 compressed objects within 15 object streams
+ 727 named destinations out of 1000 (max. 500000)
  503 words of extra memory for PDF output out of 10000 (max. 10000000)
 
