@@ -3,8 +3,9 @@ There are several ways to evaluate code. Code can be evaluated on its structure,
 
 
 \subsection{Execution Speed}
-The primary objective of the code should be to execute quickly. In general, the faster any code executes the more efficient the implementation is. Apart from saving time this priority enables users to compete amongst each other (using leaderboards on the website), for the shortest execution time by writing the most efficient code.
-The time is measured using the .NET Stopwatch class \cite{Stopwatch} which starts from the point of executing the thread which invokes the submissions entry method and ends when the thread ends, either by returning an answer or timing out.
+The primary objective of the code should be to execute quickly. In general, the faster any code executes the more efficient the implementation is. Apart from saving time this priority enables users to compete amongst each other (using leaderboards on the website), for the shortest execution time by writing the most efficient code. It is likely that all languages will perform differently even when they execute the same algorithm, thus a there is a need to create a scaling factor between the languages to offset any language related performance problems.
+
+The execution time is measured using the .NET Stopwatch class \cite{Stopwatch} which starts from the point of executing the thread which invokes the submissions entry method and ends when the thread ends, either by returning an answer or timing out.
 
 
 \subsection{Memory Consumption}

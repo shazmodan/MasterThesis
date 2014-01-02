@@ -18,4 +18,6 @@ Changelog
 - Resultatanalysen ändrad för att matcha resultaten bättre.
 - Uppdaterat Sektion 6.2 till att omfatta svårigheten med att benchmarka mellan olika språk.
 - Uppdaterat Sektion 6.3 till att poängtera att det kan finnas ett behov för förbättring av interaktionen med systemet, ett annat exjobb möjligtvis (MDI)?
+- Nämnt i introduktionen att man ämnar rekrytera folk från högskolan där algoritmers effektivitet ofta är av stor vikt.
+- Uppdaterat Sektion 4.1.1 till att inkludera skalningsfaktorn mellan språken.
 
