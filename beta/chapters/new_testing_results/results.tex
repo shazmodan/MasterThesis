@@ -10,7 +10,7 @@ This section display the results for the tests made in each language native envi
 
 \input{chapters/new_testing_results/native_merge_sort}
 
-\subsection{.NET environment}
+\subsection{.NET environment} \label{subsec:net_environment}
 This section display the results for the tests made in each language when run in the .NET environment. The tests tend to perform poorer performance wise than the corresponding tests in the native environment. Important to note is that these tests are run on the same Virtual Machine, the Microsoft CLR.
 
 \input{chapters/new_testing_results/net_language_overhead}
@@ -22,10 +22,12 @@ This section display the results for the tests made in each language when run in
 \input{chapters/new_testing_results/net_merge_sort}
 
 \subsection{The scaling factors}
-
-In this section....
-
-This is calculated by ....
+This section displays the scaling factors in Table \ref{table:scaling_factors}. The values are calculated by the following formula:
+\newline
+\newline
+\centerline{ \scalebox{1.4}{ $ \frac{Java \, or \, Python \, time}{C\# \, time} = scaling \, factor $ } }
+\newline
+\newline
 
 \begin{table}[h]
      \begin{center}
@@ -37,7 +39,9 @@ This is calculated by ....
                \textbf{Merge Sort}                  & 1.0                 & 1.27                      & 94.42 \\  \hline
           \end{tabular}
      \end{center}
-     \caption{Add some text here...}
-     \label{table:language_overhead}
+     \caption{This table shows the scaling factors of each language based on the test results in Section \ref{subsec:net_environment}. Java has a very consistent result set, varying by a factor of only 0.04 while Python varies greatly.}
+     \label{table:scaling_factors}
 \end{table}
+
+As the table shows the scaling factor for Java is consistently between 1.27 and 1.31 giving an average of 1.29. The values for Python vary greatly from 1.67 to 107.59 giving an average of 67.
 

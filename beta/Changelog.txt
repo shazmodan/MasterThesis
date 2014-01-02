@@ -14,4 +14,4 @@ Changelog
 - Lagt till DLR som förklaring av hur Python supportas.
 - Påpekat att det är olika virtuella maskiner som jämförs i sektion 5.3.1.
 - Påpekat att det är samma virtuella maskin som jämför i sektion 5.3.2.
-
+- Lagt till en ny sektion i Resultatdelen som handlar om skalningsfaktorn, se sektion 5.3.3.
