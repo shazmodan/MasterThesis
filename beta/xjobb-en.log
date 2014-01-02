@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  2 JAN 2014 23:24
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  2 JAN 2014 23:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1125,13 +1125,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 1.
-
-Overfull \hbox (4.88551pt too wide) in paragraph at lines 11--12
-[]\T1/lmr/m/n/10 En skalnings-fak-tor togs fram som en kom-pen-sa-tion för Java
-s långsam-
- []
-
-) [3] (./chapters/foreign_abstract.tex
+) [3]
+(./chapters/foreign_abstract.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1530,7 +1525,7 @@ ive/2012/texmf-dist/fonts/type1/public/lm/lmssdc10.pfb></usr/local/texlive/2012
 t/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2012/texmf-dist/fonts/typ
 e1/public/lm/lmtt10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/
 lm/lmtt8.pfb>
-Output written on xjobb-en.pdf (58 pages, 973104 bytes).
+Output written on xjobb-en.pdf (58 pages, 972867 bytes).
 PDF statistics:
  1524 PDF objects out of 1728 (max. 8388607)
  1408 compressed objects within 15 object streams
