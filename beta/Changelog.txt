@@ -6,5 +6,12 @@ Changelog
 - Lagt till ny sektion angående Jit, se Sektion 4.3.
 - Betonat vikten av att vissa programmeringsuppgifter är intressanta ur ett prestandaperspektiv, se Sektion 4.1.
 - Små modifikationer i skrivspråket gjorda i Sektion 5.1 och 5.2.
-- Resultatdelen är nu uppdelad i två sektioner. En för "native" tester och en för ".NET" tester
+- Resultatdelen är nu uppdelad i två sektioner. En för "native" tester och en för ".NET" tester.
+- Motivation för uppdelningen av resultatdelen finns nu i Sektion 5.
 - Resultatdelen innehåller nu de nya graferna.
+- Lagt till fler grafer och utökat den förklarande texten till varje graf.
+- Lagt till DLR förklaring till Glossary sektionen.
+- Lagt till DLR som förklaring av hur Python supportas.
+- Påpekat att det är olika virtuella maskiner som jämförs i sektion 5.3.1.
+- Påpekat att det är samma virtuella maskin som jämför i sektion 5.3.2.
+

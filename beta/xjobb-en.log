@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  30 DEC 2013 17:28
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  2 JAN 2014 17:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -909,7 +909,11 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-(./chapters/frontpage.tex) (./xjobb-en.aux)
+(./chapters/frontpage.tex) (./xjobb-en.aux
+
+LaTeX Warning: Label `table:language_overhead' multiply defined.
+
+)
 \openout1 = `xjobb-en.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
@@ -926,8 +930,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 46.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 46.
@@ -1068,7 +1071,7 @@ l.1 \chapter
             *{Glossary} [6
 
 ]
-Overfull \hbox (26.73856pt too wide) in paragraph at lines 4--21
+Overfull \hbox (26.73856pt too wide) in paragraph at lines 4--23
  [] 
  []
 
@@ -1198,7 +1201,7 @@ Overfull \hbox (10.6858pt too wide) in paragraph at lines 6--20
 ) (./chapters/new_testing_results/about.tex [19])
 (./chapters/new_testing_results/results.tex
 (./chapters/new_testing_results/native_addition_operator.tex
-<chapters/new_media/AdditionOperatorNative.png, id=523, 497.2176pt x 311.2428pt
+<chapters/new_media/AdditionOperatorNative.png, id=524, 497.2176pt x 311.2428pt
 >
 File: chapters/new_media/AdditionOperatorNative.png Graphic file (type png)
  <use chapters/new_media/AdditionOperatorNative.png>
@@ -1210,7 +1213,7 @@ input line 7.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./chapters/new_testing_results/native_insertion_sort.tex
-<chapters/new_media/InsertionSortNative.png, id=527, 497.2176pt x 311.2428pt>
+<chapters/new_media/InsertionSortNative.png, id=528, 497.2176pt x 311.2428pt>
 File: chapters/new_media/InsertionSortNative.png Graphic file (type png)
 
 <use chapters/new_media/InsertionSortNative.png>
@@ -1222,7 +1225,7 @@ ut line 7.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./chapters/new_testing_results/native_merge_sort.tex
-<chapters/new_media/MergeSortNative.png, id=529, 497.2176pt x 311.2428pt>
+<chapters/new_media/MergeSortNative.png, id=530, 497.2176pt x 311.2428pt>
 File: chapters/new_media/MergeSortNative.png Graphic file (type png)
 
 <use chapters/new_media/MergeSortNative.png>
@@ -1233,11 +1236,11 @@ ine 7.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./chapters/new_testing_results/net_language_overhead.tex
+) (./chapters/new_testing_results/net_language_overhead.tex [20]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./chapters/new_testing_results/net_addition_operator.tex [20]
+) (./chapters/new_testing_results/net_addition_operator.tex
 <chapters/new_media/AdditionOperatorNet.png, id=543, 497.2176pt x 311.2428pt>
 File: chapters/new_media/AdditionOperatorNet.png Graphic file (type png)
 
@@ -1270,10 +1273,13 @@ Package pdftex.def Info: chapters/new_media/MergeSortNet.png used on input line
  7.
 (pdftex.def)             Requested size: 396.0pt x 247.8975pt.
 
+Underfull \vbox (badness 1521) has occurred while \output is active []
+
+ [21 <./chapters/new_media/AdditionOperatorNative.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapters/new_media/MBytesMergesort.png, id=549, 497.2176pt x 311.7246pt>
+<chapters/new_media/MBytesMergesort.png, id=560, 497.2176pt x 311.7246pt>
 File: chapters/new_media/MBytesMergesort.png Graphic file (type png)
 
 <use chapters/new_media/MBytesMergesort.png>
@@ -1284,7 +1290,7 @@ ine 16.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapters/new_media/ProcessorTime.png, id=551, 497.2176pt x 311.2428pt>
+<chapters/new_media/ProcessorTime.png, id=562, 497.2176pt x 311.2428pt>
 File: chapters/new_media/ProcessorTime.png Graphic file (type png)
 
 <use chapters/new_media/ProcessorTime.png>
@@ -1295,14 +1301,15 @@ e 25.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-))) (./chapters/discussion.tex [21 <./chapters/new_media/AdditionOperatorNative
-.png>] [22 <./chapters/new_media/InsertionSortNative.png> <./chapters/new_media
-/MergeSortNative.png>] [23 <./chapters/new_media/AdditionOperatorNet.png>]
-[24 <./chapters/new_media/InsertionSortNet.png>] [25 <./chapters/new_media/Merg
-eSortNet.png>] [26 <./chapters/new_media/MBytesMergesort.png>] [27 <./chapters/
-new_media/ProcessorTime.png>] [28
+)
 
-]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)) (./chapters/discussion.tex [22 <./chapters/new_media/InsertionSortNative.png
+>] [23 <./chapters/new_media/MergeSortNative.png>] [24 <./chapters/new_media/Ad
+ditionOperatorNet.png>] [25 <./chapters/new_media/InsertionSortNet.png>]
+[26 <./chapters/new_media/MergeSortNet.png>] [27 <./chapters/new_media/MBytesMe
+rgesort.png>] [28 <./chapters/new_media/ProcessorTime.png>]
 (./chapters/discussion/result_reflections.tex
 
 LaTeX Warning: Reference `fig:insertion_sort_all_native' on page 29 undefined o
@@ -1315,7 +1322,9 @@ LaTeX Warning: Reference `fig:tim_sort' on page 29 undefined on input line 5.
 LaTeX Warning: Reference `fig:merge_sort_memory_all' on page 29 undefined on in
 put line 11.
 
-[29]) (./chapters/discussion/conclusion.tex
+[29
+
+]) (./chapters/discussion/conclusion.tex
 
 LaTeX Warning: Reference `fig:merge_sort_all_net' on page 30 undefined on input
  line 4.
@@ -1403,17 +1412,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
 Package rerunfilecheck Info: File `xjobb-en.out' has not changed.
-(rerunfilecheck)             Checksum: 2322B3E49CB2639315FC0B17212A41F0;3370.
+(rerunfilecheck)             Checksum: B07313C905AD7DA74482A0C416E2D061;3373.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
  ) 
 Here is how much of TeX's memory you used:
- 12062 strings out of 493488
- 171782 string characters out of 3141326
- 609859 words of memory out of 3000000
+ 12064 strings out of 493488
+ 171803 string characters out of 3141326
+ 609705 words of memory out of 3000000
  14339 multiletter control sequences out of 15000+200000
  83810 words of font info for 59 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1436,10 +1448,10 @@ exlive/2012/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/201
 2/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2012/texmf-dis
 t/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
 pe1/public/lm/lmtt8.pfb>
-Output written on xjobb-en.pdf (56 pages, 961425 bytes).
+Output written on xjobb-en.pdf (56 pages, 963707 bytes).
 PDF statistics:
- 1502 PDF objects out of 1728 (max. 8388607)
- 1391 compressed objects within 14 object streams
- 723 named destinations out of 1000 (max. 500000)
+ 1504 PDF objects out of 1728 (max. 8388607)
+ 1393 compressed objects within 14 object streams
+ 725 named destinations out of 1000 (max. 500000)
  503 words of extra memory for PDF output out of 10000 (max. 10000000)
 

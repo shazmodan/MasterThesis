@@ -1,8 +1,8 @@
 \section{Results}
-In this section, the results are presented using tables and charts. Note that on some charts the vertical axis is base 10 logarithmic (for viewing purposes). The implementation of all the algorithms for all languages can be found in Appendix \ref{appendix:code}.
+In this section, the results are presented using tables and charts. Note that on some charts the vertical axis is base 10 logarithmic (for viewing purposes). The implementation of all the algorithms for all languages can be found in Appendix \ref{appendix:code}. The section is divided into two subsections. The purpose of this division is to illustrate the performance hit that each language takes when running on the CLR instead of their own native environments. This is one side of creating the scaling factor for each language.
 
 \subsection{Native environments}
-This section display the results for the tests made in each language native environment. As is illustrated in each subsection, these tests tend to do better performance wise than the corresponding tests in the .NET environment.
+This section display the results for the tests made in each language native environment. As is illustrated in each subsection, these tests tend to do better performance wise than the corresponding tests in the .NET environment. Important to note is that these tests compare different Virtual Machines.
 
 \input{chapters/new_testing_results/native_addition_operator}
 
@@ -11,7 +11,7 @@ This section display the results for the tests made in each language native envi
 \input{chapters/new_testing_results/native_merge_sort}
 
 \subsection{.NET environment}
-This section display the results for the tests made in each language when run in the .NET environment. The tests tend to perform poorer performance wise than the corresponding tests in the native environment.
+This section display the results for the tests made in each language when run in the .NET environment. The tests tend to perform poorer performance wise than the corresponding tests in the native environment. Important to note is that these tests are run on the same Virtual Machine, the Microsoft CLR.
 
 \input{chapters/new_testing_results/net_language_overhead}
 
@@ -20,4 +20,24 @@ This section display the results for the tests made in each language when run in
 \input{chapters/new_testing_results/net_insertion_sort}
 
 \input{chapters/new_testing_results/net_merge_sort}
+
+\subsection{The scaling factors}
+
+In this section....
+
+This is calculated by ....
+
+\begin{table}[h]
+     \begin{center}
+          \begin{tabular} { >{\centering\arraybackslash}m{4cm} | >{\centering\arraybackslash}m{1cm} | >{\centering\arraybackslash}m{1cm} | >{\centering\arraybackslash}m{2cm} }
+               \hline
+               \textbf{}                                  & \textbf{C\#}     & \textbf{Java}           & \textbf{Python} \\ \hline
+               \textbf{Addition Operator}        & 1.0                 & 1.27                      & 1.67 \\ \hline
+               \textbf{Insertion Sort}               & 1.0                 & 1.31                      & 107.59 \\ \hline
+               \textbf{Merge Sort}                  & 1.0                 & 1.27                      & 94.42 \\  \hline
+          \end{tabular}
+     \end{center}
+     \caption{Add some text here...}
+     \label{table:language_overhead}
+\end{table}
 
