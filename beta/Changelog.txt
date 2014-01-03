@@ -11,7 +11,7 @@ Changelog
 - Resultatdelen innehåller nu de nya graferna.
 - Lagt till fler grafer och utökat den förklarande texten till varje graf.
 - Lagt till DLR förklaring till Glossary sektionen.
-- Lagt till DLR som förklaring av hur Python supportas.
+- Lagt till DLR som en del av förklaring av hur Python supportas.
 - Påpekat att det är olika virtuella maskiner som jämförs i sektion 5.3.1.
 - Påpekat att det är samma virtuella maskin som jämför i sektion 5.3.2.
 - Lagt till en ny sektion i Resultatdelen som handlar om skalningsfaktorn, se sektion 5.3.3.
@@ -21,4 +21,5 @@ Changelog
 - Nämnt i introduktionen att man ämnar rekrytera folk från högskolan där algoritmers effektivitet ofta är av stor vikt.
 - Uppdaterat Sektion 4.1.1 till att inkludera skalningsfaktorn mellan språken.
 - Nämnt i Sektion 5.2 att alla tester genomgår en warm-up först.
-
+- Förtydligat Sektion 1.2, den inkluderar numera skalningsfaktorn.
+- Skrivit om abstract, den tar nu upp skalningsfaktorn mer explicit.
