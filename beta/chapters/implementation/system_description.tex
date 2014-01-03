@@ -8,7 +8,7 @@ The system was named CELINE, an abbreviation that comes from the descriptive phr
 	\label{fig:SystemOverview}
 \end{figure}
 
-Figure \ref{fig:SystemOverview} describes an overview of the system. The system uses a web based GUI for listing problems and submitting solutions to them. Going through this figure from left to right we can see that a user connects to the website through a web based GUI, which is built using a combination of ASP.NET MVC4 (Razor v2) technology and JavaScript. The system uses Microsoft IIS to enable this web support, which the standard web server software used in .NET. When the user submits code to solve a problem, that submission is saved to a database which is a Microsoft SQL Server 2008 R2 database. The submission is then forwarded to a WCF Service which in turn creates a new instance of the automatic grading system (built using C\#) using the submission as input. The automatic grader compiles the source if needed and runs the code. It then returns a status code generated from the submission, this is described in section \ref{subsec:status_codes}.
+Figure \ref{fig:SystemOverview} describes an overview of the system. The system uses a web based GUI for listing problems and submitting solutions to them. Going through this figure from left to right we can see that a user connects to the website through a web based GUI, which is built using a combination of ASP.NET MVC4 (Razor v2) technology and JavaScript. The system uses Microsoft IIS to enable this web support, which is the standard web server software used in .NET. When the user submits code to solve a problem, that submission is saved to a database which is a Microsoft SQL Server 2008 R2 database. The submission is then forwarded to a WCF Service which in turn creates a new instance of the automatic grading system (built using C\#) using the submission as input. The automatic grader compiles the source if needed and runs the code. It then returns a status code generated from the submission, this is described in section \ref{subsec:status_codes}.
 
 
 \subsection{The Web GUI and workflow}
@@ -56,7 +56,7 @@ When the applicant has submitted their solution, they are sent to a page where t
 	\centering
 	\includegraphics[width=1.0\textwidth]{chapters/media/celine_submissionsCut.png}
 	\caption{All submissions page. This page displays a list of all submissions that an applicant has made. Each item in the list contains a unique id, the name of the problem, the date of when the submission was sent, the status code which indicates if the output was accepted or not, the time it took for the output to be produced and the language that was used.}
-	\label{fig:celine_submit}
+	\label{fig:celine_submissions}
 \end{figure}
 
 
@@ -83,7 +83,7 @@ The system gives feedback to the user in the form of a status code, one for each
 	\item Submission Error - The code tries to reference a code library that is not available/allowed.
 	\item Illegal Operation - Occurs if the AGS detects a forbidden system call (e.g. accessing files, using the network etc...).
 	\item Class or Function Error - Occurs if the class or method name does not correspond to the name provided by the user, thus resulting in the AGS being unable to invoke it.
-	\item Time Limit Exceeded - The code ran longer than the time-limit for this problem allowed. This could be an indication that the code needs to be improved (performance wise). The time limit is decided by an administrator when the problem was created.
+	\item Time Limit Exceeded - The code ran longer than the time-limit for this problem allowed. This could be an indication that the code needs to be improved (performance wise). The time limit is decided by the admin who created the problem.
 	\item Rejected - This is a general error which indicates that the AGS has been unable to determine why the submission failed.
 	\item Server Error - This indicates that the AGS instance has crashed.
 \end{itemize}

@@ -27,12 +27,12 @@
 \contentsline {chapter}{\chapternumberline {4}Testing Methodology}{15}{chapter.4}
 \contentsline {section}{\numberline {4.1}Aspects to Test}{15}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Execution Speed}{15}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Memory Consumption}{16}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.2}Memory Consumption}{15}{subsection.4.1.2}
 \contentsline {section}{\numberline {4.2}The Chosen Tests}{16}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Language Overhead}{16}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Common Operators}{17}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.2}Common Operators}{16}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Insertion Sort}{17}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Merge Sort}{18}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.4}Merge Sort}{17}{subsection.4.2.4}
 \contentsline {section}{\numberline {4.3}About Just-in-time compilation}{18}{section.4.3}
 \contentsline {chapter}{\chapternumberline {5}Testing Results}{21}{chapter.5}
 \contentsline {section}{\numberline {5.1}Testing Systems Specifications}{21}{section.5.1}
