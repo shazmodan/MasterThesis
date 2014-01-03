@@ -70,7 +70,7 @@ When a user has submitted his or her code, it eventually reaches the AGS. Figure
 	\label{fig:flowchart}
 \end{figure}
 
-Depending on the programming language, a compiler is chosen. The code is then compiled into an assembly file and loaded into a separate and secure Application Domain (AppDomain, see section \ref{subsec:security}). The AGS then invokes the user specified method with a string containing the test data. The AGS waits for the code to complete or for the problem to timeout. It then compares the string returned by this method with another string containing what should be the correct output. If the strings match, the submission is regarded as being a success; otherwise it is regarded as a failure. The AGS then returns the appropriate status code.
+Depending on the programming language, a compiler is chosen. The code is then compiled into an assembly file and loaded into a separate and secure Application Domain (AppDomain, see section \ref{subsec:security}). The AGS then invokes the user specified method with a string containing the test data. The AGS waits for the code to complete or for the problem to timeout. The timeout is problem specific and decided when the problem is created. It then compares the string returned by this method with another string containing what should be the correct output. If the strings match, the submission is regarded as being a success; otherwise it is regarded as a failure. The AGS then returns the appropriate status code.
 
 
 \subsection{System-User Feedback} \label{subsec:status_codes}
@@ -83,7 +83,7 @@ The system gives feedback to the user in the form of a status code, one for each
 	\item Submission Error - The code tries to reference a code library that is not available/allowed.
 	\item Illegal Operation - Occurs if the AGS detects a forbidden system call (e.g. accessing files, using the network etc...).
 	\item Class or Function Error - Occurs if the class or method name does not correspond to the name provided by the user, thus resulting in the AGS being unable to invoke it.
-	\item Time Limit Exceeded - The code ran longer than the time-limit for this problem allowed. This could be an indication that the code needs to be improved (performance wise).
+	\item Time Limit Exceeded - The code ran longer than the time-limit for this problem allowed. This could be an indication that the code needs to be improved (performance wise). The time limit is decided by an administrator when the problem was created.
 	\item Rejected - This is a general error which indicates that the AGS has been unable to determine why the submission failed.
 	\item Server Error - This indicates that the AGS instance has crashed.
 \end{itemize}

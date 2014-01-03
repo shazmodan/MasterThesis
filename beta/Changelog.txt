@@ -1,25 +1,27 @@
 Changelog
 
-- Uppdaterat grafernas utseende, de bör nu synas tydligare i svart-vitt format.
-- Några grafer saknade tidsenhet, detta bör nu vara ordnat.
+- Uppdaterat grafernas utseende, de bör nu synas tydligare i svart-vitt format, se Sektion 5.3.
+- Några grafer saknade tidsenhet, detta bör nu vara ordnat, se Sektion 5.3.
 - Förklarat att en skalningsfaktor behövs, se Sektion 4.2.
 - Lagt till ny sektion angående Jit, se Sektion 4.3.
 - Betonat vikten av att vissa programmeringsuppgifter är intressanta ur ett prestandaperspektiv, se Sektion 4.1.
 - Små modifikationer i skrivspråket gjorda i Sektion 5.1 och 5.2.
-- Resultatdelen är nu uppdelad i två sektioner. En för "native" tester och en för ".NET" tester.
+- Resultatdelen är nu uppdelad i två sektioner. En för "native" tester och en för ".NET" tester, se Sektion 5.
 - Motivation för uppdelningen av resultatdelen finns nu i Sektion 5.
-- Resultatdelen innehåller nu de nya graferna.
-- Lagt till fler grafer och utökat den förklarande texten till varje graf.
-- Lagt till DLR förklaring till Glossary sektionen.
-- Lagt till DLR som en del av förklaring av hur Python supportas.
-- Påpekat att det är olika virtuella maskiner som jämförs i sektion 5.3.1.
-- Påpekat att det är samma virtuella maskin som jämför i sektion 5.3.2.
-- Lagt till en ny sektion i Resultatdelen som handlar om skalningsfaktorn, se sektion 5.3.3.
-- Resultatanalysen ändrad för att matcha resultaten bättre.
+- Resultatdelen innehåller nu de nya graferna, se Sektion 5.
+- Lagt till fler grafer och utökat den förklarande texten till varje graf, se Sektion 5.
+- Lagt till DLR förklaring till Glossary sektionen, finns i början av uppsatsen.
+- Lagt till DLR som en del av förklaring av hur Python supportas, se Sektion 3.2.3.
+- Påpekat att det är olika virtuella maskiner som jämförs i Sektion 5.3.1.
+- Påpekat att det är samma virtuella maskin som jämför i Sektion 5.3.2.
+- Lagt till en ny sektion i Resultatdelen som handlar om skalningsfaktorn, se Sektion 5.3.3.
+- Resultatanalysen uppdaterad för att matcha de nya graferna och resultaten bättre, se Sektion 6.1.
 - Uppdaterat Sektion 6.2 till att omfatta svårigheten med att benchmarka mellan olika språk.
 - Uppdaterat Sektion 6.3 till att poängtera att det kan finnas ett behov för förbättring av interaktionen med systemet, ett annat exjobb möjligtvis (MDI)?
-- Nämnt i introduktionen att man ämnar rekrytera folk från högskolan där algoritmers effektivitet ofta är av stor vikt.
+- Nämnt i introduktionen att man ämnar rekrytera folk från högskolan där algoritmers effektivitet ofta är av stor vikt, se Sektion 1.1.
 - Uppdaterat Sektion 4.1.1 till att inkludera skalningsfaktorn mellan språken.
 - Nämnt i Sektion 5.2 att alla tester genomgår en warm-up först.
 - Förtydligat Sektion 1.2, den inkluderar numera skalningsfaktorn.
-- Skrivit om abstract, den tar nu upp skalningsfaktorn mer explicit.
+- Skrivit om abstract, den tar nu upp skalningsfaktorn mer explicit. Bytt ut vissa engelska ord.
+- Förklarat flödet genom webb-applikationen från ett användarperspektiv, se Sektion 3.1.1.
+
