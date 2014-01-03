@@ -39,9 +39,9 @@ This section displays the scaling factors in Table \ref{table:scaling_factors}. 
                \textbf{Merge Sort}                  & 1.0                 & 1.27                      & 94.42 \\  \hline
           \end{tabular}
      \end{center}
-     \caption{This table shows the scaling factors of each language based on the test results in Section \ref{subsec:net_environment}. Java has a very consistent result set, varying by a factor of only 0.04 while Python varies greatly.}
+     \caption{This table shows the scaling factors of each language based on the test results in Section \ref{subsec:net_environment}. Java has a very consistent result set, the difference between the min- and max value is only 0.04 while Python varies greatly.}
      \label{table:scaling_factors}
 \end{table}
 
-As the table shows the scaling factor for Java is consistently between 1.27 and 1.31 giving an average of 1.29. The values for Python vary greatly from 1.67 to 107.59 giving an average of 67.
+As the table shows the scaling factor for Java is consistently between 1.27 and 1.31 giving an average of 1.29. The values for Python vary greatly from 1.67 to 107.59 giving an average of 67. This means that the system should divide all Java execution times by 1.29 on average for different languages to be able to compete on the leaderboards against each other.
 

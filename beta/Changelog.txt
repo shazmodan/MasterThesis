@@ -20,4 +20,5 @@ Changelog
 - Uppdaterat Sektion 6.3 till att poängtera att det kan finnas ett behov för förbättring av interaktionen med systemet, ett annat exjobb möjligtvis (MDI)?
 - Nämnt i introduktionen att man ämnar rekrytera folk från högskolan där algoritmers effektivitet ofta är av stor vikt.
 - Uppdaterat Sektion 4.1.1 till att inkludera skalningsfaktorn mellan språken.
+- Nämnt i Sektion 5.2 att alla tester genomgår en warm-up först.
 

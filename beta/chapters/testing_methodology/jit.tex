@@ -1,4 +1,4 @@
-\section{About Just-in-time compilation}
+\section{About Just-in-time compilation} \label{sec:jit}
 All languages used in this thesis use Virtual Machines (VM:s) (and/or interpreters) to execute their code (though Microsoft prefers to call the CLR an \textit{Execution Engine} \cite{ExecutionEngine}). This means that they can benefit from Just-in-time compilation (JIT). JIT is a method to improve runtime performance. It works by using \textit{heuristics} in order to determine whether or not to compile a method from byte-code into machine-code or to simply execute the code through an interpreter. JIT also uses runtime statistics to aid in these decisions \cite{Jit}.
 
 This means that some programs might experience slow start-up times because the VM has yet to determine the best compiling action for all the methods the program uses since it has not yet been able to collect any runtime statistics. In order to make sure programs run in their optimized state, a warm-up time is commonly used.
