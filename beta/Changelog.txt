@@ -24,4 +24,4 @@ Changelog
 - Förtydligat Sektion 1.2, den inkluderar numera skalningsfaktorn.
 - Skrivit om abstract, den tar nu upp skalningsfaktorn mer explicit. Bytt ut vissa engelska ord.
 - Förklarat flödet genom webb-applikationen från ett användarperspektiv, se Sektion 3.1.1.
-
+- Lagt till ytterligate akademiska referenser (5st) (3x Insertion Sort, 1x Merge Sort och 1x JVM vs CLR).

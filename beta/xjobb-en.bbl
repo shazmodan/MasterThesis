@@ -142,11 +142,31 @@ Goodrich M~T and Tamassia R.
   pages 13--16.
 \newblock John Wiley {\&} Sons, Inc., 2002.
 
+\bibitem{Cook}
+Cook C, R and Kim D, J.
+\newblock Best sorting algorithm for nearly sorted lists.
+\newblock {\em Communications of the ACM, Volume 23 / Issue 11 / Nov}, 1980.
+
+\bibitem{Musser}
+Musser D, R.
+\newblock Introspective sorting and selection algorithms.
+\newblock {\em Rensselaer Polytechnic Institute, Troy, NY, 12180}, 1997.
+
+\bibitem{Castro}
+Estivill-Castro V and Wood D.
+\newblock A survey of adaptive sorting algorithms.
+\newblock {\em ACM Computing Surveys, Volume 24 / Issue 4 / Dec}, 1992.
+
 \bibitem{Insertionsort}
 {D, R Martin}.
 \newblock {Sorting Algorithms: Insertion Sort}.
 \newblock \\ \url{http://www.sorting-algorithms.com/insertion-sort}.
 \newblock \\Accessed 2013-03-04.
+
+\bibitem{Cole}
+Cole R.
+\newblock Parallel merge sort.
+\newblock {\em SIAM Journal on Computing, Volume 17 / Issue 4 / Aug}, 1988.
 
 \bibitem{Mergesort}
 {D, R Martin}.
@@ -167,6 +187,12 @@ Goodrich M~T and Tamassia R.
 \newblock \\ \url{http://www.sco.com/developers/java/news/jit-heur.pdf}.
 \newblock \\2003.
 
+\bibitem{SingerJit}
+Singer J.
+\newblock {{JVM versus CLR: A Comparative Study}}.
+\newblock {\em PPPJ '03 Proceedings of the 2nd international conference on
+  Principles and practice of programming in Java, Pages 167-169}, 2003.
+
 \bibitem{PythonSum}
 {Python 2.7.3 Documentation: Sum Function}.
 \newblock \\ \url{http://docs.python.org/2/library/functions.html#sum}.
@@ -182,19 +208,11 @@ Goodrich M~T and Tamassia R.
 \newblock \\ \url{http://docs.python.org/2/tutorial/datastructures.html}.
 \newblock \\Accessed 2013-03-22.
 
-\bibitem{Benchmark}
-{Brent Fulgham}.
-\newblock {Computer Language Benchmark Game}.
-\newblock \\ \url{http://benchmarksgame.alioth.debian.org/u64/csharp.php}.
-\newblock \\Accessed 2013-03-04.
-
-\bibitem{Benchmark2}
-{Decebal Mihailescu}.
-\newblock {Benchmark start-up and system performance for .Net, Mono, Java, C++
-  and their respective UI}.
-\newblock \\
-  \url{http://www.codeproject.com/Articles/92812/Benchmark-start-up-and-system-performance-for-Net}.
-\newblock \\Accessed 2013-03-04.
+\bibitem{PythonInteger}
+{M, Zadka and G, Rossum}.
+\newblock {Unifying Long Integers and Integers}.
+\newblock \\ \url{http://www.python.org/dev/peps/pep-0237/}.
+\newblock \\2001.
 
 \bibitem{JavaScript.NET}
 {JavaScript.NET}.

@@ -42,7 +42,7 @@ The common operators are addition (+), subtraction (-), multiplication (*), divi
 This code takes a string containing numbers as input, divides it into an array of strings, converts the strings to integers, sums these integers and returns this summation.
 
 \subsection{Insertion Sort}
-Insertion Sort is a comparison based sorting algorithm useful for sorting small inputs. The algorithm can be expressed using code, but this does not illustrate it well enough for people not already familiar with it. So instead of code, playing cards (using a common 52 card deck) will be used to explain it.
+Insertion Sort is a comparison based sorting algorithm useful for sorting small inputs and nearly sorted lists \cite{Cook} due to the limited amount of copying needed. It is commonly used in combination with more advanced sorting algorithms for the same reasons \cite{Musser}. The version used in this thesis is the so called \textit{Straight Insertion Sort} \cite{Castro}. The algorithm can be expressed using code, but this does not illustrate it well enough for people not already familiar with it. So instead of code, playing cards (using a common 52 card deck) will be used to explain it.
 
 \begin{itemize}
 \item Start with an empty left hand and imagine seeing a bunch of cards on a table.
@@ -58,7 +58,7 @@ Insertion Sort is a suitable algorithm for testing performance between different
 
 
 \subsection{Merge Sort} \label{subsec:merge_sort}
-Merge Sort is a divide and conquer, comparison based sorting algorithm. It is stable in the sense that it preserves the input order of equal elements in the output. The algorithm goes as follows (once again using the common 52 card deck analogy):
+Merge Sort is a divide and conquer, comparison based sorting algorithm. It is stable in the sense that it preserves the input order of equal elements in the output. This algorithm is often used when parallelization is an option due to the fact that the individual subsets of the original list can be handled independently \cite{Cole}. The version used in this thesis is the so called \textit{Straight Merge Sort} \cite{Castro}. The algorithm goes as follows (once again using the common 52 card deck analogy):
 
 \begin{itemize}
 \item Imagine yourself seeing a full deck of cards spread out in a line on a table.
