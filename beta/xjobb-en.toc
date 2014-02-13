@@ -57,10 +57,13 @@
 \contentsline {section}{\numberline {A.1}Language Overhead}{35}{section.A.1}
 \contentsline {section}{\numberline {A.2}Common Operators}{35}{section.A.2}
 \contentsline {subsection}{\numberline {A.2.1}Addition}{35}{subsection.A.2.1}
+\contentsline {subsubsection}{C\#}{35}{section*.11}
+\contentsline {subsubsection}{Java}{36}{section*.12}
+\contentsline {subsubsection}{Python}{36}{section*.13}
 \contentsline {subsection}{\numberline {A.2.2}Subtraction}{36}{subsection.A.2.2}
 \contentsline {subsection}{\numberline {A.2.3}Multiplication}{37}{subsection.A.2.3}
 \contentsline {subsection}{\numberline {A.2.4}Division}{38}{subsection.A.2.4}
 \contentsline {subsection}{\numberline {A.2.5}Modulo}{39}{subsection.A.2.5}
 \contentsline {section}{\numberline {A.3}Insertion Sort}{40}{section.A.3}
 \contentsline {section}{\numberline {A.4}Merge Sort}{41}{section.A.4}
-\contentsline {chapter}{Bibliography}{47}{section*.12}
+\contentsline {chapter}{Bibliography}{47}{section*.15}

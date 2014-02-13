@@ -2,14 +2,14 @@
 
 \subsection{Addition} \label{appendix:code_addition}
 
-%\begin{figure}[h]
-	\lstset{style=sharpc}
-	\begin{lstlisting}
+\subsubsection{C\#}
+\lstset{style=sharpc}
+\begin{lstlisting}
 using System;
 
 public class AdditionTest
 {
-    //int.parse() is faster than convert.ToInt32() since it performs an additional null check.
+    //int.parse() is faster than convert.ToInt32() since convert.ToInt32 performs an additional null check.
     public string AddNumbers(string input)
     {
         int sum = 0;
@@ -25,14 +25,11 @@ public class AdditionTest
     public static void Main(){}
 }
 
-	\end{lstlisting}
-	%\caption{To get the other tests simply replace the operator.}
-	%\label{fig:language_overhead}
-%\end{figure}
+\end{lstlisting}
 
-%\begin{figure}[h]
-	\lstset{style=java}
-	\begin{lstlisting}
+\subsubsection{Java}
+\lstset{style=java}
+\begin{lstlisting}
 
 public class AdditionTest {
 
@@ -50,14 +47,11 @@ public class AdditionTest {
 	public static void main(String[] args){}
 }
 
-	\end{lstlisting}
-	%\caption{C\# code for language overhead testing.}
-	%\label{fig:language_overhead}
-%\end{figure}
+\end{lstlisting}
 
-%\begin{figure}[h]
-	\lstset{style=python}
-	\begin{lstlisting}
+\subsubsection{Python}
+\lstset{style=python}
+\begin{lstlisting}
 import sys
 class AdditionTest:
     def AddNumbers(self, input):
