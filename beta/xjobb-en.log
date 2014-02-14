@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  14 FEB 2014 18:57
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  14 FEB 2014 19:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1445,19 +1445,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40]
 [41]) (./chapters/appendix/appendix_merge.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1521) has occurred while \output is active []
 
  [42]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [45]))
-(./xjobb-en.bbl [46]
+[44] [45])) (./xjobb-en.bbl [46]
 bibitemlist
 
 Underfull \hbox (badness 10000) in paragraph at lines 45--50
@@ -1519,13 +1513,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
 Package rerunfilecheck Info: File `xjobb-en.out' has not changed.
-(rerunfilecheck)             Checksum: C325D53FDCC8D233BC0F6FB4F39BE3F8;3386.
+(rerunfilecheck)             Checksum: 825AC936E9D2B0D7DDA6917A33AE7EFD;3386.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
  ) 
 Here is how much of TeX's memory you used:
- 13204 strings out of 493488
- 188010 string characters out of 3141326
- 594582 words of memory out of 3000000
+ 13207 strings out of 493488
+ 188043 string characters out of 3141326
+ 593582 words of memory out of 3000000
  15422 multiletter control sequences out of 15000+200000
  83810 words of font info for 59 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1549,10 +1543,10 @@ ive/2012/texmf-dist/fonts/type1/public/lm/lmssdc10.pfb></usr/local/texlive/2012
 t/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2012/texmf-dist/fonts/typ
 e1/public/lm/lmtt10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/
 lm/lmtt8.pfb>
-Output written on xjobb-en.pdf (60 pages, 1006309 bytes).
+Output written on xjobb-en.pdf (60 pages, 1006592 bytes).
 PDF statistics:
- 1574 PDF objects out of 1728 (max. 8388607)
- 1453 compressed objects within 15 object streams
- 753 named destinations out of 1000 (max. 500000)
+ 1577 PDF objects out of 1728 (max. 8388607)
+ 1456 compressed objects within 15 object streams
+ 756 named destinations out of 1000 (max. 500000)
  513 words of extra memory for PDF output out of 10000 (max. 10000000)
 

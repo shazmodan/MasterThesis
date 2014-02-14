@@ -1,8 +1,8 @@
 \section{Merge Sort}
 
-%\begin{figure}[h]
-	\lstset{style=sharpc}
-	\begin{lstlisting}
+\subsubsection{C\#}
+\lstset{style=sharpc}
+\begin{lstlisting}
 using System;
 using System.Text;
 
@@ -80,7 +80,7 @@ public class CSharpMergeSort
 		// Sort the array (using mergesort)
 		array = Sort(array);
 
-		
+
 		// Prepare output.
 		StringBuilder builder = new StringBuilder();
 		for (int i = 0; i < array.Length; i++)
@@ -89,21 +89,19 @@ public class CSharpMergeSort
 		}
 		return builder.ToString().TrimEnd();
 	}
-	
+
 	public static void Main(String [] args){}
 }
 
-	\end{lstlisting}
-	%\caption{To get the other tests simply replace the operator.}
-	%\label{fig:language_overhead}
-%\end{figure}
+\end{lstlisting}
 
-%\begin{figure}[h]
-	\lstset{style=java}
-	\begin{lstlisting}
+
+\subsubsection{Java}
+\lstset{style=java}
+\begin{lstlisting}
 
 public class JavaMergeSort{
-	
+
 	public int[] Sort(int array[])  {
 		if(array.length > 1)  	{
 			int elementsInA1 = array.length/2;
@@ -150,7 +148,7 @@ public class JavaMergeSort{
 
 	public String HandleInputOutput(String input){
 
-		// Organize input. 
+		// Organize input.
 		String [] splitted = input.split(" ");
 		int [] A = new int[splitted.length];
 		for(int i = 0; i < splitted.length; i++){
@@ -167,18 +165,16 @@ public class JavaMergeSort{
 		}
 		return buffy.toString().trim();
 	}
-	
+
 	public static void main(String[] args){}
 }
 
-	\end{lstlisting}
-	%\caption{C\# code for language overhead testing.}
-	%\label{fig:language_overhead}
-%\end{figure}
+\end{lstlisting}
 
-%\begin{figure}[h]
-	\lstset{style=python}
-	\begin{lstlisting}
+
+\subsubsection{Python}
+\lstset{style=python}
+\begin{lstlisting}
 import sys
 import time
 import array
@@ -187,34 +183,34 @@ class PythonMergeSort:
 	def Sort(self, arr):
 		if len(arr) == 1:
 			return arr
-		
+
 		m = len(arr) // 2
 		l = self.Sort(arr[:m])
 		r = self.Sort(arr[m:])
 
 		if not len(l) or not len(r):
 			return l or r
-			
+
 		result = []
 		i = j = 0
-		while (len(result) < len(r)+len(l)):        
+		while (len(result) < len(r)+len(l)):
 			if l[i] < r[j]:
 				result.append(l[i])
 				i += 1
 			else:
 				result.append(r[j])
-				j += 1            
-			if i == len(l) or j == len(r):            
+				j += 1
+			if i == len(l) or j == len(r):
 				result.extend(l[i:] or r[j:])
 				break
-			
+
 		return result
-	
+
 	def HandleInputOutput(self, input):
 		# Organise input.
 		input = input.split(" ")
 		array = list(map(int, input))
-		
+
 		# Start merge sort.
 		derp = MergeSort()
 		array = derp.Sort(array)
@@ -225,7 +221,5 @@ class PythonMergeSort:
 
 		return returnString
 
-	\end{lstlisting}
-	%\caption{C\# code for language overhead testing.}
-	%\label{fig:language_overhead}
-%\end{figure}
+\end{lstlisting}
+
