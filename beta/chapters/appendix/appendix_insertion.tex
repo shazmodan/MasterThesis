@@ -1,8 +1,8 @@
 \section{Insertion Sort}
 
-%\begin{figure}[h]
-	\lstset{style=sharpc}
-	\begin{lstlisting}
+\subsubsection{C\#}
+\lstset{style=sharpc}
+\begin{lstlisting}
 using System;
 using System.Text;
 
@@ -38,29 +38,27 @@ public class CSharpInsertionSort
 		}
 		return builder.ToString().TrimEnd();
 	}
-	
+
 	public static void Main(String [] args){}
 }
 
-	\end{lstlisting}
-	%\caption{To get the other tests simply replace the operator.}
-	%\label{fig:language_overhead}
-%\end{figure}
+\end{lstlisting}
 
-%\begin{figure}[h]
-	\lstset{style=java}
-	\begin{lstlisting}
+
+\subsubsection{Java}
+\lstset{style=java}
+\begin{lstlisting}
 
 public class JavaInsertionSort {
 	public String Sort (String input) {
-		
-		// Organize input. 
+
+		// Organize input.
 		String [] splitted = input.split(" ");
 		int [] A = new int[splitted.length];
 		for(int i = 0; i < splitted.length; i++){
 			A[i] = Integer.parseInt(splitted[i]);
 		}
-		
+
 		// Start insertion sort.
 	    for (int i = 1; i < A.length; i++) {
 	      int a = A[i];
@@ -70,7 +68,7 @@ public class JavaInsertionSort {
 	      }
 	      A[j + 1] = a;
 	    }
-	    
+
 	    // Prepare output.
 	    StringBuffer buffy = new StringBuffer();
 	    for(int i = 0; i < A.length; i++){
@@ -78,19 +76,18 @@ public class JavaInsertionSort {
 	    }
 	    return buffy.toString().trim();
 	}
-	
+
 	public static void main(String[] args){
 	}
 }
 
-	\end{lstlisting}
-	%\caption{C\# code for language overhead testing.}
-	%\label{fig:language_overhead}
-%\end{figure}
+\end{lstlisting}
 
-%\begin{figure}[h]
-	\lstset{style=python}
-	\begin{lstlisting}
+
+
+\subsubsection{Python}
+\lstset{style=python}
+\begin{lstlisting}
 import sys
 class PythonInsertionSort:
     def Sort(self, s):
@@ -98,7 +95,7 @@ class PythonInsertionSort:
         # Organise input
         s = s.split(" ")
         s = list(map(int, s))
-        
+
         # Start insertion sort
         for i in range(1, len(s)):
             val = s[i]
@@ -111,7 +108,5 @@ class PythonInsertionSort:
         s = map(str, s)
         s = " ".join(s)
         return s
-	\end{lstlisting}
-	%\caption{C\# code for language overhead testing.}
-	%\label{fig:language_overhead}
-%\end{figure}
+\end{lstlisting}
+

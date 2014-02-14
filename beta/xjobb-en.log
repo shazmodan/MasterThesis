@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  14 FEB 2014 18:49
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  14 FEB 2014 18:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -999,28 +999,28 @@ File: lstlang1.sty 2004/09/05 1.3 listings language file
 (./chapters/frontpage.tex) (./xjobb-en.aux)
 \openout1 = `xjobb-en.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 49.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 48.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 49.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1061,7 +1061,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 48.
+Package hyperref Info: Link coloring OFF on input line 49.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -1071,16 +1071,16 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count173
 )
-LaTeX Info: Redefining \ref on input line 48.
-LaTeX Info: Redefining \pageref on input line 48.
-LaTeX Info: Redefining \nameref on input line 48.
+LaTeX Info: Redefining \ref on input line 49.
+LaTeX Info: Redefining \pageref on input line 49.
+LaTeX Info: Redefining \nameref on input line 49.
 
 (./xjobb-en.out) (./xjobb-en.out)
 \@outlinefile=\write4
 \openout4 = `xjobb-en.out'.
 
 \c@lstlisting=\count174
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 53.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 54.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1089,7 +1089,7 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: kth_svv_comp_science_comm.pdf Graphic file (type pdf)
 
 <use kth_svv_comp_science_comm.pdf>
-Package pdftex.def Info: kth_svv_comp_science_comm.pdf used on input line 53.
+Package pdftex.def Info: kth_svv_comp_science_comm.pdf used on input line 54.
 (pdftex.def)             Requested size: 410.53275pt x 468.75009pt.
  [1
 
@@ -1163,7 +1163,7 @@ Overfull \hbox (26.73856pt too wide) in paragraph at lines 4--23
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.66 \clearpage
+l.67 \clearpage
                 [7] (./xjobb-en.tocpdfTeX warning (ext4): destination with the 
 same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
@@ -1175,12 +1175,12 @@ l.37 ...berline {5}Testing Results}{21}{chapter.5}
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.71 \pagestyle
+l.72 \pagestyle
                {newchap} [9]pdfTeX warning (ext4): destination with the same id
 entifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.71 \pagestyle
+l.72 \pagestyle
                {newchap} [10
 
 ] (./chapters/introduction.tex
@@ -1290,11 +1290,11 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 12.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
+) [16]
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
-) [16]
-[17] <chapters/media/mergesort4.png, id=519, 898.35625pt x 1187.43625pt>
+) [17]
+<chapters/media/mergesort4.png, id=519, 898.35625pt x 1187.43625pt>
 File: chapters/media/mergesort4.png Graphic file (type png)
 
 <use chapters/media/mergesort4.png>
@@ -1436,21 +1436,28 @@ ers/new_media/MBytesMergesort.png>] [30
 
 ]
 (./chapters/appendix/appendix_overhead.tex)
-(./chapters/appendix/appendix_operator.tex [35] [36] [37] [38] [39])
-(./chapters/appendix/appendix_insertion.tex [40] [41])
-(./chapters/appendix/appendix_merge.tex
-Underfull \vbox (badness 1377) has occurred while \output is active []
+(./chapters/appendix/appendix_operator.tex [35] [36] [37] [38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39])
+(./chapters/appendix/appendix_insertion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+[41]) (./chapters/appendix/appendix_merge.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [42]
-Underfull \vbox (badness 5050) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43]
-Underfull \vbox (badness 5050) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44]))
-(./xjobb-en.bbl [45] [46
+ [44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
+ [45]))
+(./xjobb-en.bbl [46]
 bibitemlist
 
 Underfull \hbox (badness 10000) in paragraph at lines 45--50
@@ -1464,7 +1471,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--57
 ystem . codedom . compiler .
  []
 
-[47]
+[47
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 66--71
 []$\T1/lmtt/m/n/10.95 http : / / www . oracle . com / technetwork / java / java
 se / overview / index .
@@ -1504,23 +1513,23 @@ ystem . diagnostics .
 \tf@toc=\write5
 \openout5 = `xjobb-en.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
  (./xjobb-en.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
 Package rerunfilecheck Info: File `xjobb-en.out' has not changed.
-(rerunfilecheck)             Checksum: ADAA2862B99BD96356C58CC14F2AD7FA;3386.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
+(rerunfilecheck)             Checksum: C325D53FDCC8D233BC0F6FB4F39BE3F8;3386.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
  ) 
 Here is how much of TeX's memory you used:
- 13201 strings out of 493488
- 187977 string characters out of 3141326
- 623184 words of memory out of 3000000
+ 13204 strings out of 493488
+ 188010 string characters out of 3141326
+ 594582 words of memory out of 3000000
  15422 multiletter control sequences out of 15000+200000
  83810 words of font info for 59 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 33i,12n,43p,1379b,1829s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 33i,12n,43p,1379b,1825s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
 12/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2012/texmf-dist
@@ -1540,10 +1549,10 @@ ive/2012/texmf-dist/fonts/type1/public/lm/lmssdc10.pfb></usr/local/texlive/2012
 t/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2012/texmf-dist/fonts/typ
 e1/public/lm/lmtt10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/
 lm/lmtt8.pfb>
-Output written on xjobb-en.pdf (60 pages, 1005829 bytes).
+Output written on xjobb-en.pdf (60 pages, 1006309 bytes).
 PDF statistics:
- 1570 PDF objects out of 1728 (max. 8388607)
- 1449 compressed objects within 15 object streams
- 750 named destinations out of 1000 (max. 500000)
+ 1574 PDF objects out of 1728 (max. 8388607)
+ 1453 compressed objects within 15 object streams
+ 753 named destinations out of 1000 (max. 500000)
  513 words of extra memory for PDF output out of 10000 (max. 10000000)
 
