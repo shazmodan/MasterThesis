@@ -25,3 +25,5 @@ Changelog
 - Skrivit om abstract, den tar nu upp skalningsfaktorn mer explicit. Bytt ut vissa engelska ord.
 - Förklarat flödet genom webb-applikationen från ett användarperspektiv, se Sektion 3.1.1.
 - Lagt till ytterligate akademiska referenser (5st) (3x Insertion Sort, 1x Merge Sort och 1x JVM vs CLR).
+- Lagt till headers på appendix koden, det bör nu vara tydligare vilket språk som koden tillhör, se appendix.
+- Lagt till mer information om Python sum funktion och reduce funktion, det bör nu vara bättre förklarat varför den ena är snabbare, se Sektion 6.1.
