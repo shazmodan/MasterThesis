@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  6 SEP 2014 15:12
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  6 SEP 2014 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1289,11 +1289,14 @@ it.png>])
 Underfull \vbox (badness 1371) has occurred while \output is active []
 
  [12 <./chapters/media/celine_submissionsCut.png>])
-(./chapters/implementation/difficulties_limitations.tex [13 <./chapters/media/f
-lowchart.png>] [14])) (./chapters/testing_methodology.tex [15] [16
+(./chapters/implementation/difficulties_limitations.tex
+Underfull \vbox (badness 2057) has occurred while \output is active []
 
-]
-(./chapters/testing_methodology/aspects.tex) [17]
+ [13 <./chapters/media/flowchart.png>] [14])) (./chapters/testing_methodology.t
+ex [15]
+[16
+
+] (./chapters/testing_methodology/aspects.tex) [17]
 (./chapters/testing_methodology/chosen_tests.tex
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
@@ -1306,7 +1309,7 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 ) [19]
-<chapters/media/mergesort4.png, id=534, 898.35625pt x 1187.43625pt>
+<chapters/media/mergesort4.png, id=533, 898.35625pt x 1187.43625pt>
 File: chapters/media/mergesort4.png Graphic file (type png)
 
 <use chapters/media/mergesort4.png>
@@ -1328,7 +1331,7 @@ Overfull \hbox (10.6858pt too wide) in paragraph at lines 6--20
 ) (./chapters/new_testing_results/about.tex [23])
 (./chapters/new_testing_results/results.tex
 (./chapters/new_testing_results/native_addition_operator.tex
-<chapters/new_media/AdditionOperatorNative.png, id=571, 497.2176pt x 311.2428pt
+<chapters/new_media/AdditionOperatorNative.png, id=570, 497.2176pt x 311.2428pt
 >
 File: chapters/new_media/AdditionOperatorNative.png Graphic file (type png)
  <use chapters/new_media/AdditionOperatorNative.png>
@@ -1340,7 +1343,7 @@ input line 7.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./chapters/new_testing_results/native_insertion_sort.tex
-<chapters/new_media/InsertionSortNative.png, id=575, 497.2176pt x 311.2428pt>
+<chapters/new_media/InsertionSortNative.png, id=574, 497.2176pt x 311.2428pt>
 File: chapters/new_media/InsertionSortNative.png Graphic file (type png)
 
 <use chapters/new_media/InsertionSortNative.png>
@@ -1352,7 +1355,7 @@ ut line 7.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./chapters/new_testing_results/native_merge_sort.tex
-<chapters/new_media/MergeSortNative.png, id=577, 497.2176pt x 311.2428pt>
+<chapters/new_media/MergeSortNative.png, id=576, 497.2176pt x 311.2428pt>
 File: chapters/new_media/MergeSortNative.png Graphic file (type png)
 
 <use chapters/new_media/MergeSortNative.png>
@@ -1369,7 +1372,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [25 <./chapters/new_media/AdditionOperatorNative.png> <./chapters/new_media/In
 sertionSortNative.png>]) (./chapters/new_testing_results/net_addition_operator.
 tex
-<chapters/new_media/AdditionOperatorNet.png, id=598, 497.2176pt x 311.2428pt>
+<chapters/new_media/AdditionOperatorNet.png, id=597, 497.2176pt x 311.2428pt>
 File: chapters/new_media/AdditionOperatorNet.png Graphic file (type png)
 
 <use chapters/new_media/AdditionOperatorNet.png>
@@ -1381,7 +1384,7 @@ ut line 7.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./chapters/new_testing_results/net_insertion_sort.tex
-<chapters/new_media/InsertionSortNet.png, id=600, 497.2176pt x 311.2428pt>
+<chapters/new_media/InsertionSortNet.png, id=599, 497.2176pt x 311.2428pt>
 File: chapters/new_media/InsertionSortNet.png Graphic file (type png)
 
 <use chapters/new_media/InsertionSortNet.png>
@@ -1393,7 +1396,7 @@ line 7.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./chapters/new_testing_results/net_merge_sort.tex
-<chapters/new_media/MergeSortNet.png, id=602, 497.2176pt x 311.2428pt>
+<chapters/new_media/MergeSortNet.png, id=601, 497.2176pt x 311.2428pt>
 File: chapters/new_media/MergeSortNet.png Graphic file (type png)
 
 <use chapters/new_media/MergeSortNet.png>
@@ -1404,7 +1407,7 @@ Package pdftex.def Info: chapters/new_media/MergeSortNet.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapters/new_media/MBytesMergesort.png, id=614, 497.2176pt x 311.7246pt>
+<chapters/new_media/MBytesMergesort.png, id=613, 497.2176pt x 311.7246pt>
 File: chapters/new_media/MBytesMergesort.png Graphic file (type png)
 
 <use chapters/new_media/MBytesMergesort.png>
@@ -1551,10 +1554,10 @@ ive/2012/texmf-dist/fonts/type1/public/lm/lmssdc10.pfb></usr/local/texlive/2012
 t/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2012/texmf-dist/fonts/typ
 e1/public/lm/lmtt10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/
 lm/lmtt8.pfb>
-Output written on xjobb-en.pdf (60 pages, 1007260 bytes).
+Output written on xjobb-en.pdf (60 pages, 1007156 bytes).
 PDF statistics:
- 1585 PDF objects out of 1728 (max. 8388607)
- 1464 compressed objects within 15 object streams
+ 1584 PDF objects out of 1728 (max. 8388607)
+ 1463 compressed objects within 15 object streams
  757 named destinations out of 1000 (max. 500000)
  521 words of extra memory for PDF output out of 10000 (max. 10000000)
 

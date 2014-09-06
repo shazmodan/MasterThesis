@@ -3,7 +3,7 @@ Changelog (efter presentation)
 - Korrigerat stavfel och grammatiska fel.
 
 
-Oppositionsprotokoll
+Oppositionsprotokoll (med kommentarer där ändringar är gjorda)
 --------------------
 
 Var det lätt att förstå vad exjobbet gick ut på? Kommentarer.
@@ -37,14 +37,16 @@ Vad tycker du om litteraturlistan? Vilken typ av litteratur finns med? Förefall
 
 Vilka avsnitt i rapporten var svåra att förstå?
 - Lagt till förkortningen 'WCF' i Glossary-sektionen.
-- Implementeringskapitlet innehåller numera en liten beskrivning innan själva referensen till andra delar i kapitlet. Detta för att reducera behovet av att hoppa i texten under läsning. Jag valde att behålla referensera dels pga att det annars kan uppfattas som att detaljer uteblir och dels för att minimera repetition av samma information i själva kapitlet. Se sektion 3.2, sektion 3.2.2, sektion 3.3.3 (borttagen referens, onödig).
+- Implementeringskapitlet innehåller ibland en liten beskrivning innan själva referensen till andra delar i kapitlet. Detta för att reducera behovet av att hoppa i texten under läsning. Jag valde att behålla referensera dels pga att det annars kan uppfattas som att detaljer uteblir och dels för att minimera repetition av samma information i själva kapitlet. Se sektion 3.2, sektion 3.2.2, sektion 3.3.3 (borttagen referens, onödig).
 
 Övriga kommentarer om rapporten och dess struktur.
-...
+- Bläddringsproblemet genom att referera olika sektioner har hanterats i stor utsträckning i ovan nämnda åtgärder.
 
 Vilka är arbetets/rapportens starka sidor?
 ---
 
 Vilka är arbetets/rapportens svaga sidor?
-...
-
+- Motivering till varför .NET valdes har hanterats i den nya sektionen 3.1 (nämnt i en föregående fråga). 
+- Bläddringsproblemet har hanterats i tidigare frågor.
+- Generellt kan jag väl säga att anledningen till att jag gärna refererar sektioner i, vad som verkar vara, relativt stor utsträckning är att jag inte vill att läsaren ska missuppfatta vad som diskuteras.
+- Allt som allt, var det ett konstruktivt oppositionsprotokoll som fick mig att tänka till en extra gång gällande vissa delar av rapporten.
