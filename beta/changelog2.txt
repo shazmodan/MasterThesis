@@ -1,5 +1,11 @@
 Changelog (efter presentation)
 
+- Korrigerat stavfel och grammatiska fel.
+
+
+Oppositionsprotokoll
+--------------------
+
 Var det lätt att förstå vad exjobbet gick ut på? Kommentarer.
 
 - Sammanfattningen på svenska och engelska har nu inga förkortningar längre. CIL är utbytt mot Common Intermediate Language med en förtydligande gjord inom parentes som poängerar att det handlar om .NET bytekod. IKVM är dock ett namn och inte en förkortning (förtydligande, IKVM namngavs efter JVM (Java Virtual Machine): I (J) K... (VM), "Not quite Java or .NET, but something in between."). [Se tredje stycket i abstract.]
@@ -31,6 +37,7 @@ Vad tycker du om litteraturlistan? Vilken typ av litteratur finns med? Förefall
 
 Vilka avsnitt i rapporten var svåra att förstå?
 - Lagt till förkortningen 'WCF' i Glossary-sektionen.
+- Implementeringskapitlet innehåller numera en liten beskrivning innan själva referensen till andra delar i kapitlet. Detta för att reducera behovet av att hoppa i texten under läsning. Jag valde att behålla referensera dels pga att det annars kan uppfattas som att detaljer uteblir och dels för att minimera repetition av samma information i själva kapitlet. 
 
 Övriga kommentarer om rapporten och dess struktur.
 ...
