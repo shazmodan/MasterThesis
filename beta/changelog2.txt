@@ -1,0 +1,43 @@
+Changelog (efter presentation)
+
+Var det lätt att förstå vad exjobbet gick ut på? Kommentarer.
+
+- Sammanfattningen på svenska och engelska har nu inga förkortningar längre. CIL är utbytt mot Common Intermediate Language med en förtydligande gjord inom parentes som poängerar att det handlar om .NET bytekod. IKVM är dock ett namn och inte en förkortning (förtydligande, IKVM namngavs efter JVM (Java Virtual Machine): I (J) K... (VM), "Not quite Java or .NET, but something in between."). [Se tredje stycket i abstract.]
+- Det som påpekas i att målformuleringen i Kapitel 1 refererar till tidigare delkapitel håller jag inte med om. Det finns inga referenser till tidigare delkapitel i målformuleringen (syftar på sektion 1.2). 
+
+Hur tycker du att titeln avspeglar rapportens innehåll?
+- Förtydligat rapportens undertitel, det står numera 'programming languages'.
+
+Hur beskrev författaren bakgrunden till exjobbet? Finns det en introduktion till och översikt av området?
+---
+
+Hur väl har författaren motiverat sitt val av metod att angripa problemet?
+
+
+Diskuterar författaren huruvida de förutsättningar som gäller för att metoden ska kunna användas är uppfyllda.
+---
+
+Är metoden väl beskriven?
+---
+
+Har författaren presenterat sina resultat tydligt?
+...
+
+Finner du författarens slutsatser trovärdiga?
+---
+
+Vad tycker du om litteraturlistan? Vilken typ av litteratur finns med? Förefaller litteraturen relevant?
+---
+
+Vilka avsnitt i rapporten var svåra att förstå?
+...
+
+Övriga kommentarer om rapporten och dess struktur.
+...
+
+Vilka är arbetets/rapportens starka sidor?
+---
+
+Vilka är arbetets/rapportens svaga sidor?
+...
+
