@@ -48,5 +48,4 @@ Vilka är arbetets/rapportens starka sidor?
 Vilka är arbetets/rapportens svaga sidor?
 - Motivering till varför .NET valdes har hanterats i den nya sektionen 3.1 (nämnt i en föregående fråga). 
 - Bläddringsproblemet har hanterats i tidigare frågor.
-- Generellt kan jag väl säga att anledningen till att jag gärna refererar sektioner i, vad som verkar vara, relativt stor utsträckning är att jag inte vill att läsaren ska missuppfatta vad som diskuteras.
 - Allt som allt, var det ett konstruktivt oppositionsprotokoll som fick mig att tänka till en extra gång gällande vissa delar av rapporten.
