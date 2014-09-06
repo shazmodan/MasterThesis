@@ -70,7 +70,7 @@ When a user has submitted his or her code, it eventually reaches the AGS. Figure
 	\label{fig:flowchart}
 \end{figure}
 
-Depending on the programming language, a compiler is chosen. The code is then compiled into an assembly file and loaded into a separate and secure Application Domain (AppDomain, see section \ref{subsec:security}). The AGS then invokes the user specified method with a string containing the test data. The AGS waits for the code to complete or for the problem to timeout. The timeout is problem specific and decided when the problem is created. It then compares the string returned by this method with another string containing what should be the correct output. If the strings match, the submission is regarded as being a success; otherwise it is regarded as a failure. The AGS then returns the appropriate status code.
+Depending on the programming language, a compiler is chosen. The code is then compiled into an assembly file and loaded into a separate and secure Application Domain (an AppDomain is a sandbox for running potentially insecure code in a secure way, see section \ref{subsec:security}). The AGS then invokes the user specified method with a string containing the test data. The AGS waits for the code to complete or for the problem to timeout. The timeout is problem specific and decided when the problem is created. It then compares the string returned by this method with another string containing what should be the correct output. If the strings match, the submission is regarded as being a success; otherwise it is regarded as a failure. The AGS then returns the appropriate status code.
 
 
 \subsection{System-User Feedback} \label{subsec:status_codes}

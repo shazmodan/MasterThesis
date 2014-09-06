@@ -37,7 +37,7 @@ Vad tycker du om litteraturlistan? Vilken typ av litteratur finns med? Förefall
 
 Vilka avsnitt i rapporten var svåra att förstå?
 - Lagt till förkortningen 'WCF' i Glossary-sektionen.
-- Implementeringskapitlet innehåller numera en liten beskrivning innan själva referensen till andra delar i kapitlet. Detta för att reducera behovet av att hoppa i texten under läsning. Jag valde att behålla referensera dels pga att det annars kan uppfattas som att detaljer uteblir och dels för att minimera repetition av samma information i själva kapitlet. 
+- Implementeringskapitlet innehåller numera en liten beskrivning innan själva referensen till andra delar i kapitlet. Detta för att reducera behovet av att hoppa i texten under läsning. Jag valde att behålla referensera dels pga att det annars kan uppfattas som att detaljer uteblir och dels för att minimera repetition av samma information i själva kapitlet. Se sektion 3.2, sektion 3.2.2, sektion 3.3.3 (borttagen referens, onödig).
 
 Övriga kommentarer om rapporten och dess struktur.
 ...
