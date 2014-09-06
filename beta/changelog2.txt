@@ -12,7 +12,7 @@ Hur beskrev författaren bakgrunden till exjobbet? Finns det en introduktion til
 ---
 
 Hur väl har författaren motiverat sitt val av metod att angripa problemet?
-
+- Lagt till en ny sektion för att motivera valet av virtuell maskin (CLR). Se sektion 3.1.
 
 Diskuterar författaren huruvida de förutsättningar som gäller för att metoden ska kunna användas är uppfyllda.
 ---
@@ -21,7 +21,7 @@ Diskuterar författaren huruvida de förutsättningar som gäller för att metod
 ---
 
 Har författaren presenterat sina resultat tydligt?
-...
+- Minskat storleken på samtliga grafer med 30%. Detta medför att två grafer kan få plats på samma sida och bör således reducera behovet av att bläddra fram och tillbaka. Se hela kapitel 5 Results.
 
 Finner du författarens slutsatser trovärdiga?
 ---
@@ -30,7 +30,7 @@ Vad tycker du om litteraturlistan? Vilken typ av litteratur finns med? Förefall
 ---
 
 Vilka avsnitt i rapporten var svåra att förstå?
-...
+- Lagt till förkortningen 'WCF' i Glossary-sektionen.
 
 Övriga kommentarer om rapporten och dess struktur.
 ...

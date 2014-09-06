@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  6 SEP 2014 14:09
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  6 SEP 2014 14:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1155,7 +1155,7 @@ l.1 \chapter
             *{Glossary} [6
 
 ]
-Overfull \hbox (26.73856pt too wide) in paragraph at lines 4--23
+Overfull \hbox (26.73856pt too wide) in paragraph at lines 4--24
  [] 
  []
 
@@ -1334,7 +1334,7 @@ File: chapters/new_media/AdditionOperatorNative.png Graphic file (type png)
  <use chapters/new_media/AdditionOperatorNative.png>
 Package pdftex.def Info: chapters/new_media/AdditionOperatorNative.png used on 
 input line 7.
-(pdftex.def)             Requested size: 396.0pt x 247.8975pt.
+(pdftex.def)             Requested size: 277.19879pt x 173.5254pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1346,7 +1346,7 @@ File: chapters/new_media/InsertionSortNative.png Graphic file (type png)
 <use chapters/new_media/InsertionSortNative.png>
 Package pdftex.def Info: chapters/new_media/InsertionSortNative.png used on inp
 ut line 7.
-(pdftex.def)             Requested size: 396.0pt x 247.8975pt.
+(pdftex.def)             Requested size: 277.19879pt x 173.5254pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1358,61 +1358,59 @@ File: chapters/new_media/MergeSortNative.png Graphic file (type png)
 <use chapters/new_media/MergeSortNative.png>
 Package pdftex.def Info: chapters/new_media/MergeSortNative.png used on input l
 ine 7.
-(pdftex.def)             Requested size: 396.0pt x 247.8975pt.
+(pdftex.def)             Requested size: 277.19879pt x 173.5254pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [24] (./chapters/new_testing_results/net_language_overhead.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./chapters/new_testing_results/net_addition_operator.tex
-<chapters/new_media/AdditionOperatorNet.png, id=592, 497.2176pt x 311.2428pt>
+ [25 <./chapters/new_media/AdditionOperatorNative.png> <./chapters/new_media/In
+sertionSortNative.png>]) (./chapters/new_testing_results/net_addition_operator.
+tex
+<chapters/new_media/AdditionOperatorNet.png, id=598, 497.2176pt x 311.2428pt>
 File: chapters/new_media/AdditionOperatorNet.png Graphic file (type png)
 
 <use chapters/new_media/AdditionOperatorNet.png>
 Package pdftex.def Info: chapters/new_media/AdditionOperatorNet.png used on inp
 ut line 7.
-(pdftex.def)             Requested size: 396.0pt x 247.8975pt.
+(pdftex.def)             Requested size: 277.19879pt x 173.5254pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./chapters/new_testing_results/net_insertion_sort.tex
-<chapters/new_media/InsertionSortNet.png, id=594, 497.2176pt x 311.2428pt>
+<chapters/new_media/InsertionSortNet.png, id=600, 497.2176pt x 311.2428pt>
 File: chapters/new_media/InsertionSortNet.png Graphic file (type png)
 
 <use chapters/new_media/InsertionSortNet.png>
 Package pdftex.def Info: chapters/new_media/InsertionSortNet.png used on input 
 line 7.
-(pdftex.def)             Requested size: 396.0pt x 247.8975pt.
+(pdftex.def)             Requested size: 277.19879pt x 173.5254pt.
 
-Underfull \vbox (badness 1502) has occurred while \output is active []
-
- [25 <./chapters/new_media/AdditionOperatorNative.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./chapters/new_testing_results/net_merge_sort.tex
-<chapters/new_media/MergeSortNet.png, id=604, 497.2176pt x 311.2428pt>
+<chapters/new_media/MergeSortNet.png, id=602, 497.2176pt x 311.2428pt>
 File: chapters/new_media/MergeSortNet.png Graphic file (type png)
 
 <use chapters/new_media/MergeSortNet.png>
 Package pdftex.def Info: chapters/new_media/MergeSortNet.png used on input line
  7.
-(pdftex.def)             Requested size: 396.0pt x 247.8975pt.
-
+(pdftex.def)             Requested size: 277.19879pt x 173.5254pt.
+ [26 <./chapters/new_media/MergeSortNative.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapters/new_media/MBytesMergesort.png, id=606, 497.2176pt x 311.7246pt>
+<chapters/new_media/MBytesMergesort.png, id=614, 497.2176pt x 311.7246pt>
 File: chapters/new_media/MBytesMergesort.png Graphic file (type png)
 
 <use chapters/new_media/MBytesMergesort.png>
 Package pdftex.def Info: chapters/new_media/MBytesMergesort.png used on input l
 ine 16.
-(pdftex.def)             Requested size: 396.0pt x 248.28125pt.
+(pdftex.def)             Requested size: 277.19879pt x 173.79402pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1433,37 +1431,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--31
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \vbox (badness 7796) has occurred while \output is active []
 
-[26 <./chapters/new_media/InsertionSortNative.png>]))
-(./chapters/discussion.tex [27 <./chapters/new_media/MergeSortNative.png>]
-[28 <./chapters/new_media/AdditionOperatorNet.png>] [29 <./chapters/new_media/I
-nsertionSortNet.png>] [30 <./chapters/new_media/MergeSortNet.png>] [31 <./chapt
-ers/new_media/MBytesMergesort.png>] [32
+ [27 <./chapters/new_media/AdditionOperatorNet.png> <./chapters/new_media/Inser
+tionSortNet.png>] [28 <./chapters/new_media/MergeSortNet.png> <./chapters/new_m
+edia/MBytesMergesort.png>])) (./chapters/discussion.tex [29] [30
 
 ]
-(./chapters/discussion/result_reflections.tex) [33]
+(./chapters/discussion/result_reflections.tex) [31]
 (./chapters/discussion/conclusion.tex) (./chapters/discussion/future_work.tex
-[34])) (./chapters/appendix/appendixA.tex [35] [36
+[32])) (./chapters/appendix/appendixA.tex [33] [34
 
 ]
 (./chapters/appendix/appendix_overhead.tex)
-(./chapters/appendix/appendix_operator.tex [37] [38] [39] [40]
+(./chapters/appendix/appendix_operator.tex [35] [36] [37] [38]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41])
+ [39])
 (./chapters/appendix/appendix_insertion.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42]
-[43]) (./chapters/appendix/appendix_merge.tex
+ [40]
+[41]) (./chapters/appendix/appendix_merge.tex
 Underfull \vbox (badness 1521) has occurred while \output is active []
 
- [44]
+ [42]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]
-[46] [47])) (./xjobb-en.bbl [48]
+ [43]
+[44] [45])) (./xjobb-en.bbl [46]
 bibitemlist
 
 Underfull \hbox (badness 10000) in paragraph at lines 45--50
@@ -1477,7 +1473,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--57
 ystem . codedom . compiler .
  []
 
-[49
+[47
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 66--71
@@ -1515,7 +1511,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--138
 ystem . diagnostics .
  []
 
-[50] [51]) [52]
+[48] [49]) [50]
 \tf@toc=\write5
 \openout5 = `xjobb-en.toc'.
 
@@ -1529,8 +1525,8 @@ Package rerunfilecheck Info: File `xjobb-en.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
  ) 
 Here is how much of TeX's memory you used:
- 13214 strings out of 493488
- 188208 string characters out of 3141326
+ 13212 strings out of 493488
+ 188194 string characters out of 3141326
  593595 words of memory out of 3000000
  15423 multiletter control sequences out of 15000+200000
  83810 words of font info for 59 fonts, out of 3000000 for 9000
@@ -1555,10 +1551,10 @@ ive/2012/texmf-dist/fonts/type1/public/lm/lmssdc10.pfb></usr/local/texlive/2012
 t/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2012/texmf-dist/fonts/typ
 e1/public/lm/lmtt10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/
 lm/lmtt8.pfb>
-Output written on xjobb-en.pdf (62 pages, 1007882 bytes).
+Output written on xjobb-en.pdf (60 pages, 1007205 bytes).
 PDF statistics:
- 1594 PDF objects out of 1728 (max. 8388607)
- 1471 compressed objects within 15 object streams
- 759 named destinations out of 1000 (max. 500000)
+ 1585 PDF objects out of 1728 (max. 8388607)
+ 1464 compressed objects within 15 object streams
+ 757 named destinations out of 1000 (max. 500000)
  521 words of extra memory for PDF output out of 10000 (max. 10000000)
 
